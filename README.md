@@ -10,3 +10,5 @@ To learn more, check out:
 - [What is GitHub Management and how does it work?](docs/ABOUT.md)
 - [How to set up GitHub Management?](docs/SETUP.md)
 - [How to work with GitHub Management?](docs/HOWTOS.md)
+
+<!-- secret message from web3-bot -->
