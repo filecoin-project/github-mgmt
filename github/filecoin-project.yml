@@ -688,7 +688,6 @@ repositories:
       push:
         - advocates
         - datasystems
-        - labbers
     visibility: public
   conformance-tools:
     archived: true
@@ -943,7 +942,6 @@ repositories:
       push:
         - datasystems
         - foundation
-        - labbers
     visibility: public
   docker-hub-exporter:
     advanced_security: false
@@ -1437,7 +1435,6 @@ repositories:
       push:
         - datasystems
         - dev-misc
-        - labbers
     visibility: public
   filecoin-ffi-private:
     advanced_security: false
@@ -1709,7 +1706,6 @@ repositories:
     teams:
       pull:
         - datasystems
-        - labbers
       push:
         - collab-ff-seo-ux
         - website
@@ -2016,7 +2012,6 @@ repositories:
       maintain:
         - datasystems
         - fvm-core-devs
-        - labbers
         - lotus-maintainers
     visibility: private
   fvm-runtime-experiment:
@@ -2149,7 +2144,6 @@ repositories:
         - collab-ff-seo-ux
         - datasystems
         - FVM Web
-        - labbers
     visibility: private
   fvm-workbench:
     advanced_security: false
@@ -2393,7 +2387,6 @@ repositories:
     teams:
       push:
         - datasystems
-        - labbers
         - lotus-contributors
     visibility: public
   go-crypto:
@@ -2477,7 +2470,6 @@ repositories:
     teams:
       push:
         - datasystems
-        - labbers
         - lotus-contributors
     visibility: public
   go-ds-versioning:
@@ -3141,7 +3133,6 @@ repositories:
     teams:
       push:
         - datasystems
-        - labbers
     visibility: public
   lily-archiver:
     advanced_security: false
@@ -3410,7 +3401,6 @@ repositories:
         - Sentinel Admin
       triage:
         - datasystems
-        - labbers
     visibility: private
   merkle_light-backup:
     archived: true
@@ -3437,7 +3427,6 @@ repositories:
         - ci
       push:
         - datasystems
-        - labbers
     visibility: public
   meta-aggregator-frontend:
     advanced_security: false
@@ -3926,7 +3915,6 @@ repositories:
         - Retrieval Market Builders
       push:
         - datasystems
-        - labbers
     visibility: public
   retrieval-market:
     advanced_security: false
@@ -4801,7 +4789,6 @@ repositories:
       push:
         - datasystems
         - infra
-        - labbers
     visibility: public
   wasm-tools:
     advanced_security: false
@@ -4859,7 +4846,6 @@ repositories:
         - datasystems
         - foundation
         - infra
-        - labbers
         - product-biz
         - research
     visibility: private
@@ -5208,9 +5194,9 @@ teams:
         - GlacierWalrus
         - ns4plabs
         - Terryhung
-  labbers:
+  alumni:
     members:
-      maintainer:
+      member:
         - anorth
         - jbenet
         - jennijuju
@@ -5219,7 +5205,6 @@ teams:
         - protocolin
         - raulk
         - Stebalien
-      member:
         - alanshaw
         - AmeanAsad
         - androowoo
