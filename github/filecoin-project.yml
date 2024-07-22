@@ -1213,8 +1213,8 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
@@ -4920,6 +4920,69 @@ teams:
         - lksbrssr
         - longfeiWan9
         - trruckerfling
+  alumni:
+    members:
+      member:
+        - alanshaw
+        - AmeanAsad
+        - androowoo
+        - andyschwab
+        - anorth
+        - aschmahmann
+        - ashwanth-eth
+        - aysmed
+        - BigLep
+        - bradholden
+        - brendalee
+        - cbrocoum
+        - cryptonemo
+        - davidd8
+        - DiegoRBaquero
+        - dkkapur
+        - emilymvaughan
+        - eshon
+        - figureouter
+        - fridrik01
+        - frrist
+        - gammazero
+        - guanzo
+        - hammertoe
+        - hannahhoward
+        - ischasny
+        - jbenet
+        - jennijuju
+        - juliangruber
+        - Kubuxu
+        - lucaniz
+        - magik6k
+        - masih
+        - matejpavlovic
+        - MF416
+        - mishmosh
+        - momack2
+        - nicola
+        - ninitrava
+        - nonsense
+        - olizilla
+        - patrickwoodhead
+        - pk-controller
+        - pk13-PLF
+        - protocolin
+        - raulk
+        - ribasushi
+        - rvagg
+        - scotthconner
+        - Stebalien
+        - Stefaan-V
+        - Terryhung
+        - TorfinnOlsen
+        - trruckerfling
+        - vesahc
+        - vmx
+        - whyrusleeping
+        - willscott
+        - yiannisbot
+        - ZenGround0
   Alumni:
     {}
   bedrock-go:
@@ -5194,69 +5257,6 @@ teams:
         - GlacierWalrus
         - ns4plabs
         - Terryhung
-  alumni:
-    members:
-      member:
-        - anorth
-        - jbenet
-        - jennijuju
-        - mishmosh
-        - momack2
-        - protocolin
-        - raulk
-        - Stebalien
-        - alanshaw
-        - AmeanAsad
-        - androowoo
-        - andyschwab
-        - aschmahmann
-        - ashwanth-eth
-        - aysmed
-        - BigLep
-        - bradholden
-        - brendalee
-        - cbrocoum
-        - cryptonemo
-        - davidd8
-        - DiegoRBaquero
-        - dkkapur
-        - emilymvaughan
-        - eshon
-        - figureouter
-        - fridrik01
-        - frrist
-        - gammazero
-        - guanzo
-        - hammertoe
-        - hannahhoward
-        - ischasny
-        - juliangruber
-        - Kubuxu
-        - lucaniz
-        - magik6k
-        - masih
-        - matejpavlovic
-        - MF416
-        - nicola
-        - ninitrava
-        - nonsense
-        - olizilla
-        - patrickwoodhead
-        - pk-controller
-        - pk13-PLF
-        - ribasushi
-        - rvagg
-        - scotthconner
-        - Stefaan-V
-        - Terryhung
-        - TorfinnOlsen
-        - trruckerfling
-        - vesahc
-        - vmx
-        - whyrusleeping
-        - willscott
-        - yiannisbot
-        - ZenGround0
   legal:
     {}
   lotus-contributors:
