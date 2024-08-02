@@ -82,6 +82,7 @@ members:
     - jimpick
     - jnthnvctr
     - joaosa
+    - jochasinga
     - jsoares
     - juliangruber
     - kaitlin-beegle
@@ -126,6 +127,7 @@ members:
     - ribasushi
     - rjan90
     - rk-rishikesh
+    - robertagora
     - rvagg
     - scotthconner
     - SeedingTrees
@@ -564,6 +566,7 @@ repositories:
         - NemanjaLu92
         - tyshko5
         - vkalghatgi
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -666,6 +669,7 @@ repositories:
         - jennijuju
         - kaitlin-beegle
         - momack2
+        - rjan90
       maintain:
         - eshon
       push:
@@ -675,7 +679,6 @@ repositories:
       triage:
         - ec2
         - haochizzle
-        - rjan90
         - timguo-ipfs
     has_discussions: true
     merge_commit_message: PR_TITLE
@@ -1080,7 +1083,24 @@ repositories:
   fcnr:
     archived: true
   fevm-contract-tests:
-    archived: true
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - arajasek
+        - maciejwitowski
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - fvm-core-devs
+    visibility: public
   fevm-data-dao-kit:
     advanced_security: false
     allow_update_branch: false
@@ -1108,6 +1128,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - FIL-B
     visibility: public
   fevm-hardhat-kit:
     advanced_security: false
@@ -1126,6 +1149,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - FIL-B
       push:
         - lotus-maintainers
     visibility: public
@@ -1206,6 +1231,7 @@ repositories:
     collaborators:
       admin:
         - longfeiWan9
+        - rk-rishikesh
         - snissn
         - trruckerfling
         - xBalbinus
@@ -2041,10 +2067,10 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - snissn
       maintain:
         - arajasek
-      push:
-        - snissn
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2053,6 +2079,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - FIL-B
       maintain:
         - fvm-core-devs
         - fvm-team
@@ -3740,6 +3768,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - FIL-B
     visibility: public
   ref-fvm-fuzz-corpora:
     advanced_security: false
@@ -4415,7 +4446,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      push:
+      admin:
         - longfeiWan9
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -4424,6 +4455,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - FIL-B
     visibility: public
   statediff:
     advanced_security: false
