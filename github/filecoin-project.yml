@@ -2498,10 +2498,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - ribasushi
-      maintain:
-        - anjor
       push:
         - web3-bot
     has_discussions: false
@@ -2511,6 +2507,11 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+      push:
+        - lotus-contributors
     visibility: public
   go-fil-filestore:
     archived: true
