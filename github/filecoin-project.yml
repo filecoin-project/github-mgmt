@@ -28,6 +28,7 @@ members:
     - AmeanAsad
     - androowoo
     - andyschwab
+    - arajasek
     - aronchick
     - art-gor
     - aschmahmann
@@ -53,6 +54,7 @@ members:
     - dkkapur
     - dnkolegov
     - DrPeterVanNostrand
+    - ec2
     - elijaharita
     - elmattic
     - emilymvaughan
@@ -86,6 +88,7 @@ members:
     - juliangruber
     - kaitlin-beegle
     - kevzak
+    - kkarrancsu
     - Kubuxu
     - LaurenSpiegel
     - lemmih
@@ -96,7 +99,9 @@ members:
     - longfeiWan9
     - lucaniz
     - maciejwitowski
+    - macro-ss
     - magik6k
+    - marco-storswift
     - Markuu-s
     - masih
     - masterjedy
@@ -144,13 +149,14 @@ members:
     - TorfinnOlsen
     - trruckerfling
     - turuslan
+    - tyshko5
     - vesahc
+    - vkalghatgi
     - vmx
     - vnessasgrt
     - vukolic
     - vvkio
     - web3-bot
-    - web3jenks
     - whyrusleeping
     - willscott
     - xBalbinus
@@ -162,21 +168,6 @@ members:
     - zixuanzh
     - zuiris
 repositories:
-  accessible-hot-copy-storage:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    has_discussions: false
-    merge_commit_message: BLANK
-    merge_commit_title: PR_TITLE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      maintain:
-        - FilOz
-    visibility: private
   actors-private:
     advanced_security: false
     allow_update_branch: false
@@ -1953,7 +1944,6 @@ repositories:
         - snissn
       pull:
         - DrPeterVanNostrand
-        - web3jenks
         - WhiteFlamingo
       push:
         - jsoares
@@ -3578,6 +3568,21 @@ repositories:
     archived: true
   product:
     archived: true
+  proof-of-data-possession:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: BLANK
+    merge_commit_title: PR_TITLE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - FilOz
+    visibility: private
   proofs-buildbot:
     advanced_security: false
     allow_update_branch: false
@@ -4782,6 +4787,7 @@ repositories:
     archived: true
 teams:
   actors-contributors:
+    create_default_maintainer: false
     members:
       member:
         - arajasek
@@ -4789,7 +4795,6 @@ teams:
         - kkarrancsu
         - macro-ss
         - marco-storswift
-        - NemanjaLu92
         - tyshko5
         - vkalghatgi
   actors-maintainers:
@@ -4815,7 +4820,6 @@ teams:
         - lksbrssr
         - longfeiWan9
         - trruckerfling
-        - web3jenks
   Alumni:
     {}
   bedrock-go:
