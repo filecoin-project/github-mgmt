@@ -28,6 +28,7 @@ members:
     - AmeanAsad
     - androowoo
     - andyschwab
+    - arajasek
     - aronchick
     - art-gor
     - aschmahmann
@@ -53,6 +54,7 @@ members:
     - dkkapur
     - dnkolegov
     - DrPeterVanNostrand
+    - ec2
     - elijaharita
     - elmattic
     - emilymvaughan
@@ -86,6 +88,7 @@ members:
     - juliangruber
     - kaitlin-beegle
     - kevzak
+    - kkarrancsu
     - Kubuxu
     - LaurenSpiegel
     - lemmih
@@ -96,7 +99,9 @@ members:
     - longfeiWan9
     - lucaniz
     - maciejwitowski
+    - macro-ss
     - magik6k
+    - marco-storswift
     - Markuu-s
     - masih
     - masterjedy
@@ -144,13 +149,14 @@ members:
     - TorfinnOlsen
     - trruckerfling
     - turuslan
+    - tyshko5
     - vesahc
+    - vkalghatgi
     - vmx
     - vnessasgrt
     - vukolic
     - vvkio
     - web3-bot
-    - web3jenks
     - whyrusleeping
     - willscott
     - xBalbinus
@@ -162,31 +168,10 @@ members:
     - zixuanzh
     - zuiris
 repositories:
-  accessible-hot-copy-storage:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    has_discussions: false
-    merge_commit_message: BLANK
-    merge_commit_title: PR_TITLE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      maintain:
-        - FilOz
-    visibility: private
   actors-private:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - momack2
-        - ZenGround0
-      push:
-        - arajasek
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -195,7 +180,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      push:
+      admin:
         - actors-maintainers
     visibility: private
   actors-utils:
@@ -203,17 +188,8 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - alexytsu
-        - anorth
-        - BigLep
-        - jennijuju
-        - rjan90
-        - rvagg
-        - Stebalien
       push:
-        - arajasek
-        - ZenGround0
+        - alexytsu
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -221,6 +197,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: PR_TITLE
+    teams:
+      admin:
+        - actors-maintainers
     visibility: public
   Allocator-Governance:
     advanced_security: false
@@ -505,17 +484,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - momack2
-        - ZenGround0
-      maintain:
-        - LaurenSpiegel
-      pull:
-        - snissn
-      push:
-        - arajasek
-        - Kubuxu
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -524,18 +492,15 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - actors-maintainers
       pull:
         - lotus-maintainers
-      push:
-        - actors-maintainers
     visibility: private
   builtin-actors-bundler:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - arajasek
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -545,6 +510,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
+        - actors-maintainers
         - fvm-crate-owners
       push:
         - fvm-core-devs
@@ -554,17 +520,7 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      maintain:
-        - rjan90
       push:
-        - arajasek
-        - ec2
-        - kkarrancsu
-        - macro-ss
-        - marco-storswift
-        - NemanjaLu92
-        - tyshko5
-        - vkalghatgi
         - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -579,6 +535,7 @@ repositories:
       maintain:
         - lotus-maintainers
       push:
+        - actors-contributors
         - Forest
         - fvm-core-devs
         - lotus-contributors
@@ -1031,15 +988,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - arajasek
-      maintain:
-        - alanshaw
-        - frrist
-      push:
-        - ribasushi
-        - willscott
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1448,9 +1396,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - cryptonemo
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1458,17 +1403,15 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+        - proofs
     visibility: private
   filecoin-ffi:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - arajasek
-        - raulk
-        - rjan90
-        - Stebalien
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2001,7 +1944,6 @@ repositories:
         - snissn
       pull:
         - DrPeterVanNostrand
-        - web3jenks
         - WhiteFlamingo
       push:
         - jsoares
@@ -2163,8 +2105,6 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - arajasek
       push:
         - alexytsu
     has_discussions: false
@@ -2276,8 +2216,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - Stebalien
       push:
         - web3-bot
     has_discussions: false
@@ -2289,18 +2227,14 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - Strike Team
+        - lotus-maintainers
     visibility: public
   go-amt-ipld:
     advanced_security: false
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - arajasek
-        - rvagg
       push:
-        - frrist
         - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2312,17 +2246,13 @@ repositories:
     teams:
       admin:
         - actors-maintainers
-        - w3dt-stewards
     visibility: public
   go-bitfield:
     advanced_security: false
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - arajasek
       push:
-        - frrist
         - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2334,7 +2264,6 @@ repositories:
     teams:
       admin:
         - actors-maintainers
-        - w3dt-stewards
       push:
         - lotus-contributors
     visibility: public
@@ -2358,7 +2287,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - Strike Team
+        - lotus-maintainers
     visibility: public
   go-cid-tools:
     archived: true
@@ -2385,13 +2314,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - jennijuju
-        - magik6k
-      maintain:
-        - rvagg
       push:
-        - arajasek
         - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2401,9 +2324,10 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - Curio
+        - lotus-maintainers
       push:
-        - datasystems
-        - labbers
         - lotus-contributors
     visibility: public
   go-crypto:
@@ -2412,8 +2336,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - hannahhoward
       push:
         - Schwartz10
     has_discussions: false
@@ -2423,6 +2345,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
     visibility: public
   go-dagaggregator-unixfs:
     advanced_security: false
@@ -2444,9 +2369,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - arajasek
-        - Kubuxu
       push:
         - web3-bot
     has_discussions: false
@@ -2495,11 +2417,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
-      push:
-        - arajasek
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2508,6 +2425,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - lotus-maintainers
       push:
         - lotus-contributors
     visibility: public
@@ -2518,16 +2437,7 @@ repositories:
     collaborators:
       admin:
         - anorth
-        - jennijuju
-        - Kubuxu
-        - masih
-        - Stebalien
-      maintain:
-        - arajasek
-        - jsoares
       push:
-        - adlrocha
-        - ranchalp
         - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2537,7 +2447,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      maintain:
+      admin:
         - lotus-maintainers
     visibility: public
   go-fil-commcid-priv:
@@ -2545,11 +2455,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - arajasek
+      maintain:
         - aschmahmann
-        - davidd8
-        - Kubuxu
         - ribasushi
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2560,7 +2467,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - bedrock-go
         - lotus-maintainers
     visibility: private
   go-fil-commcid:
@@ -2568,12 +2474,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - hannahhoward
-        - magik6k
-        - whyrusleeping
-      maintain:
-        - ribasushi
       push:
         - web3-bot
     has_discussions: false
@@ -2584,8 +2484,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      maintain:
-        - FilOz
+      admin:
+        - lotus-maintainers
       push:
         - lotus-contributors
     visibility: public
@@ -2655,11 +2555,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - arajasek
-        - rvagg
       push:
-        - frrist
         - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2681,11 +2577,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - magik6k
-      maintain:
-        - arajasek
-        - frrist
       push:
         - web3-bot
     has_discussions: false
@@ -2740,10 +2631,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - Kubuxu
-        - magik6k
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2752,8 +2639,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      push:
-        - Strike Team
+      admin:
+        - lotus-maintainers
     visibility: public
   go-paramfetch:
     # KEEP: this is a lotus dependency
@@ -2768,6 +2655,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - lotus-maintainers
       push:
         - proofs
     visibility: public
@@ -2803,8 +2692,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - arajasek
       push:
         - web3-bot
     has_discussions: false
@@ -2826,15 +2713,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - arajasek
-      maintain:
-        - hannahhoward
-      push:
-        - aarshkshah1992
-        - gammazero
-        - rvagg
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2844,7 +2722,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - w3dt-stewards
+        - Curio
+        - lotus-maintainers
       push:
         - lotus-contributors
     visibility: public
@@ -2860,6 +2739,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
     visibility: public
   go-storage-market:
     archived: true
@@ -2889,9 +2771,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2899,6 +2778,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
     visibility: public
   go-ulimit:
     archived: true
@@ -3045,12 +2927,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - arajasek
-        - ognots
-      push:
-        - ianconsolata
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3060,7 +2936,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - infra
         - lotus-maintainers
     visibility: public
   hyperdrive-analysis:
@@ -3209,9 +3084,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - Kubuxu
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3219,6 +3091,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
     visibility: public
   lotus-badges:
     archived: true
@@ -3315,16 +3190,10 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - jennijuju
-        - momack2
-        - rjan90
       pull:
         - lemmih
         - LesnyRumcajs
         - pl-deploy-bot
-      push:
-        - adlrocha
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3333,7 +3202,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      maintain:
+      admin:
         - lotus-maintainers
     visibility: private
   Lotus-Miner-V2:
@@ -3342,15 +3211,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - arajasek
-        - jennijuju
-        - Stebalien
-      maintain:
-        - Kubuxu
-      push:
-        - pl-kevin
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3358,6 +3218,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
     visibility: private
   lotus-testground:
     archived: true
@@ -3366,8 +3229,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      push:
-        - adlrocha
+      maintain:
+        - snadrus
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3710,6 +3573,21 @@ repositories:
     archived: true
   product:
     archived: true
+  proof-of-data-possession:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: BLANK
+    merge_commit_title: PR_TITLE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - FilOz
+    visibility: private
   proofs-buildbot:
     advanced_security: false
     allow_update_branch: false
@@ -3735,9 +3613,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - arajasek
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3746,8 +3621,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      push:
-        - lotus-contributors
+      admin:
+        - lotus-maintainers
     visibility: public
   raas-starter-kit:
     advanced_security: false
@@ -3794,9 +3669,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - Stebalien
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -3807,26 +3679,14 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
     visibility: private
   ref-fvm:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - galargh
-      pull:
-        - scotthconner
-        - tchataigner
-      push:
-        - arajasek
-        - ec2
-        - Jacarte
-        - longfeiWan9
-        - rvagg
-        - snissn
-      triage:
-        - BlocksOnAChain
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3835,11 +3695,13 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - lotus-maintainers
       push:
+        - FIL-B
         - Forest
         - fvm-core-devs
         - lotus-contributors
-        - lotus-maintainers
     visibility: public
   release-metrics-gitops:
     advanced_security: false
@@ -4929,6 +4791,17 @@ repositories:
   zexe:
     archived: true
 teams:
+  actors-contributors:
+    create_default_maintainer: false
+    members:
+      member:
+        - arajasek
+        - ec2
+        - kkarrancsu
+        - macro-ss
+        - marco-storswift
+        - tyshko5
+        - vkalghatgi
   actors-maintainers:
     members:
       maintainer:
@@ -4940,6 +4813,7 @@ teams:
         - aarshkshah1992
         - Kubuxu
         - masih
+        - rjan90
         - rvagg
         - TippyFlitsUK
   advocates:
@@ -4951,7 +4825,6 @@ teams:
         - lksbrssr
         - longfeiWan9
         - trruckerfling
-        - web3jenks
   Alumni:
     {}
   bedrock-go:
@@ -4968,13 +4841,6 @@ teams:
         - LexLuthr
         - nonsense
         - rvagg
-  bloxico-lotus:
-    members:
-      maintainer:
-        - jennijuju
-      member:
-        - brdji
-        - TheMenko
   Boost:
     members:
       maintainer:
@@ -5330,11 +5196,6 @@ teams:
         - TippyFlitsUK
         - whyrusleeping
         - willscott
-  lotus-infra-core:
-    members:
-      member:
-        - GlacierWalrus
-        - ns4plabs
   lotus-maintainers:
     members:
       maintainer:
@@ -5348,7 +5209,6 @@ teams:
         - masih
         - rjan90
         - rvagg
-        - snadrus
         - TippyFlitsUK
         - ZenGround0
   Motion:
@@ -5480,18 +5340,6 @@ teams:
         - george-haddad
         - JadTermsani
         - smooth-operator
-  Strike Team:
-    members:
-      maintainer:
-        - anorth
-        - hannahhoward
-        - mishmosh
-      member:
-        - frrist
-  strike-team-core:
-    members:
-      maintainer:
-        - hannahhoward
   tooling:
     members:
       member:
