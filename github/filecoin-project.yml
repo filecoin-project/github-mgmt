@@ -5049,6 +5049,8 @@ teams:
         - Kubuxu
         - ZenGround0
   fvm-crate-owners:
+    description: Defines ownership of various crates per
+      https://crates.io/teams/github:filecoin-project:fvm-crate-owners
     members:
       maintainer:
         - jennijuju
@@ -5056,6 +5058,8 @@ teams:
         - Stebalien
       member:
         - magik6k
+        - rjan90
+        - rvagg
   fvm-team:
     members:
       maintainer:
