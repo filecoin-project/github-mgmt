@@ -3110,7 +3110,7 @@ repositories:
     collaborators:
       admin:
         # 2024-08-15: temporary addition while working on https://github.com/filecoin-project/lotus-docs/issues/742
-        - BigLep 
+        - BigLep
         # end of temporary addition
         - jennijuju
         - rjan90
