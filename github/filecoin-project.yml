@@ -3122,6 +3122,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - BigLep # 2024-08-15: temporary addition while working on https://github.com/filecoin-project/lotus-docs/issues/742
         - jennijuju
         - rjan90
       push:
