@@ -131,6 +131,7 @@ members:
     - ribasushi
     - rjan90
     - rk-rishikesh
+    - robertagora
     - rvagg
     - scotthconner
     - SeedingTrees
@@ -230,9 +231,8 @@ repositories:
         - galen-mcandrew
         - Kevin-FF-USA
         - willscott
-      pull:
-        - clriesco
       push:
+        - Filip-L
         - martapiekarska
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -646,7 +646,6 @@ repositories:
     teams:
       push:
         - advocates
-        - datasystems
     visibility: public
   conformance-tools:
     archived: true
@@ -760,7 +759,6 @@ repositories:
     teams:
       push:
         - bedrock-go
-        - datasystems
         - lotus-contributors
     visibility: public
   data-prep-tools:
@@ -899,7 +897,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
-        - datasystems
         - foundation
     visibility: public
   docker-hub-exporter:
@@ -1011,6 +1008,7 @@ repositories:
         - jennijuju
         - Kubuxu
         - masih
+        - rjan90
         - Stebalien
       push:
         - adlrocha
@@ -1386,7 +1384,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
-        - datasystems
         - dev-misc
     visibility: public
   filecoin-ffi-private:
@@ -1652,8 +1649,6 @@ repositories:
     squash_merge_commit_message: BLANK
     squash_merge_commit_title: PR_TITLE
     teams:
-      pull:
-        - datasystems
       push:
         - collab-ff-seo-ux
         - website
@@ -1957,7 +1952,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
-        - datasystems
         - fvm-core-devs
         - lotus-maintainers
     visibility: private
@@ -2091,7 +2085,6 @@ repositories:
     teams:
       push:
         - collab-ff-seo-ux
-        - datasystems
         - FVM Web
     visibility: private
   fvm-workbench:
@@ -2392,6 +2385,7 @@ repositories:
       push:
         - aarshkshah1992
         - arajasek
+      triage:
         - dkkapur
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2402,7 +2396,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
-        - datasystems
         - lotus-contributors
     visibility: public
   go-ds-versioning:
@@ -2535,7 +2528,6 @@ repositories:
       maintain:
         - bedrock-go
       push:
-        - datasystems
         - lotus-contributors
     visibility: public
   go-filecoin-backup:
@@ -2616,8 +2608,6 @@ repositories:
     teams:
       maintain:
         - w3dt-stewards
-      push:
-        - datasystems
     visibility: public
   go-multistore:
     archived: true
@@ -3020,9 +3010,6 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      push:
-        - datasystems
     visibility: public
   lily-archiver:
     advanced_security: false
@@ -3280,8 +3267,6 @@ repositories:
     teams:
       admin:
         - Sentinel Admin
-      triage:
-        - datasystems
     visibility: private
   merkle_light-backup:
     archived: true
@@ -3306,8 +3291,6 @@ repositories:
         - proofs
       pull:
         - ci
-      push:
-        - datasystems
     visibility: public
   meta-aggregator-frontend:
     advanced_security: false
@@ -3459,6 +3442,8 @@ repositories:
         - yukixu007
       pull:
         - filipagr
+      push:
+        - ygy-1231
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3567,21 +3552,6 @@ repositories:
     archived: true
   product:
     archived: true
-  proof-of-data-possession:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    has_discussions: false
-    merge_commit_message: BLANK
-    merge_commit_title: PR_TITLE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      maintain:
-        - FilOz
-    visibility: private
   proofs-buildbot:
     advanced_security: false
     allow_update_branch: false
@@ -3795,8 +3765,6 @@ repositories:
     teams:
       pull:
         - Retrieval Market Builders
-      push:
-        - datasystems
     visibility: public
   retrieval-market:
     advanced_security: false
@@ -4120,6 +4088,7 @@ repositories:
       admin:
         - daviddias
         - momack2
+        - starboard-devops
       pull:
         - nicola
         - olizilla
@@ -4672,7 +4641,6 @@ repositories:
         - ci
         - tooling
       push:
-        - datasystems
         - infra
     visibility: public
   wasm-tools:
@@ -4728,7 +4696,6 @@ repositories:
       admin:
         - website
       push:
-        - datasystems
         - foundation
         - infra
         - product-biz
@@ -4817,13 +4784,22 @@ teams:
         - longfeiWan9
         - trruckerfling
   alumni:
+    create_default_maintainer: false
     members:
+      maintainer:
+        - anorth
+        - jbenet
+        - jennijuju
+        - mishmosh
+        - momack2
+        - protocolin
+        - raulk
+        - Stebalien
       member:
         - alanshaw
         - AmeanAsad
         - androowoo
         - andyschwab
-        - anorth
         - aschmahmann
         - ashwanth-eth
         - aysmed
@@ -4845,8 +4821,6 @@ teams:
         - hammertoe
         - hannahhoward
         - ischasny
-        - jbenet
-        - jennijuju
         - juliangruber
         - Kubuxu
         - lucaniz
@@ -4854,8 +4828,6 @@ teams:
         - masih
         - matejpavlovic
         - MF416
-        - mishmosh
-        - momack2
         - nicola
         - ninitrava
         - nonsense
@@ -4863,12 +4835,9 @@ teams:
         - patrickwoodhead
         - pk-controller
         - pk13-PLF
-        - protocolin
-        - raulk
         - ribasushi
         - rvagg
         - scotthconner
-        - Stebalien
         - Stefaan-V
         - Terryhung
         - TorfinnOlsen
@@ -4981,16 +4950,6 @@ teams:
       member:
         - birdychang
         - Terryhung
-  datasystems:
-    members:
-      maintainer:
-        - willscott
-      member:
-        - davidd8
-        - hannahhoward
-        - ischasny
-        - masih
-        - rvagg
   dev-misc:
     members:
       maintainer:
@@ -5100,8 +5059,6 @@ teams:
         - Kubuxu
         - ZenGround0
   fvm-crate-owners:
-    description: Defines ownership of various crates per
-      https://crates.io/teams/github:filecoin-project:fvm-crate-owners
     members:
       maintainer:
         - jennijuju
