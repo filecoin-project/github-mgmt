@@ -4,6 +4,16 @@ members:
   admin:
     - anorth
     - arden-sead
+    # Why @BigLep?
+    # Temporary org ownership is needed to complete https://github.com/filecoin-project/github-mgmt/issues/47
+    # It enables me to
+    # 1. Access the (audit log)[https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization]
+    #    so I can be sure I'm not advocating for removing owner ownership of someone who has been very active on administering the org
+    # 2. Enable me to give the "github-mgmt Stewards" team [moderator](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#organization-moderators) 
+    #    and [security manager](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers) roles.
+    # Access here will be revoked as part of completing https://github.com/filecoin-project/github-mgmt/issues/47,
+    # which should happen no later than the week of 2024-09-02.
+    - BigLep
     - dr-bizz
     - filecoin-helper
     - galargh
@@ -36,7 +46,6 @@ members:
     - autonome
     - aysmed
     - bajtos
-    - BigLep
     - birdychang
     - BlocksOnAChain
     - bradholden
