@@ -1047,8 +1047,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - lotus-maintainers
         - FIL-B
+        - lotus-maintainers
       push:
         - fvm-core-devs
     visibility: public
