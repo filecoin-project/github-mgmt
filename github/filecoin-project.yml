@@ -1047,8 +1047,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
-        - fvm-core-devs
         - FIL-B
+        - fvm-core-devs
     visibility: public
   fevm-data-dao-kit:
     advanced_security: false
