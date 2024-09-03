@@ -152,7 +152,7 @@ jobs:
         with:
           path: base
       - name: Download YAML configs
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           path: artifacts
       - name: Copy YAML configs
