@@ -151,7 +151,6 @@ members:
     - patrickwoodhead
     - pk-controller
     - pk13-PLF
-    - pl-deploy-bot
     - porcuquine
     - protocol-labs
     - protocolin
@@ -3195,7 +3194,6 @@ repositories:
       pull:
         - lemmih
         - LesnyRumcajs
-        - pl-deploy-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4050,8 +4048,6 @@ repositories:
     collaborators:
       admin:
         - ognots
-      push:
-        - pl-deploy-bot
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -4750,8 +4746,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - pl-deploy-bot
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
