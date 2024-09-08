@@ -159,7 +159,6 @@ members:
     - raulk
     - realChainLife
     - Reiers
-    - relotnek
     - ribasushi
     - rjan90
     - rk-rishikesh
@@ -1661,6 +1660,7 @@ repositories:
     collaborators:
       admin:
         - dr-bizz
+        - smagdali
       maintain:
         - andyschwab
         - filecoinfoundation-inf
@@ -2649,6 +2649,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5321,7 +5324,6 @@ teams:
     members:
       member:
         - parthshah1
-        - relotnek
         - smagdali
   Sentinel Admin:
     members:
