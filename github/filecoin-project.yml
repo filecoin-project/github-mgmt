@@ -151,6 +151,7 @@ members:
     - patrickwoodhead
     - pk-controller
     - pk13-PLF
+    - pl-deploy-bot # will be removed in the UI per https://github.com/filecoin-project/github-mgmt/pull/66
     - porcuquine
     - protocol-labs
     - protocolin
