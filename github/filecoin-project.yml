@@ -157,7 +157,6 @@ members:
     - patrickwoodhead
     - pk-controller
     - pk13-PLF
-    - pl-deploy-bot
     - porcuquine
     - protocol-labs
     - protocolin
@@ -1134,6 +1133,22 @@ repositories:
       admin:
         - FIL-B
       push:
+        - lotus-maintainers
+    visibility: public
+  fevm-uniswap-v3-core:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - FIL-B
         - lotus-maintainers
     visibility: public
   ff-bounties:
@@ -3241,7 +3256,9 @@ repositories:
     archived: false
     collaborators:
       maintain:
-        - snadrus
+        - snadrus # Curio lead
+      triage:
+        - ribasushi # Independent contributor active on various Lotus issues.  Now can assign labels and leave reviews.
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3339,39 +3356,9 @@ repositories:
   metaverse.filecoin.io:
     archived: true
   motion-arsenal:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Motion
-      maintain:
-        - bedrock-go
-    visibility: public
   motion-cloudserver:
-    advanced_security: false
-    allow_update_branch: false
     archived: true
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Motion
-      maintain:
-        - bedrock-go
-    visibility: public
   motion-s3-connector:
     advanced_security: false
     allow_update_branch: false
@@ -3480,7 +3467,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
+    visibility: public
   oni:
     archived: true
   openzeppelin-contracts:
@@ -4059,8 +4046,6 @@ repositories:
     collaborators:
       admin:
         - ognots
-      push:
-        - pl-deploy-bot
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -4758,9 +4743,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - pl-deploy-bot
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
