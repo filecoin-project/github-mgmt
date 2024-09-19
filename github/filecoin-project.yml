@@ -2955,6 +2955,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - laurentsenta
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3160,6 +3163,7 @@ repositories:
         - rjan90
       push:
         - arajasek
+        - laurentsenta
         - LexLuthr
         - Reiers
         - snadrus
