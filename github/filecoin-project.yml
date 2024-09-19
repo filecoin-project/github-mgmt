@@ -23,6 +23,12 @@ members:
     # 2. Is experienced adminstering other similar orgs (e.g., ipfs)
     # 3. Is an independent contractor (similar to @anorth)
     - BigLep
+    # Why @filecoinfoundation-inf?
+    # 1. Represents the IT Operations Managment Lead Baldemar (Baldy) for Filecoin Foundation, which is a significant stakeholder in the Filecoin ecosystem
+    # 2. Baldy is the primary contact for IT operations for the Filecoin Foundation and manages similar systems for Filecoin Foundation
+    # 3. Baldy is charged with responsibility over systems and infrastructure that Filecoin Foundation supports including billing, monitoring, and user management
+    # 4. This account is individually assigned to Baldy and is not used for day-to-day GitHub activities
+    - filecoinfoundation-inf
     # Why @galargh?
     # 1. co-founder of [IPDX](https://ipdx.co) and IPDX is contracted to help look after GitHub for this organization at least through 2024.
     # 2. Multiple years of experience managing GitHub organizations of open source projects, including this org and related orgs like ipfs.
