@@ -18,7 +18,8 @@ To learn more, check out:
 * Yes, it's confusing to have a `.github` and `github` directory.  That is how gitub-mgmt was originally setup an we're living with it.  (At least of 2024-09-05, there is [no backlog item for cleaning this up](https://github.com/ipdxco/github-as-code/issues?page=1&q=is%3Aissue+is%3Aopen).)
 * Not all [organization-level roles](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization) are assignable through github-mgmt.  For example, organization moderators, billing managers, and ecurity managers need to set through the GitHub UI.
 * github-mgmt calls [GitHub organization owners](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#organization-owners) as "admins" in [filecoin-project.yml](https://github.com/filecoin-project/github-mgmt/blob/master/github/filecoin-project.yml).  These terms are used interchangably in comments/docs.
-* At least as of 202409, AWS resources that terraform uses behind the scenes (e.g., S3 bucket, DDB table) are all stored in an ipdx.co-managed AWS account.  
+* At least as of 202409, AWS resources that terraform uses behind the scenes (e.g., S3 bucket, DDB table) are all stored in an ipdx.co-managed AWS account.
+* Repo creation is still performed through the GitHub UI.  The repo then gets "added" to github-mgmt mgmt as part of the [sync workflow](https://github.com/filecoin-project/github-mgmt/blob/master/.github/workflows/sync.yml), which runs weekly automatically and can be done on demand as well.
 
 ## Organization Owner SOPs
 Below is documentation/expecations [filecoin-project owners](https://github.com/orgs/filecoin-project/people?query=role%3Aowner).
