@@ -1683,10 +1683,10 @@ repositories:
     collaborators:
       admin:
         - dr-bizz
+        - filecoinfoundation-inf
         - smagdali
       maintain:
         - andyschwab
-        - filecoinfoundation-inf
       pull:
         - arajasek
         - Isabellabcj
