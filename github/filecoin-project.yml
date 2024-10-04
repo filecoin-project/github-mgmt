@@ -668,6 +668,10 @@ repositories:
       push:
         - arajasek
         - dkkapur
+        # Onkar-san's permissions are temporary to enable self-service moderation of https://github.com/filecoin-project/community/discussions/714
+        # See https://docs.github.com/en/communities/moderating-comments-and-conversations/managing-disruptive-comments
+        # This can be removed 2025-01-01.
+        - Onkar-san
         - vnessasgrt
       triage:
         - ec2
