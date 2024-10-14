@@ -5010,6 +5010,11 @@ teams:
       member:
         - kevzak
         - raghavrmadya
+  filoz-devguild-mentees:
+    members:
+      member:
+        - akaladarshi
+        - virajbhartiya
   FilOz:
     members:
       maintainer:
@@ -5028,11 +5033,6 @@ teams:
         - rvagg
         - Stebalien
         - ZenGround0
-  filoz-devguild-mentees:
-    members:
-      member:
-        - akaladarshi
-        - virajbhartiya
   fips-editors:
     members:
       maintainer:
