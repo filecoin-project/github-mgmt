@@ -52,6 +52,7 @@ members:
     - aakoshh
     - aarshkshah1992
     - adlrocha
+    - akaladarshi
     - alanshaw
     - alexandrumatei36
     - Alexey-N-Chernyshov
@@ -190,6 +191,7 @@ members:
     - trruckerfling
     - turuslan
     - vesahc
+    - virajbhartiya
     - vmx
     - vnessasgrt
     - vukolic
@@ -3264,7 +3266,7 @@ repositories:
       maintain:
         - snadrus # Curio lead
       triage:
-        - ribasushi # Independent contributor active on various Lotus issues.  Now can assign labels and leave reviews.
+        - ribasushi # Independent contributor active on various Lotus issues.  Now can assign labels and leave reviews. 
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3277,6 +3279,8 @@ repositories:
         - lotus-maintainers
       push:
         - lotus-contributors
+      triage:
+        - filoz-devguild-mentees
     visibility: public
   lua-filecoin:
     archived: true
@@ -5006,6 +5010,11 @@ teams:
       member:
         - kevzak
         - raghavrmadya
+  filoz-devguild-mentees:
+    members:
+      member:
+        - akaladarshi
+        - virajbhartiya
   FilOz:
     members:
       maintainer:
