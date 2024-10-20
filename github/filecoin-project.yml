@@ -23,6 +23,7 @@ members:
     # 2. Is experienced adminstering other similar orgs (e.g., ipfs)
     # 3. Is an independent contractor (similar to @anorth)
     - BigLep
+    - dr-bizz
     # Why @filecoinfoundation-inf?
     # 1. Represents the IT Operations Managment Lead Baldemar (Baldy) for Filecoin Foundation, which is a significant stakeholder in the Filecoin ecosystem
     # 2. Baldy is the primary contact for IT operations for the Filecoin Foundation and manages similar systems for Filecoin Foundation
@@ -84,7 +85,6 @@ members:
     - DiegoRBaquero
     - dkkapur
     - dnkolegov
-    - dr-bizz
     - DrPeterVanNostrand
     - ec2
     - elijaharita
@@ -721,7 +721,6 @@ repositories:
       admin:
         - zuiris
       push:
-        - ahmedelkashev
         - Elestrias
         - Harrm
         - Markuu-s
@@ -5011,6 +5010,7 @@ teams:
         - kevzak
         - raghavrmadya
   filoz-devguild-mentees:
+    create_default_maintainer: false
     members:
       member:
         - akaladarshi
@@ -5234,10 +5234,10 @@ teams:
     members:
       maintainer:
         # @masterway-admin is listed as a maintainer rather than member because GitHub will automatically make him a maintainer given he is an org.admin above.
+        - dr-bizz
         - mastrwayne-admin
       member:
         - arden-sead
-        - dr-bizz
         - jmac-sead
   Motion:
     members:
