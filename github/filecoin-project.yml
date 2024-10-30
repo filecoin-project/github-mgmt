@@ -4242,11 +4242,11 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - ianconsolata
         - arajasek
         - olizilla
         - yiannisbot
       maintain:
-        - ianconsolata
         - nonsense
         - smagdali
       push:
