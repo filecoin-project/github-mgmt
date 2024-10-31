@@ -4242,8 +4242,8 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - ianconsolata
         - arajasek
+        - ianconsolata
         - olizilla
         - yiannisbot
       maintain:
