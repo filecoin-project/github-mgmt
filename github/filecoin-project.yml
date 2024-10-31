@@ -1394,11 +1394,11 @@ repositories:
         - andyschwab
         - jennijuju
         - raulk
+        - smagdali
       maintain:
         - bobdubois
         - eshon
         - lanzafame
-        - smagdali
         - trruckerfling
       push:
         - Angelo-gh3990
@@ -4242,8 +4242,8 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - ianconsolata
         - arajasek
+        - ianconsolata
         - olizilla
         - yiannisbot
       maintain:
