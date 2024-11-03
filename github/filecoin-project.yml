@@ -249,9 +249,8 @@ repositories:
     collaborators:
       admin:
         - galen-mcandrew
-        - willscott
-      maintain:
         - Kevin-FF-USA
+        - willscott
       push:
         - martapiekarska
     has_discussions: true
@@ -1403,6 +1402,7 @@ repositories:
       push:
         - Angelo-gh3990
         - barbaraperic
+        - dannyob
         - ivanka
         - jochasinga
         - mirhamasala
@@ -1677,6 +1677,21 @@ repositories:
     teams:
       push:
         - fvm-team
+    visibility: public
+  filecoin-storage-providers-market:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - davidgasquez
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   filecoin.io:
     advanced_security: false
@@ -3464,7 +3479,6 @@ repositories:
         - mor9x00
         - smagdali
         - willpan1102
-        - yukixu007
       pull:
         - filipagr
       push:
@@ -4133,6 +4147,23 @@ repositories:
     visibility: public
   serialization-vectors:
     archived: true
+  service-classes:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      maintain:
+        - patrickwoodhead
+      push:
+        - davidgasquez
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   shared-shell-scripts:
     archived: true
   slate-react-system:
@@ -4702,29 +4733,7 @@ repositories:
   website-bounty.filecoin.io:
     archived: true
   website-grants:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - arajasek
-        - ognots
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - website
-      push:
-        - foundation
-        - infra
-        - product-biz
-        - research
-    visibility: private
+    archived: true
   website-liftoff:
     archived: true
   website-security.filecoin.io:
