@@ -252,6 +252,7 @@ repositories:
         - Kevin-FF-USA
         - willscott
       push:
+        - filecoin-watchdog
         - martapiekarska
     has_discussions: true
     merge_commit_message: PR_TITLE
@@ -1299,6 +1300,21 @@ repositories:
         - data
         - Sentinel Admin
         - Sentinel
+    visibility: public
+  fildevsummit:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - momack2
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   filecoin-aggregator:
     archived: true
@@ -4155,7 +4171,9 @@ repositories:
       maintain:
         - patrickwoodhead
       push:
+        - bajtos
         - davidgasquez
+        - juliangruber
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4531,6 +4549,7 @@ repositories:
     collaborators:
       admin:
         - eshon
+        - LesnyRumcajs
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
