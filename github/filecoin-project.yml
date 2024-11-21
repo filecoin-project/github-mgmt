@@ -249,10 +249,10 @@ repositories:
     collaborators:
       admin:
         - galen-mcandrew
-        - willscott
-      maintain:
         - Kevin-FF-USA
+        - willscott
       push:
+        - filecoin-watchdog
         - martapiekarska
     has_discussions: true
     merge_commit_message: PR_TITLE
@@ -1301,6 +1301,21 @@ repositories:
         - Sentinel Admin
         - Sentinel
     visibility: public
+  fildevsummit:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - momack2
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoin-aggregator:
     archived: true
   filecoin-chain-archiver:
@@ -1394,15 +1409,16 @@ repositories:
         - andyschwab
         - jennijuju
         - raulk
+        - smagdali
       maintain:
         - bobdubois
         - eshon
         - lanzafame
-        - smagdali
         - trruckerfling
       push:
         - Angelo-gh3990
         - barbaraperic
+        - dannyob
         - ivanka
         - jochasinga
         - mirhamasala
@@ -1678,6 +1694,21 @@ repositories:
       push:
         - fvm-team
     visibility: public
+  filecoin-storage-providers-market:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - davidgasquez
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoin.io:
     advanced_security: false
     allow_update_branch: true
@@ -1780,11 +1811,10 @@ repositories:
         - clriesco
         - dkkapur
         - kacperzuk-neti
+        - lukasz-wal
         - willscott
       push:
         - Filip-L
-        - gstraczek
-        - lukasz-wal
         - tplocic20
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -3464,7 +3494,6 @@ repositories:
         - mor9x00
         - smagdali
         - willpan1102
-        - yukixu007
       pull:
         - filipagr
       push:
@@ -4133,6 +4162,25 @@ repositories:
     visibility: public
   serialization-vectors:
     archived: true
+  service-classes:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      maintain:
+        - patrickwoodhead
+      push:
+        - bajtos
+        - davidgasquez
+        - juliangruber
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   shared-shell-scripts:
     archived: true
   slate-react-system:
@@ -4500,6 +4548,7 @@ repositories:
     collaborators:
       admin:
         - eshon
+        - LesnyRumcajs
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4573,6 +4622,18 @@ repositories:
     archived: true
   tweety:
     archived: true
+  unified-github-workflows:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   venus-common-types:
     archived: true
   venus-docs:
@@ -4702,29 +4763,7 @@ repositories:
   website-bounty.filecoin.io:
     archived: true
   website-grants:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - arajasek
-        - ognots
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - website
-      push:
-        - foundation
-        - infra
-        - product-biz
-        - research
-    visibility: private
+    archived: true
   website-liftoff:
     archived: true
   website-security.filecoin.io:
