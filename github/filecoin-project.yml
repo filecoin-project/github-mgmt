@@ -5397,6 +5397,14 @@ teams:
         - birdychang
       member:
         - Terryhung
+  space-meridian:
+    # This team is used for @mentioning, particularly in the service-classes repo.
+    members:
+      maintainer:
+        - patrickwoodhead
+      member:
+        - bajtos
+        - juliangruber
   specs:
     members:
       maintainer:
