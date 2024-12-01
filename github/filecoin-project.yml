@@ -770,6 +770,8 @@ repositories:
     collaborators:
       admin:
         - magik6k
+      push:
+        - ZenGround0
     has_discussions: true
     merge_commit_message: PR_BODY
     merge_commit_title: PR_TITLE
@@ -1789,6 +1791,7 @@ repositories:
         - panges2
         - willscott
       push:
+        - CodeWarriorr
         - Filip-L
         - lukasz-wal
         - orvn
@@ -3303,7 +3306,7 @@ repositories:
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - lotus-maintainers
@@ -5399,6 +5402,7 @@ teams:
         - Terryhung
   space-meridian:
     # This team is used for @mentioning, particularly in the service-classes repo.
+    create_default_maintainer: false
     members:
       maintainer:
         - patrickwoodhead
