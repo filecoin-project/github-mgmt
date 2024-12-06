@@ -4298,9 +4298,9 @@ repositories:
         - olizilla
         - yiannisbot
       maintain:
+        - lanzafame
         - nonsense
         - smagdali
-        - lanzafame
       push:
         - ognots
     has_discussions: false
