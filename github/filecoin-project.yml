@@ -250,10 +250,10 @@ repositories:
       admin:
         - galen-mcandrew
         - Kevin-FF-USA
+        - martapiekarska
         - willscott
       push:
         - filecoin-watchdog
-        - martapiekarska
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3497,6 +3497,8 @@ repositories:
         - mor9x00
         - smagdali
         - willpan1102
+      maintain:
+        - QuietLiu01
       pull:
         - filipagr
       push:
