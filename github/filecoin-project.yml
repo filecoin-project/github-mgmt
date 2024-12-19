@@ -4303,6 +4303,8 @@ repositories:
         - smagdali
       push:
         - barbaraperic
+        - CharlyMartin
+        - mirhamasala
         - ognots
     has_discussions: false
     merge_commit_message: PR_TITLE
