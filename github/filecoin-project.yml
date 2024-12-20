@@ -4301,10 +4301,10 @@ repositories:
         - lanzafame
         - nonsense
         - smagdali
-      push:
         - barbaraperic
         - CharlyMartin
         - mirhamasala
+      push:
         - ognots
     has_discussions: false
     merge_commit_message: PR_TITLE
