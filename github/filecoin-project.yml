@@ -1920,11 +1920,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - arajasek
-        - kaitlin-beegle
       push:
-        - andyschwab
         - luckyparadise
       triage:
         - filecoin-governance
@@ -1944,6 +1940,7 @@ repositories:
         - lotus-maintainers
         - research
         - Venus
+        - FilOz
     visibility: public
   foundation-website:
     archived: true
@@ -5090,10 +5087,11 @@ teams:
         - jennijuju
       member:
         - jsoares
-        - kaitlin-beegle
         - momack2
         - rvagg
         - TippyFlitsUK
+        - lanzafame
+        - dannyob
   Forest:
     members:
       maintainer:
