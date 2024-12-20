@@ -1936,11 +1936,11 @@ repositories:
         - fips-editors
       push:
         - cryptoeconomics
+        - FilOz
         - Forest
         - lotus-maintainers
         - research
         - Venus
-        - FilOz
     visibility: public
   foundation-website:
     archived: true
@@ -5086,12 +5086,12 @@ teams:
         - anorth
         - jennijuju
       member:
+        - dannyob
         - jsoares
+        - lanzafame
         - momack2
         - rvagg
         - TippyFlitsUK
-        - lanzafame
-        - dannyob
   Forest:
     members:
       maintainer:
