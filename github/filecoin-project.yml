@@ -4297,12 +4297,12 @@ repositories:
         - olizilla
         - yiannisbot
       maintain:
-        - lanzafame
-        - nonsense
-        - smagdali
         - barbaraperic
         - CharlyMartin
+        - lanzafame
         - mirhamasala
+        - nonsense
+        - smagdali
       push:
         - ognots
     has_discussions: false
