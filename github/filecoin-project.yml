@@ -1922,7 +1922,6 @@ repositories:
     collaborators:
       admin:
         - arajasek
-        - kaitlin-beegle
       push:
         - andyschwab
         - luckyparadise
