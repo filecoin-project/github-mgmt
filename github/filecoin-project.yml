@@ -1920,10 +1920,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - arajasek
       push:
-        - andyschwab
         - luckyparadise
       triage:
         - filecoin-governance
@@ -1939,6 +1936,7 @@ repositories:
         - fips-editors
       push:
         - cryptoeconomics
+        - FilOz
         - Forest
         - lotus-maintainers
         - research
@@ -5088,8 +5086,9 @@ teams:
         - anorth
         - jennijuju
       member:
+        - dannyob
         - jsoares
-        - kaitlin-beegle
+        - lanzafame
         - momack2
         - rvagg
         - TippyFlitsUK
