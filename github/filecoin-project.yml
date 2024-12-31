@@ -4297,13 +4297,13 @@ repositories:
         - olizilla
         - yiannisbot
       maintain:
+        - barbaraperic
+        - CharlyMartin
         - lanzafame
+        - mirhamasala
         - nonsense
         - smagdali
       push:
-        - barbaraperic
-        - CharlyMartin
-        - mirhamasala
         - ognots
     has_discussions: false
     merge_commit_message: PR_TITLE
