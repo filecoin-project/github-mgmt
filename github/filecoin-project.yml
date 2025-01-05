@@ -79,7 +79,6 @@ members:
     - Cre-eD
     - cryptoAtwill
     - cryptonemo
-    - dannyob
     - davidad
     - davidd8
     - davidgasquez
@@ -117,7 +116,6 @@ members:
     - jbenet
     - jdjaustin
     - jimpick
-    - jmac-sead
     - jnthnvctr
     - joaosa
     - jochasinga
@@ -127,7 +125,6 @@ members:
     - kevzak
     - kkarrancsu
     - Kubuxu
-    - lanzafame
     - LaurenSpiegel
     - laurentsenta
     - lemmih
@@ -5088,9 +5085,7 @@ teams:
         - anorth
         - jennijuju
       member:
-        - dannyob
         - jsoares
-        - lanzafame
         - momack2
         - rvagg
         - TippyFlitsUK
@@ -5289,7 +5284,6 @@ teams:
         - mastrwayne-admin
       member:
         - arden-sead
-        - jmac-sead
   Motion:
     members:
       member:
