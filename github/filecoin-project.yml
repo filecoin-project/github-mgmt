@@ -3496,7 +3496,6 @@ repositories:
       pull:
         - filipagr
       push:
-        - luojing-cx
         - ygy-1231
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -4295,7 +4294,6 @@ repositories:
         - yiannisbot
       maintain:
         - barbaraperic
-        - CharlyMartin
         - lanzafame
         - mirhamasala
         - nonsense
