@@ -83,6 +83,7 @@ members:
     - davidd8
     - davidgasquez
     - dchoi27
+    - dannyob
     - DiegoRBaquero
     - dkkapur
     - dnkolegov
@@ -125,6 +126,7 @@ members:
     - kevzak
     - kkarrancsu
     - Kubuxu
+    - lanzafame
     - LaurenSpiegel
     - laurentsenta
     - lemmih
@@ -5083,7 +5085,9 @@ teams:
         - anorth
         - jennijuju
       member:
+        - dannyob
         - jsoares
+        - lanzafame
         - momack2
         - rvagg
         - TippyFlitsUK
