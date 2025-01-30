@@ -1042,6 +1042,28 @@ repositories:
     archived: true
   events-directory:
     archived: true
+  f3-activation-contract:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - BigLep
+        - Kubuxu
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - lotus-maintainers
+      push:
+        - Forest
+        - Venus
+    visibility: public
   f3-passive-testing:
     advanced_security: false
     allow_update_branch: false
