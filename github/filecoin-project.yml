@@ -4230,11 +4230,15 @@ repositories:
     collaborators:
       admin:
         - Aminejvm
+        - relotnek
       maintain:
         - achalvs
         - akuokojnr
         - harisbutt
         - martinalong
+        - bloza0514
+        - parthshah1
+        - smagdali
       pull:
         - gndclouds
         - tmytrn
