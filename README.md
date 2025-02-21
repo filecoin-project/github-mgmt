@@ -31,7 +31,7 @@ Below is documentation/expectations [filecoin-project owners](https://github.com
 ### Handling App Installation Requests
 1. Per [docs](https://docs.github.com/en/apps/using-github-apps/requesting-a-github-app-from-your-organization-owner), org owners have to approve these requests.
 2. Pending installations can be reviewed at https://github.com/organizations/filecoin-project/settings/installations
-   * New installation requests also come in via GitHub notificaitons to owners.   
+   * New installation requests also come in via GitHub notifications to owners.   
 3. Before approving the installation, ensure you have connected directly with the requester to understand their usecase and to ensure we're scoping down app access as much possible.  For example, it's better if an app only need access to specific repos than to the whole organization, especially if the app is created by a 3rd party and/or needs write permissions.
 4. After approving, create a "log" of the approval by writing a message in #filecoin-project-owners following this template:
 

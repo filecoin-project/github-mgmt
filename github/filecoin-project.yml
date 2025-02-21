@@ -20,12 +20,12 @@ members:
     #    and [security manager](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers) roles.
     # His ownership is being extended beyond https://github.com/filecoin-project/github-mgmt/issues/47 at least through 2024-12-31 because he:
     # 1. Has been leading the effort to improve the operational posture of the filecoin-project org
-    # 2. Is experienced adminstering other similar orgs (e.g., ipfs)
+    # 2. Is experienced administering other similar orgs (e.g., ipfs)
     # 3. Is an independent contractor (similar to @anorth)
     - BigLep
     - dr-bizz
     # Why @filecoinfoundation-inf?
-    # 1. Represents the IT Operations Managment Lead Baldemar (Baldy) for Filecoin Foundation, which is a significant stakeholder in the Filecoin ecosystem
+    # 1. Represents the IT Operations Management Lead Baldemar (Baldy) for Filecoin Foundation, which is a significant stakeholder in the Filecoin ecosystem
     # 2. Baldy is the primary contact for IT operations for the Filecoin Foundation and manages similar systems for Filecoin Foundation
     # 3. Baldy is charged with responsibility over systems and infrastructure that Filecoin Foundation supports including billing, monitoring, and user management
     # 4. This account is individually assigned to Baldy and is not used for day-to-day GitHub activities
@@ -5215,7 +5215,7 @@ teams:
         - Stebalien
         # Why @willscott?
         # 1. Represents another part of the ecosystem: Filecoin Incentive Design Labs
-        # 2. He's experienced working with and adminstering github-mgmt in other organizations (e.g., ipld, ipfs)
+        # 2. He's experienced working with and administering github-mgmt in other organizations (e.g., ipld, ipfs)
         - willscott
   github-mgmt stewards:
     # Notes: 
