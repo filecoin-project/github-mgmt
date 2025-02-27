@@ -3342,6 +3342,7 @@ repositories:
         - lotus-contributors
       triage:
         - filoz-devguild-mentees
+        - lotus-miner-maintainers
     visibility: public
   lua-filecoin:
     archived: true
@@ -5323,6 +5324,10 @@ teams:
         - Stebalien
         - TippyFlitsUK
         - ZenGround0
+  lotus-miner-maintainers:
+    members:
+      maintainer:
+        - tediou5
   moderators:
     create_default_maintainer: false
     # Assigning this team the Moderator role is configured through the GitHub UI, not in github-mgmt.
