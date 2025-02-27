@@ -5255,7 +5255,10 @@ teams:
         # 2. She is part of the team rather than just relying on "org.admin" abilities so she sees the @filecoin-project/github-mgmt-stewards team mentions/notifications.
         - jennijuju
       member:
-        # Whey @rvagg?
+        # Why @rjain90?
+        # 1. He is a project manager at FilOz.
+        - rjan90
+        # Why @rvagg?
         # 1. He is an active in-the-GitHub-trenches maintainer for FilOz, often touching the 10+ repos that FilOz owns/maintains.
         #    FilOz wants to ensure changes to these repos is done under code review and transparently,
         #    and @rvagg is one of the key people who will be reviewing these changes.
