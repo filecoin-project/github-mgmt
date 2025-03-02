@@ -121,7 +121,6 @@ members:
     - jnthnvctr
     - joaosa
     - jochasinga
-    - joshuadaniels09
     - jsoares
     - juliangruber
     - kaitlin-beegle
@@ -187,6 +186,7 @@ members:
     - Stefaan-V
     - steven004
     - sudo-shashank
+    - tediou5
     - Terryhung
     - TheDivic
     - TheMenko
@@ -1758,7 +1758,6 @@ repositories:
       push:
         - barbaraperic
         - CharlyMartin
-        - joshuadaniels09
         - mirhamasala
         - momack2
         - TippyFlitsUK
@@ -1849,6 +1848,7 @@ repositories:
         - willscott
       push:
         - Filip-L
+        - tmaciej-neti
         - tplocic20
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -5324,6 +5324,7 @@ teams:
         - TippyFlitsUK
         - ZenGround0
   lotus-miner-maintainers:
+    create_default_maintainer: false
     members:
       maintainer:
         - tediou5
@@ -5520,7 +5521,6 @@ teams:
         - emilymvaughan
         - filecoin-helper
         - jnthnvctr
-        - joshuadaniels09
         - mishmosh
         - momack2
         - nicola
