@@ -4220,6 +4220,13 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      admin:
+        - relotnek
+      maintain:
+        - bloza0514
+        - parthshah1
+        - smagdali
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4239,15 +4246,11 @@ repositories:
     collaborators:
       admin:
         - Aminejvm
-        - relotnek
       maintain:
         - achalvs
         - akuokojnr
-        - bloza0514
         - harisbutt
         - martinalong
-        - parthshah1
-        - smagdali
       pull:
         - gndclouds
         - tmytrn
