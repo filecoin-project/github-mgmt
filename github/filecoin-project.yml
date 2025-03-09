@@ -169,6 +169,7 @@ members:
     - raulk
     - realChainLife
     - Reiers
+    - relotnek
     - ribasushi
     - rjan90
     - rk-rishikesh
@@ -3518,9 +3519,9 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - hexianglinss
         - Huang-Zexiang
         - ianconsolata
+        - joekingss
         - kaitlin-beegle
         - liuzeming1
         - mor9x00
@@ -4224,7 +4225,6 @@ repositories:
       admin:
         - relotnek
       maintain:
-        - bloza0514
         - parthshah1
         - smagdali
     has_discussions: false
@@ -5442,6 +5442,7 @@ teams:
     members:
       member:
         - parthshah1
+        - relotnek
         - smagdali
   Sentinel Admin:
     members:
