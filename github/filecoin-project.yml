@@ -92,10 +92,10 @@ members:
     - elijaharita
     - elmattic
     - emilymvaughan
-    - ErinOCon
     - eshon
     - expede
     - Fatman13
+    - FF-FOIT
     - figureouter
     - filecoin-ci
     - filecoin-helper
@@ -907,7 +907,7 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - ErinOCon
+        - FF-FOIT
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -923,7 +923,7 @@ repositories:
     collaborators:
       admin:
         - BlocksOnAChain
-        - ErinOCon
+        - FF-FOIT
         - realChainLife
         - smagdali
       maintain:
@@ -3524,6 +3524,7 @@ repositories:
         - joekingss
         - kaitlin-beegle
         - liuzeming1
+        - macro-ss
         - mor9x00
         - smagdali
         - willpan1102
