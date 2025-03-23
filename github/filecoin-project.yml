@@ -4757,14 +4757,15 @@ repositories:
       maintain:
         - "0x5459"
         - arajasek
+        - elvin-du
         - LinZexiao
         - simlecode
+        - tediou5
       pull:
         - Joss-Hua
         - YiRuiLiher
         - zhiqiangxu
       push:
-        - elvin-du
         - ognots
         - Stebalien
         - StefanGajic
