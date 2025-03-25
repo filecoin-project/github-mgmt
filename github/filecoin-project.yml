@@ -864,7 +864,6 @@ repositories:
     collaborators:
       admin:
         - nonsense
-        - raulk
         - willscott
       maintain:
         - arajasek
@@ -1435,7 +1434,6 @@ repositories:
       admin:
         - andyschwab
         - jennijuju
-        - raulk
         - smagdali
       maintain:
         - bobdubois
@@ -2081,8 +2079,6 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - raulk
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2184,8 +2180,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - raulk
       push:
         - arajasek
         - eshon
@@ -4475,7 +4469,6 @@ repositories:
       admin:
         - BlocksOnAChain
         - brdji
-        - raulk
       pull:
         - KatarinaKeti
         - LaneBloxico
@@ -5150,7 +5143,6 @@ teams:
       maintainer:
         - lemmih
         - lerajk
-        - raulk
       member:
         - elmattic
         - LesnyRumcajs
@@ -5172,7 +5164,6 @@ teams:
       member:
         - eshon
         - lksbrssr
-        - raulk
         - trruckerfling
   fvm-core-devs:
     members:
@@ -5180,7 +5171,6 @@ teams:
         - anorth
       member:
         - Kubuxu
-        - raulk
         - Stebalien
         - ZenGround0
   fvm-crate-owners:
@@ -5189,7 +5179,6 @@ teams:
         - jennijuju
         - magik6k
       member:
-        - raulk
         - rjan90
         - rvagg
         - Stebalien
@@ -5202,7 +5191,6 @@ teams:
         - fridrik01
         - hammertoe
         - parthpathakweb3
-        - raulk
         - Stebalien
         - trruckerfling
   github-mgmt approvers:
@@ -5310,7 +5298,6 @@ teams:
         - maciejwitowski
         - masih
         - nonsense
-        - raulk
         - rjan90
         - rvagg
         - snissn
@@ -5358,8 +5345,6 @@ teams:
         - willscott
   oni:
     members:
-      maintainer:
-        - raulk
       member:
         - alanshaw
         - jimpick
@@ -5396,7 +5381,6 @@ teams:
         - mishmosh
         - porcuquine
         - protocolin
-        - raulk
         - whyrusleeping
         - ZenGround0
   proofs:
