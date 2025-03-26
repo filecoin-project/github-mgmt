@@ -20,12 +20,12 @@ members:
     #    and [security manager](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers) roles.
     # His ownership is being extended beyond https://github.com/filecoin-project/github-mgmt/issues/47 at least through 2024-12-31 because he:
     # 1. Has been leading the effort to improve the operational posture of the filecoin-project org
-    # 2. Is experienced adminstering other similar orgs (e.g., ipfs)
+    # 2. Is experienced administering other similar orgs (e.g., ipfs)
     # 3. Is an independent contractor (similar to @anorth)
     - BigLep
     - dr-bizz
     # Why @filecoinfoundation-inf?
-    # 1. Represents the IT Operations Managment Lead Baldemar (Baldy) for Filecoin Foundation, which is a significant stakeholder in the Filecoin ecosystem
+    # 1. Represents the IT Operations Management Lead Baldemar (Baldy) for Filecoin Foundation, which is a significant stakeholder in the Filecoin ecosystem
     # 2. Baldy is the primary contact for IT operations for the Filecoin Foundation and manages similar systems for Filecoin Foundation
     # 3. Baldy is charged with responsibility over systems and infrastructure that Filecoin Foundation supports including billing, monitoring, and user management
     # 4. This account is individually assigned to Baldy and is not used for day-to-day GitHub activities
@@ -92,10 +92,10 @@ members:
     - elijaharita
     - elmattic
     - emilymvaughan
-    - ErinOCon
     - eshon
     - expede
     - Fatman13
+    - FF-FOIT
     - figureouter
     - filecoin-ci
     - filecoin-helper
@@ -169,6 +169,7 @@ members:
     - raulk
     - realChainLife
     - Reiers
+    - relotnek
     - ribasushi
     - rjan90
     - rk-rishikesh
@@ -186,6 +187,7 @@ members:
     - Stefaan-V
     - steven004
     - sudo-shashank
+    - tediou5
     - Terryhung
     - TheDivic
     - TheMenko
@@ -670,6 +672,7 @@ repositories:
         - rjan90
       maintain:
         - eshon
+        - trruckerfling
       push:
         - arajasek
         - dkkapur
@@ -751,20 +754,7 @@ repositories:
   cryptolab:
     archived: true
   curio-docs:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - LexLuthr
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
+    archived: true
   curio:
     advanced_security: false
     allow_update_branch: false
@@ -904,7 +894,7 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - ErinOCon
+        - FF-FOIT
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -920,7 +910,7 @@ repositories:
     collaborators:
       admin:
         - BlocksOnAChain
-        - ErinOCon
+        - FF-FOIT
         - realChainLife
         - smagdali
       maintain:
@@ -1041,6 +1031,28 @@ repositories:
     archived: true
   events-directory:
     archived: true
+  f3-activation-contract:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - BigLep
+        - Kubuxu
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - lotus-maintainers
+      push:
+        - Forest
+        - Venus
+    visibility: public
   f3-passive-testing:
     advanced_security: false
     allow_update_branch: false
@@ -1595,7 +1607,7 @@ repositories:
     archived: true
   filecoin-plus-leaderboard-data:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
@@ -1605,14 +1617,20 @@ repositories:
         - willscott
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |
+          version: 2
+          updates:
+            - package-ecosystem: 'github-actions'
+              directory: '/'
+              schedule:
+                interval: 'weekly'
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
+    merge_commit_message: PR_BODY
+    merge_commit_title: PR_TITLE
     secret_scanning_push_protection: true
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_message: PR_BODY
+    squash_merge_commit_title: PR_TITLE
     visibility: public
   filecoin-plus-leaderboard-deprecated:
     archived: true
@@ -1818,6 +1836,7 @@ repositories:
         - willscott
       push:
         - Filip-L
+        - tmaciej-neti
         - tplocic20
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -3308,6 +3327,7 @@ repositories:
         - lotus-contributors
       triage:
         - filoz-devguild-mentees
+        - lotus-miner-maintainers
     visibility: public
   lua-filecoin:
     archived: true
@@ -3483,11 +3503,12 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - hexianglinss
         - Huang-Zexiang
         - ianconsolata
+        - joekingss
         - kaitlin-beegle
         - liuzeming1
+        - macro-ss
         - mor9x00
         - smagdali
         - willpan1102
@@ -4181,6 +4202,24 @@ repositories:
     visibility: public
   shared-shell-scripts:
     archived: true
+  slackcident:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - relotnek
+      maintain:
+        - parthshah1
+        - smagdali
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   slate-react-system:
     archived: true
   slate-stats:
@@ -4683,6 +4722,8 @@ repositories:
         - LinZexiao
       pull:
         - arajasek
+      push:
+        - tediou5
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4702,14 +4743,15 @@ repositories:
       maintain:
         - "0x5459"
         - arajasek
+        - elvin-du
         - LinZexiao
         - simlecode
+        - tediou5
       pull:
         - Joss-Hua
         - YiRuiLiher
         - zhiqiangxu
       push:
-        - elvin-du
         - ognots
         - Stebalien
         - StefanGajic
@@ -5173,7 +5215,7 @@ teams:
         - Stebalien
         # Why @willscott?
         # 1. Represents another part of the ecosystem: Filecoin Incentive Design Labs
-        # 2. He's experienced working with and adminstering github-mgmt in other organizations (e.g., ipld, ipfs)
+        # 2. He's experienced working with and administering github-mgmt in other organizations (e.g., ipld, ipfs)
         - willscott
   github-mgmt stewards:
     # Notes: 
@@ -5208,7 +5250,10 @@ teams:
         # 2. She is part of the team rather than just relying on "org.admin" abilities so she sees the @filecoin-project/github-mgmt-stewards team mentions/notifications.
         - jennijuju
       member:
-        # Whey @rvagg?
+        # Why @rjain90?
+        # 1. He is a project manager at FilOz.
+        - rjan90
+        # Why @rvagg?
         # 1. He is an active in-the-GitHub-trenches maintainer for FilOz, often touching the 10+ repos that FilOz owns/maintains.
         #    FilOz wants to ensure changes to these repos is done under code review and transparently,
         #    and @rvagg is one of the key people who will be reviewing these changes.
@@ -5273,6 +5318,11 @@ teams:
         - Stebalien
         - TippyFlitsUK
         - ZenGround0
+  lotus-miner-maintainers:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - tediou5
   moderators:
     create_default_maintainer: false
     # Assigning this team the Moderator role is configured through the GitHub UI, not in github-mgmt.
@@ -5380,6 +5430,7 @@ teams:
     members:
       member:
         - parthshah1
+        - relotnek
         - smagdali
   Sentinel Admin:
     members:
