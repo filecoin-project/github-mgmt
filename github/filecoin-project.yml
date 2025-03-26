@@ -1974,7 +1974,7 @@ repositories:
   fvm-bench:
     advanced_security: false
     allow_update_branch: false
-    archived: true
+    archived: false
     collaborators:
     has_discussions: false
     merge_commit_message: PR_TITLE
