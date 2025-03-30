@@ -256,6 +256,9 @@ repositories:
         - Kevin-FF-USA
         - martapiekarska
         - willscott
+      maintain:
+        - Amin-Foundation
+        - Paulina-Foundation
       push:
         - filecoin-watchdog
     has_discussions: true
