@@ -5,7 +5,6 @@ resource "github_membership" "this" {
   role     = each.value.role
 
   lifecycle {
-    ignore_changes  = []
     prevent_destroy = true
   }
 }
@@ -90,7 +89,6 @@ resource "github_repository" "this" {
   }
 
   lifecycle {
-    ignore_changes  = []
     prevent_destroy = true
   }
 }
@@ -104,9 +102,6 @@ resource "github_repository_collaborator" "this" {
   username   = each.value.username
   permission = each.value.permission
 
-  lifecycle {
-    ignore_changes = []
-  }
 }
 
 resource "github_branch_protection" "this" {
@@ -156,9 +151,6 @@ resource "github_team" "this" {
   description = try(each.value.description, null)
   privacy     = try(each.value.privacy, null)
 
-  lifecycle {
-    ignore_changes = []
-  }
 }
 
 resource "github_team_repository" "this" {
@@ -184,9 +176,6 @@ resource "github_team_membership" "this" {
 
   team_id = lookup(each.value, "team_id", lookup(lookup(github_team.this, lower(lookup(each.value, "team", "")), {}), "id", null))
 
-  lifecycle {
-    ignore_changes = []
-  }
 }
 
 resource "github_repository_file" "this" {
@@ -220,7 +209,4 @@ resource "github_issue_label" "this" {
   color       = try(each.value.color, null)
   description = try(each.value.description, null)
 
-  lifecycle {
-    ignore_changes = []
-  }
 }
