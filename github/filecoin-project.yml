@@ -707,13 +707,12 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - arajasek
-        - BlocksOnAChain
         - jennijuju
-        - kaitlin-beegle
         - momack2
+        - relotnek
       maintain:
-        - luckyparadise
+        - dannyob
+        - rjan90
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
