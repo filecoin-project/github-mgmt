@@ -712,6 +712,7 @@ repositories:
         - relotnek
       maintain:
         - dannyob
+        - rjan90
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
