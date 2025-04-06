@@ -49,6 +49,7 @@ members:
     # 2. general long-standing sysadmin for these organizations with his past roles at PL Inc.
     # 3. This isn't mastrwayne's day-to-day GitHub account
     - mastrwayne-admin
+    - mastrwayne
   member:
     - aakoshh
     - aarshkshah1992
@@ -258,7 +259,6 @@ repositories:
         - willscott
       maintain:
         - Amin-Foundation
-        - Paulina-Foundation
       push:
         - filecoin-watchdog
     has_discussions: true
@@ -3492,6 +3492,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - dannyob
         - Huang-Zexiang
         - ianconsolata
         - joekingss
