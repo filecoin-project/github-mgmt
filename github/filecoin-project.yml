@@ -1811,14 +1811,16 @@ repositories:
         - clriesco
         - dkkapur
         - kacperzuk-neti
+        - lukasz-wal
         - panges2
         - willscott
       push:
         - CodeWarriorr
         - Filip-L
-        - lukasz-wal
         - orvn
+        - pingwindyktator
         - timelytree
+        - tmaciej-neti
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1840,7 +1842,9 @@ repositories:
         - lukasz-wal
         - willscott
       push:
+        - CodeWarriorr
         - Filip-L
+        - pingwindyktator
         - tmaciej-neti
         - tplocic20
     has_discussions: false
@@ -3718,7 +3722,7 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    has_discussions: false
+    has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
@@ -4733,22 +4737,19 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - elvin-du
       maintain:
         - "0x5459"
         - arajasek
-        - elvin-du
+        - asamuj
         - LinZexiao
         - simlecode
         - tediou5
-      pull:
-        - Joss-Hua
-        - YiRuiLiher
-        - zhiqiangxu
       push:
         - ognots
         - Stebalien
         - StefanGajic
-        - Vladmair
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
