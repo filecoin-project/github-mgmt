@@ -3,7 +3,6 @@ import {Config} from '../yaml/config.js'
 import {Repository} from '../resources/repository.js'
 import {GitHub} from '../github.js'
 import {Resource, ResourceConstructor} from '../resources/resource.js'
-import {NodeBase} from 'yaml/dist/nodes/Node'
 import env from '../env.js'
 
 const AUDIT_LOG_LENGTH_IN_MONTHS = 12
@@ -17,7 +16,7 @@ function getResources<T extends Resource>(
     const node = config.document.getIn(
       resource.getSchemaPath(schema),
       true
-    ) as NodeBase
+    ) as {comment?: string}
     return !node.comment?.includes('KEEP:')
   })
 }
