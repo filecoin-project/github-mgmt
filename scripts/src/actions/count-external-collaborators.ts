@@ -1,8 +1,8 @@
 import 'reflect-metadata'
-import {Config} from '../yaml/config'
-import {Member} from '../resources/member'
-import {RepositoryCollaborator} from '../resources/repository-collaborator'
-import { Repository, Visibility } from '../resources/repository'
+import {Config} from '../yaml/config.js'
+import {Member} from '../resources/member.js'
+import {RepositoryCollaborator} from '../resources/repository-collaborator.js'
+import {Repository, Visibility} from '../resources/repository.js'
 
 async function run(): Promise<void> {
   const config = Config.FromPath()
