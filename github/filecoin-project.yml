@@ -1,1 +1,5194 @@
-{}
+members:
+  admin:
+    - anorth
+    - BigLep
+    - dr-bizz
+    - filecoinfoundation-inf
+    - galargh
+    - jennijuju
+    - magik6k
+    - mastrwayne-admin
+    - mastrwayne
+  member:
+    - aakoshh
+    - aarshkshah1992
+    - adlrocha
+    - akaladarshi
+    - alanshaw
+    - alexandrumatei36
+    - Alexey-N-Chernyshov
+    - AmeanAsad
+    - androowoo
+    - andyschwab
+    - arajasek
+    - arden-sead
+    - aronchick
+    - art-gor
+    - aschmahmann
+    - ashwanth-eth
+    - autonome
+    - aysmed
+    - bajtos
+    - birdychang
+    - BlocksOnAChain
+    - bradholden
+    - brdji
+    - brendalee
+    - BulatSaif
+    - cbrocoum
+    - Cre-eD
+    - cryptoAtwill
+    - cryptonemo
+    - dannyob
+    - davidad
+    - davidd8
+    - davidgasquez
+    - dchoi27
+    - DiegoRBaquero
+    - dkkapur
+    - dnkolegov
+    - DrPeterVanNostrand
+    - ec2
+    - elijaharita
+    - elmattic
+    - emilymvaughan
+    - eshon
+    - expede
+    - Fatman13
+    - FF-FOIT
+    - figureouter
+    - filecoin-ci
+    - filecoin-helper
+    - FilOzzy
+    - fridrik01
+    - frrist
+    - gammazero
+    - george-haddad
+    - GlacierWalrus
+    - guanzo
+    - guy-goren
+    - hammertoe
+    - hannahhoward
+    - hunjixin
+    - ianconsolata
+    - igor-egorov
+    - irenegia
+    - ischasny
+    - JadTermsani
+    - jbenet
+    - jdjaustin
+    - jimpick
+    - jnthnvctr
+    - joaosa
+    - jochasinga
+    - jsoares
+    - juliangruber
+    - kaitlin-beegle
+    - kevzak
+    - kkarrancsu
+    - Kubuxu
+    - lanzafame
+    - LaurenSpiegel
+    - laurentsenta
+    - lemmih
+    - lerajk
+    - LesnyRumcajs
+    - LexLuthr
+    - lksbrssr
+    - longfeiWan9
+    - lucaniz
+    - maciejwitowski
+    - macro-ss
+    - marco-storswift
+    - Markuu-s
+    - masih
+    - masterjedy
+    - matejpavlovic
+    - mb1896
+    - MF416
+    - Mingela
+    - mishmosh
+    - momack2
+    - monicaortel
+    - nicola
+    - ninitrava
+    - nonsense
+    - ns4plabs
+    - olizilla
+    - ortyomka
+    - parthpathakweb3
+    - parthshah1
+    - patrickwoodhead
+    - pk-controller
+    - pk13-PLF
+    - porcuquine
+    - protocol-labs
+    - protocolin
+    - q9f
+    - raghavrmadya
+    - raulk
+    - realChainLife
+    - Reiers
+    - relotnek
+    - ribasushi
+    - rjan90
+    - rk-rishikesh
+    - robertagora
+    - rvagg
+    - scotthconner
+    - SeedingTrees
+    - sergkaprovich
+    - simonkim0515
+    - smagdali
+    - smooth-operator
+    - snadrus
+    - snissn
+    - Stebalien
+    - Stefaan-V
+    - steven004
+    - sudo-shashank
+    - tediou5
+    - Terryhung
+    - TheDivic
+    - TheMenko
+    - TippyFlitsUK
+    - TorfinnOlsen
+    - trruckerfling
+    - turuslan
+    - vesahc
+    - virajbhartiya
+    - vmx
+    - vnessasgrt
+    - vukolic
+    - vvkio
+    - web3-bot
+    - whyrusleeping
+    - willscott
+    - xBalbinus
+    - xmcai2016
+    - XORS-eng
+    - yiannisbot
+    - YuliiaFilecoin
+    - ZenGround0
+    - zixuanzh
+    - zuiris
+repositories:
+  actors-private:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - actors-maintainers
+    visibility: private
+  actors-utils:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      push:
+        - alexytsu
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: PR_TITLE
+    teams:
+      admin:
+        - actors-maintainers
+    visibility: public
+  Allocator-Governance:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - galen-mcandrew
+        - Kevin-FF-USA
+        - martapiekarska
+        - willscott
+      maintain:
+        - Amin-Foundation
+      push:
+        - filecoin-watchdog
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  Allocator-Registry:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - galen-mcandrew
+        - Kevin-FF-USA
+        - willscott
+      push:
+        - Filip-L
+        - martapiekarska
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  apt:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - snadrus
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - curio
+    visibility: public
+  aq:
+    archived: true
+  armadillo:
+    archived: true
+  assets:
+    archived: true
+  athena:
+    archived: true
+  awesome-filecoin:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - LesnyRumcajs
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  batching-snarks:
+    archived: true
+  bellperson-gadgets:
+    archived: true
+  bellperson-private:
+    archived: true
+  bellperson:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - cryptonemo
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - proofs
+    visibility: public
+  benchmark-service:
+    archived: true
+  benchmarks:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - jennijuju
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  biscuit-dao:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  bitsets:
+    archived: true
+  bls-signatures:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - cryptonemo
+      push:
+        - ognots
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - ci
+      push:
+        - dev-misc
+        - proofs
+        - research
+    visibility: public
+  blst:
+    archived: true
+  blstrs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - cryptonemo
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - proofs
+    visibility: public
+  boost-docs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - LexLuthr
+        - masih
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - boost
+    visibility: public
+  boost-gfm:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - LexLuthr
+        - nonsense
+      push:
+        - hannahhoward
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - boost
+    visibility: public
+  boost-graphsync:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - LexLuthr
+        - nonsense
+      push:
+        - hannahhoward
+        - rvagg
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - boost
+    visibility: public
+  boost:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - davidd8
+        - hannahhoward
+        - jennijuju
+        - LexLuthr
+        - magik6k
+        - masih
+        - nonsense
+        - willscott
+      maintain:
+        - brendalee
+        - LaurenSpiegel
+        - rvagg
+      push:
+        - aarshkshah1992
+        - aschmahmann
+        - gammazero
+        - ischasny
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - boost
+    visibility: public
+  bsci-collab:
+    archived: true
+  builtin-actor-priv:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - actors-maintainers
+      pull:
+        - lotus-maintainers
+    visibility: private
+  builtin-actors-bundler:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - actors-maintainers
+        - fvm-crate-owners
+      push:
+        - fvm-core-devs
+    visibility: public
+  builtin-actors:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: PR_TITLE
+    teams:
+      admin:
+        - actors-maintainers
+      maintain:
+        - lotus-maintainers
+      push:
+        - actors-contributors
+        - Forest
+        - fvm-core-devs
+        - lotus-contributors
+        - venus
+    visibility: public
+  c-bls-sigs:
+    archived: true
+  cache-action:
+    archived: true
+  cgo-blockstore:
+    archived: true
+  chain-love-website:
+    archived: true
+  chain-validation:
+    archived: true
+  chung_scripts:
+    archived: true
+  circleci-exporter:
+    archived: true
+  client-growth-analytics:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - daviddias
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Data Programs
+    visibility: private
+  client-growth:
+    archived: true
+  cmc-circulating-supply-fil-addresses:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - ArseniiPetrovich
+        - dumikau
+        - dzmitrykliapkou
+        - eshon
+        - jbenet
+        - jennijuju
+        - mur-me
+        - protocolin
+      pull:
+        - arajasek
+        - pk-controller
+      push:
+        - openworklabbot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+  cod-starter-kit:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  community-china:
+    archived: true
+  community:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - jennijuju
+        - kaitlin-beegle
+        - momack2
+        - rjan90
+      maintain:
+        - eshon
+        - trruckerfling
+      push:
+        - arajasek
+        - dkkapur
+        - vnessasgrt
+      triage:
+        - ec2
+        - haochizzle
+        - timguo-ipfs
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - advocates
+    visibility: public
+  conformance-tools:
+    archived: true
+  consensus-dep:
+    archived: true
+  consensus:
+    archived: true
+  core-devs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - jennijuju
+        - momack2
+        - relotnek
+      maintain:
+        - dannyob
+        - rjan90
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  cpp-filecoin:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - zuiris
+      push:
+        - Elestrias
+        - Harrm
+        - Markuu-s
+        - Mingela
+        - wer1st
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - cpp-filecoin-team
+    visibility: public
+  cryptoecon-sim-david:
+    archived: true
+  cryptoeconomics-sim:
+    archived: true
+  cryptoeconomics:
+    archived: true
+  cryptolab-private:
+    archived: true
+  cryptolab:
+    archived: true
+  curio-docs:
+    archived: true
+  curio:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - magik6k
+      push:
+        - aarshkshah1992
+        - ZenGround0
+    has_discussions: true
+    merge_commit_message: PR_BODY
+    merge_commit_title: PR_TITLE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - curio
+    visibility: public
+  dagstore:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - arajasek
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - bedrock-go
+        - lotus-contributors
+    visibility: public
+  data-prep-tools:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - anjor
+        - willscott
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  data-transfer-benchmark:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hannahhoward
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  data:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      maintain:
+        - AlexxNica
+        - dkkapur
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+  dealbot:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - nonsense
+        - raulk
+        - willscott
+      maintain:
+        - arajasek
+        - davidd8
+        - dkkapur
+        - gammazero
+        - masih
+        - rvagg
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - w3dt-stewards
+      push:
+        - lotus-contributors
+    visibility: public
+  depr-notary-governance:
+    archived: true
+  deprecated-cryptoeconomics-simulator:
+    archived: true
+  designdocs-internal:
+    archived: true
+  designdocs:
+    archived: true
+  dev-vendor-hack:
+    archived: true
+  dev-wg:
+    archived: true
+  DeveloperWG:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - FF-FOIT
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  devgrants:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - BlocksOnAChain
+        - FF-FOIT
+        - realChainLife
+        - smagdali
+      maintain:
+        - eshon
+        - figureouter
+        - philippbanhardt
+      push:
+        - arajasek
+        - pap1ll0n
+        - SeedingTrees
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - foundation
+    visibility: public
+  docker-hub-exporter:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - ianconsolata
+        - ognots
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - infra
+    visibility: public
+  drg-attacks-deprecated:
+    archived: true
+  drg-attacks:
+    archived: true
+  ec_collab:
+    archived: true
+  ec-gpu:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - cryptonemo
+        - porcuquine
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - proofs
+    visibility: public
+  ecodash:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - ashwanth-eth
+        - mishmosh
+        - orvn
+        - timelytree
+        - vesahc
+      maintain:
+        - D3AS8A
+        - svvimming
+        - tikagan
+      push:
+        - lksbrssr
+        - splumms
+        - tjsMck
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  ecosystem-dashboard:
+    archived: true
+  ecsim2:
+    archived: true
+  engine:
+    archived: true
+  ent:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - actors-maintainers
+    visibility: public
+  eudico:
+    archived: true
+  events-directory:
+    archived: true
+  f3-activation-contract:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - BigLep
+        - Kubuxu
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - lotus-maintainers
+      push:
+        - Forest
+        - venus
+    visibility: public
+  f3-passive-testing:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - anorth
+        - jennijuju
+        - Kubuxu
+        - masih
+        - rjan90
+        - Stebalien
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - FilOz
+    visibility: private
+  fc-cap-sim:
+    archived: true
+  fcnr:
+    archived: true
+  fevm-contract-tests:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - fil-b
+        - lotus-maintainers
+      push:
+        - fvm-core-devs
+    visibility: public
+  fevm-data-dao-kit:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      maintain:
+        - hammertoe
+        - trruckerfling
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  fevm-foundry-kit:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - fil-b
+    visibility: public
+  fevm-hardhat-kit:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - hammertoe
+      push:
+        - arajasek
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - fil-b
+      push:
+        - lotus-maintainers
+    visibility: public
+  fevm-uniswap-v3-core:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - fil-b
+        - lotus-maintainers
+    visibility: public
+  ff-bounties:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - BigLep
+        - jennijuju
+        - momack2
+        - parthshah1
+        - relotnek
+      pull:
+        - AnomalRoil
+      push:
+        - arajasek
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - lotus-contributors
+    visibility: private
+  fff:
+    archived: true
+  ffi-stub:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      push:
+        - arajasek
+        - web3-bot
+        - willscott
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - lotus-contributors
+    visibility: public
+  fil_pasta_curves:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - cryptonemo
+        - vmx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - proofs
+    visibility: public
+  fil-b:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - longfeiWan9
+        - rk-rishikesh
+        - snissn
+        - trruckerfling
+        - xBalbinus
+        - XORS-eng
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  fil-blst:
+    archived: true
+  fil-calculations:
+    archived: true
+  fil-docs-bot:
+    archived: true
+  fil-ocl:
+    archived: true
+  fil-rustacuda:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - vmx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - proofs
+    visibility: public
+  fil-sppark:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - vmx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  filcryo:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - data
+        - Sentinel Admin
+        - sentinel
+    visibility: public
+  fildevsummit:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - momack2
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  filecoin-aggregator:
+    archived: true
+  filecoin-chain-archiver:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - ognots
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - infra
+    visibility: public
+  filecoin-client-tutorial:
+    archived: true
+  filecoin-contributors:
+    archived: true
+  filecoin-cred:
+    archived: true
+  filecoin-dashboard:
+    archived: true
+  filecoin-datasets-discovery-ui:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - jnthnvctr
+      push:
+        - frm
+        - zamith
+        - ZePedroResende
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+  filecoin-datasets:
+    archived: true
+  filecoin-discover-dealer:
+    archived: true
+  filecoin-discover-go-services:
+    archived: true
+  filecoin-discover-onboarding:
+    archived: true
+  filecoin-discover-validator:
+    archived: true
+  filecoin-docs-CAT:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  filecoin-docs-stefnotes:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  filecoin-docs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - andyschwab
+        - jennijuju
+        - raulk
+        - smagdali
+      maintain:
+        - bobdubois
+        - eshon
+        - lanzafame
+        - trruckerfling
+      push:
+        - Angelo-gh3990
+        - barbaraperic
+        - dannyob
+        - ivanka
+        - jochasinga
+        - mirhamasala
+        - robertagora
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - advocates
+        - boost
+        - docs-storage-provider
+    visibility: public
+  filecoin-explorer-private:
+    archived: true
+  filecoin-explorer:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - arajasek
+        - ognots
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - dev-misc
+    visibility: public
+  filecoin-ffi-private:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+        - proofs
+    visibility: private
+  filecoin-ffi:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+        - proofs
+    visibility: public
+  filecoin-fvm-localnet:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hammertoe
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  filecoin-http-api:
+    archived: true
+  filecoin-network-data:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+  filecoin-network-sim:
+    archived: true
+  filecoin-network-viz:
+    archived: true
+  filecoin-params:
+    archived: true
+  filecoin-phase2:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - cryptonemo
+      push:
+        - DrPeterVanNostrand
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  filecoin-plus-application-json-restructure:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - dkkapur
+        - fabriziogianni7
+        - galen-mcandrew
+        - jbesraa
+        - ssallam
+      maintain:
+        - willscott
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  filecoin-plus-client-onboarding:
+    archived: true
+  filecoin-plus-falcon:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - AlexMCon
+        - clriesco
+        - jbesraa
+        - kokal33
+        - panges2
+        - simonkim0515
+        - timelytree
+      push:
+        - data-programs
+        - orvn
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  filecoin-plus-large-datasets:
+    archived: true
+  filecoin-plus-leaderboard-data:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - dkkapur
+      maintain:
+        - AlexxNica
+        - willscott
+    has_discussions: false
+    merge_commit_message: PR_BODY
+    merge_commit_title: PR_TITLE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: PR_BODY
+    squash_merge_commit_title: PR_TITLE
+    visibility: public
+  filecoin-plus-leaderboard-deprecated:
+    archived: true
+  filecoin-plus-leaderboard:
+    archived: true
+  filecoin-plus-roadmap:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - dkkapur
+        - simonkim0515
+      maintain:
+        - kevzak
+        - raghavrmadya
+        - willscott
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - fil-plus-wg
+    visibility: public
+  filecoin-retrieval-market-website:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - abelsoares
+        - patrickwoodhead
+      maintain:
+        - claudiorodr
+        - tiago258
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - website
+    visibility: public
+  filecoin-solidity:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - BlocksOnAChain
+        - robertagora
+        - scotthconner
+      push:
+        - 4l8ee
+        - andrejrakic
+        - arajasek
+        - milos1731
+        - snissn
+        - vaniiiii
+        - vesahc
+        - vonum
+        - wertikalk
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - fvm-team
+    visibility: public
+  filecoin-storage-providers-market:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - davidgasquez
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  filecoin.io:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - dr-bizz
+        - filecoinfoundation-inf
+        - smagdali
+      maintain:
+        - andyschwab
+      pull:
+        - arajasek
+        - Isabellabcj
+      push:
+        - barbaraperic
+        - CharlyMartin
+        - mirhamasala
+        - momack2
+        - TippyFlitsUK
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: BLANK
+    squash_merge_commit_title: PR_TITLE
+    teams:
+      push:
+        - collab-ff-seo-ux
+        - website
+      triage:
+        - research
+    visibility: private
+  filecoin:
+    archived: true
+  filecoinverymagic:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hammertoe
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+  filet:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - data
+        - sentinel
+    visibility: public
+  filplus-backend:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - AlexMCon
+        - clriesco
+        - dkkapur
+        - kacperzuk-neti
+        - lukasz-wal
+        - panges2
+        - willscott
+      push:
+        - CodeWarriorr
+        - Filip-L
+        - orvn
+        - pingwindyktator
+        - timelytree
+        - tmaciej-neti
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  filplus-registry:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - AlexMCon
+        - clriesco
+        - dkkapur
+        - kacperzuk-neti
+        - lukasz-wal
+        - willscott
+      push:
+        - Filip-L
+        - pingwindyktator
+        - tmaciej-neti
+        - tplocic20
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  filplus-ssa-bot:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - AlexMCon
+        - clriesco
+        - dkkapur
+        - kacperzuk-neti
+        - willscott
+      push:
+        - Filip-L
+        - lukasz-wal
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  filplus-tooling-backend-test:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - AlexMCon
+        - clriesco
+        - dkkapur
+        - jbesraa
+        - kokal33
+        - orvn
+        - panges2
+        - timelytree
+        - willscott
+      push:
+        - data-programs
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  filplus-utils:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - AlexMCon
+        - clriesco
+        - dkkapur
+        - jbesraa
+        - kokal33
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  filsnap:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - eshon
+        - expede
+        - hugomrdias
+        - maciejwitowski
+        - smagdali
+      maintain:
+        - avivash
+        - meandavejustice
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  FIPs-1:
+    archived: true
+  FIPs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - Tanisha-fil
+      triage:
+        - filecoin-governance
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - fips-editors
+      push:
+        - cryptoeconomics
+        - FilOz
+        - Forest
+        - lotus-maintainers
+        - research
+        - venus
+    visibility: public
+  foundation-website:
+    archived: true
+  fungi:
+    archived: true
+  Fuzzing-FVM:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - BlocksOnAChain
+        - Jacarte
+      maintain:
+        - arajasek
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - fvm-core-devs
+    visibility: private
+  fuzzing-lotus:
+    archived: true
+  fvm-bench:
+    archived: true
+  fvm-docs:
+    archived: true
+  fvm-evm:
+    archived: true
+  fvm-example-actors:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  fvm-pm:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - BlocksOnAChain
+        - lksbrssr
+        - trruckerfling
+      maintain:
+        - arajasek
+        - eshon
+        - longfeiWan9
+        - snissn
+      pull:
+        - DrPeterVanNostrand
+        - WhiteFlamingo
+      push:
+        - jsoares
+        - LaurenSpiegel
+        - rk-rishikesh
+        - robertagora
+        - smagdali
+        - xBalbinus
+        - XORS-eng
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - fvm-core-devs
+        - lotus-maintainers
+    visibility: private
+  fvm-runtime-experiment:
+    archived: true
+  fvm-spacewarp:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - raulk
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - FVM Web
+    visibility: private
+  fvm-specs:
+    archived: true
+  fvm-starter-kit-deal-making:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - snissn
+      maintain:
+        - arajasek
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - fil-b
+      maintain:
+        - fvm-core-devs
+        - fvm-team
+        - lotus-maintainers
+    visibility: public
+  fvm-test-vectors:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - arajasek
+        - ec2
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - Forest
+        - lotus-contributors
+        - lotus-maintainers
+        - venus
+    visibility: public
+  fvm-wasm-instrument:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - magik6k
+      maintain:
+        - arajasek
+      push:
+        - Jacarte
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - lotus-maintainers
+    visibility: public
+  fvm-website:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - raulk
+      push:
+        - arajasek
+        - eshon
+        - mirhamasala
+        - momack2
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - collab-ff-seo-ux
+        - FVM Web
+    visibility: private
+  fvm-workbench:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      push:
+        - alexytsu
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: PR_BODY
+    squash_merge_commit_title: PR_TITLE
+    teams:
+      admin:
+        - actors-maintainers
+    visibility: public
+  gb-filecoin-docs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - docs-admins
+    visibility: public
+  geodns-server:
+    archived: true
+  gfm-priv:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - arajasek
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: private
+  github-exporter:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - ianconsolata
+        - ognots
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - infra
+    visibility: public
+  github-mgmt:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - github-mgmt stewards
+      triage:
+        - github-mgmt approvers
+    visibility: public
+  gitops-policy-library:
+    archived: true
+  gitops-profile-catalog:
+    archived: true
+  gitops-root:
+    archived: true
+  go-address:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: public
+  go-amt-ipld:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - actors-maintainers
+    visibility: public
+  go-bitfield:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - actors-maintainers
+      push:
+        - lotus-contributors
+    visibility: public
+  go-bls-sigs:
+    archived: true
+  go-bs-lmdb:
+    archived: true
+  go-bs-postgres-chainnotated:
+    archived: true
+  go-cbor-util:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: public
+  go-cid-tools:
+    archived: true
+  go-clock:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - lotus-maintainers
+    visibility: public
+  go-commp-utils:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - curio
+        - lotus-maintainers
+      push:
+        - lotus-contributors
+    visibility: public
+  go-crypto:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - Schwartz10
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: public
+  go-dagaggregator-unixfs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - ribasushi
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  go-data-segment:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+      push:
+        - lotus-contributors
+    visibility: public
+  go-data-transfer-bus:
+    archived: true
+  go-data-transfer:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hannahhoward
+        - rvagg
+      push:
+        - aarshkshah1992
+        - arajasek
+        - mishmosh
+      triage:
+        - dkkapur
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - lotus-contributors
+    visibility: public
+  go-ds-versioning:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+      push:
+        - lotus-contributors
+    visibility: public
+  go-f3:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - anorth
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: public
+  go-fil-commcid-priv:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      maintain:
+        - aschmahmann
+        - ribasushi
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: private
+  go-fil-commcid:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+      push:
+        - lotus-contributors
+    visibility: public
+  go-fil-commp-hashhash:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+      push:
+        - lotus-contributors
+    visibility: public
+  go-fil-filestore:
+    archived: true
+  go-fil-markets:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - aarshkshah1992
+        - anorth
+        - hannahhoward
+        - magik6k
+        - masih
+        - mishmosh
+        - nonsense
+      maintain:
+        - rvagg
+        - Stebalien
+      push:
+        - arajasek
+      triage:
+        - dkkapur
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - bedrock-go
+      push:
+        - lotus-contributors
+    visibility: public
+  go-filecoin-backup:
+    archived: true
+  go-filecoin-badges:
+    archived: true
+  go-filecoin-infra:
+    archived: true
+  go-hamt-ipld:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - actors-maintainers
+    visibility: public
+  go-http-api:
+    archived: true
+  go-ipld-cbor:
+    archived: true
+  go-jsonrpc:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: public
+  go-leb128-backup:
+    archived: true
+  go-leb128:
+    archived: true
+  go-legs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - gammazero
+        - willscott
+      maintain:
+        - arajasek
+        - hannahhoward
+        - masih
+      push:
+        - adlrocha
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - w3dt-stewards
+    visibility: public
+  go-multistore:
+    archived: true
+  go-padreader:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: public
+  go-paramfetch:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+      push:
+        - proofs
+    visibility: public
+  go-proofs:
+    archived: true
+  go-retrieval-market-project:
+    archived: true
+  go-retrieval-types:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hannahhoward
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  go-sectorbuilder-rpc:
+    archived: true
+  go-sectorbuilder:
+    archived: true
+  go-shared-types:
+    archived: true
+  go-state-types-private:
+    archived: true
+  go-state-types:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - actors-maintainers
+      maintain:
+        - lotus-maintainers
+      push:
+        - lotus-contributors
+    visibility: public
+  go-statemachine:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - curio
+        - lotus-maintainers
+      push:
+        - lotus-contributors
+    visibility: public
+  go-statestore:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: public
+  go-storage-market:
+    archived: true
+  go-storage-miner:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - magik6k
+        - whyrusleeping
+      maintain:
+        - Kubuxu
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - proofs
+    visibility: public
+  go-storedcounter:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: public
+  go-ulimit:
+    archived: true
+  gov_docs:
+    archived: true
+  grafana-lotus-theme:
+    archived: true
+  graphsync-chainsync-sprint:
+    archived: true
+  green.filecoin.io:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - dr-bizz
+        - orvn
+        - svvimming
+        - timelytree
+      maintain:
+        - splumms
+      push:
+        - D3AS8A
+        - joannaong
+        - nicole-code
+        - redransil
+      triage:
+        - emilymariahh
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - website
+    visibility: private
+  group:
+    archived: true
+  hackathons-forestry-legacy:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - lksbrssr
+        - suzannaaltman
+        - vvkio
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - website
+    visibility: private
+  hackathons-microgen-legacy:
+    archived: true
+  halo2:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - vmx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - proofs
+    visibility: public
+  helm-charts:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - filecoin-helper
+        - GlacierWalrus
+        - ognots
+      push:
+        - andrestorresGL
+        - masih
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - infra
+    visibility: public
+  homebrew-exporter:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - ianconsolata
+        - ognots
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - infra
+    visibility: public
+  homebrew-lotus:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - laurentsenta
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: public
+  hyperdrive-analysis:
+    archived: true
+  infra:
+    archived: true
+  iptb:
+    archived: true
+  jbenet-market-sim:
+    archived: true
+  jenkins:
+    archived: true
+  kube-infra:
+    archived: true
+  kubo-api-client:
+    archived: true
+  large-data.filecoin.io:
+    archived: true
+  lassie-event-recorder:
+    archived: true
+  lassie:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hannahhoward
+        - rvagg
+      maintain:
+        - AmeanAsad
+        - davidd8
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - bedrock-go
+    visibility: public
+  launch:
+    archived: true
+  learn-math:
+    archived: true
+  lid-benchmarks:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - LexLuthr
+        - magik6k
+        - nonsense
+      push:
+        - rjan90
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - boost
+    visibility: private
+  lightning-planning:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - davidd8
+        - hannahhoward
+      push:
+        - arajasek
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  lily-archiver:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      maintain:
+        - ognots
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Sentinel Admin
+      maintain:
+        - Sentinel Operators
+    visibility: public
+  lily:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - LaurenSpiegel
+        - starboard-devops
+        - Terryhung
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Sentinel Admin
+    visibility: public
+  lotus-archived:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: public
+  lotus-badges:
+    archived: true
+  lotus-dcops:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - cryptonemo
+        - schreck23
+      pull:
+        - vvkio
+      push:
+        - ognots
+        - Zorlin
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - proofs
+      push:
+        - infra
+    visibility: private
+  lotus-docs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - BigLep
+        - jennijuju
+        - rjan90
+      push:
+        - arajasek
+        - laurentsenta
+        - LexLuthr
+        - Reiers
+        - snadrus
+        - TippyFlitsUK
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - lotus-contributors
+    visibility: public
+  lotus-infra-archive:
+    archived: true
+  lotus-infra-dev:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - arajasek
+        - filecoin-helper
+        - ognots
+      maintain:
+        - rvagg
+      pull:
+        - turinglabsorg
+      push:
+        - cryptonemo
+        - DrPeterVanNostrand
+        - irenegia
+        - LexLuthr
+        - ribasushi
+        - scotthconner
+        - vmx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - infra
+        - w3dt-stewards
+      maintain:
+        - lotus-maintainers
+      push:
+        - lotus-contributors
+    visibility: private
+  lotus-infra:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      pull:
+        - lemmih
+        - LesnyRumcajs
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: public
+  Lotus-Miner-V2:
+    archived: true
+  lotus-priv:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: private
+  lotus-testground:
+    archived: true
+  lotus:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      maintain:
+        - snadrus
+      triage:
+        - ribasushi
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+      push:
+        - lotus-contributors
+      triage:
+        - filoz-devguild-mentees
+        - lotus-miner-maintainers
+    visibility: public
+  lua-filecoin:
+    archived: true
+  main-backup:
+    archived: true
+  main:
+    archived: true
+  mapr:
+    archived: true
+  mercury-api:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Sentinel Admin
+    visibility: private
+  mercury-fil:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      triage:
+        - arajasek
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Sentinel Admin
+    visibility: private
+  merkle_light-backup:
+    archived: true
+  merkletree:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - cryptonemo
+      push:
+        - arajasek
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - proofs
+      pull:
+        - ci
+    visibility: public
+  meta-aggregator-frontend:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  metadocs:
+    archived: true
+  metamodel:
+    archived: true
+  metaverse.filecoin.io:
+    archived: true
+  motion-arsenal:
+    archived: true
+  motion-cloudserver:
+    archived: true
+  motion-s3-connector:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hannahhoward
+        - masih
+        - willscott
+        - xinaxu
+      maintain:
+        - davidd8
+        - elijaharita
+        - LaurenSpiegel
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - bedrock-go
+    visibility: public
+  motion-sp-test:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - rvagg
+      push:
+        - elijaharita
+        - gammazero
+        - xinaxu
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  motion:
+    archived: true
+  motivation:
+    archived: true
+  near-blake2:
+    archived: true
+  network-info:
+    archived: true
+  notary-governance:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - dkkapur
+        - fabriziogianni7
+        - filecoin-plus-bot
+        - galen-mcandrew
+        - ialberquilla
+        - jnthnvctr
+        - Kevin-FF-USA
+        - raghavrmadya
+      maintain:
+        - kevzak
+        - panges2
+        - simonkim0515
+      push:
+        - filplus-bot
+        - xmcai2016
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  on-chain-voting:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - dannyob
+        - Huang-Zexiang
+        - ianconsolata
+        - joekingss
+        - kaitlin-beegle
+        - liuzeming1
+        - macro-ss
+        - mor9x00
+        - smagdali
+        - willpan1102
+      maintain:
+        - QuietLiu01
+      pull:
+        - filipagr
+      push:
+        - ygy-1231
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  oni:
+    archived: true
+  openzeppelin-contracts:
+    archived: true
+  orbit.filecoin.io:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - andyschwab
+        - dr-bizz
+        - suzannaaltman
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - website
+    visibility: private
+  orient:
+    archived: true
+  paired:
+    archived: true
+  paper-porep-drg:
+    archived: true
+  parity-wasm:
+    archived: true
+  pc2_cuda:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - vmx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  PebblingAndDepthReductionAttacks:
+    archived: true
+  phase2-attestations-internal-verification:
+    archived: true
+  phase2-attestations:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - porcuquine
+      pull:
+        - ribasushi
+      push:
+        - cryptonemo
+        - DrPeterVanNostrand
+        - jnthnvctr
+        - vmx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  phase2:
+    archived: true
+  playground:
+    archived: true
+  pm:
+    archived: true
+  powersoftau:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - proofs
+    visibility: public
+  product-biz:
+    archived: true
+  product:
+    archived: true
+  proofs-buildbot:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - galargh
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - proofs
+    visibility: private
+  proofs:
+    archived: true
+  pubsub:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: public
+  raas-starter-kit:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - lordshashank
+        - ravish1729
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - fil-b
+    visibility: public
+  ref-fvm-fuzz-corpora:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - arajasek
+        - filecoin-helper
+        - Kubuxu
+      push:
+        - Jacarte
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: public
+  ref-fvm-priv:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: private
+  ref-fvm:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+      push:
+        - fil-b
+        - Forest
+        - fvm-core-devs
+        - lotus-contributors
+    visibility: public
+  release-metrics-gitops:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - ianconsolata
+        - ognots
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - infra
+    visibility: public
+  replication-game-infra:
+    archived: true
+  replication-game-leaderboard:
+    archived: true
+  replication-game:
+    archived: true
+  research-FC-calculator:
+    archived: true
+  research-network:
+    archived: true
+  research-private:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - anorth
+        - nicola
+      push:
+        - irenegia
+        - lucaniz
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+  research-retreats:
+    archived: true
+  research-simpleCalc:
+    archived: true
+  research-website:
+    archived: true
+  research:
+    archived: true
+  retrieval-load-testing:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hannahhoward
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - bedrock-go
+    visibility: public
+  retrieval-market-spec:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hannahhoward
+        - momack2
+        - patrickwoodhead
+      pull:
+        - daviddias
+      push:
+        - arajasek
+        - willscott
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - Retrieval Market Builders
+    visibility: public
+  retrieval-market:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - patrickwoodhead
+      pull:
+        - daviddias
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - Retrieval Market Builders
+    visibility: public
+  rhea-load-testing:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hannahhoward
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  roadmap:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - momack2
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  rust-cad-cad:
+    archived: true
+  rust-fil-ffi-toolkit:
+    archived: true
+  rust-fil-logger:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - vmx
+      pull:
+        - ognots
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - proofs
+      pull:
+        - dev-misc
+    visibility: public
+  rust-fil-nse-gpu:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - porcuquine
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  rust-fil-proofs-ffi:
+    archived: true
+  rust-fil-proofs-private:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - cryptonemo
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+  rust-fil-proofs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - cryptonemo
+        - jennijuju
+      pull:
+        - BlocksOnAChain
+        - DignifiedquireSyncBot
+        - ognots
+      push:
+        - porcuquine
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - ci
+        - dev-misc
+        - infra
+      push:
+        - proofs
+      triage:
+        - research
+    visibility: public
+  rust-fil-secp256k1:
+    archived: true
+  rust-fil-sector-builder:
+    archived: true
+  rust-filbase:
+    archived: true
+  rust-filecoin-proofs-api-private:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - cryptonemo
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+  rust-filecoin-proofs-api:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - cryptonemo
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - proofs
+      pull:
+        - ci
+    visibility: public
+  rust-gpu-tools:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - cryptonemo
+        - porcuquine
+        - vmx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - proofs
+    visibility: public
+  rust-proofs-backup:
+    archived: true
+  rust-proofs-infra:
+    archived: true
+  rust-sha2ni:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      maintain:
+        - vmx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  sample-data:
+    archived: true
+  sapling-crypto:
+    archived: true
+  sector-storage:
+    archived: true
+  security-analysis:
+    archived: true
+  sentinel-backfill:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      maintain:
+        - ognots
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - data
+        - Sentinel Admin
+        - sentinel
+      maintain:
+        - infra
+    visibility: private
+  sentinel-drone:
+    archived: true
+  sentinel-infra:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - ognots
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - infra
+        - Sentinel Admin
+      maintain:
+        - Weaveworks
+    visibility: private
+  sentinel-locations:
+    archived: true
+  sentinel-private:
+    archived: true
+  sentinel-tick:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - arajasek
+        - ognots
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - data
+        - Sentinel Admin
+        - sentinel
+      push:
+        - infra
+        - lotus-contributors
+    visibility: public
+  sentinel:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - daviddias
+        - starboard-devops
+      pull:
+        - momack2
+        - nicola
+        - olizilla
+        - zixuanzh
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Sentinel Admin
+      pull:
+        - oni
+        - research
+    visibility: public
+  serialization-vectors:
+    archived: true
+  service-classes:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      maintain:
+        - patrickwoodhead
+      push:
+        - bajtos
+        - davidgasquez
+        - juliangruber
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  shared-shell-scripts:
+    archived: true
+  slackcident:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - relotnek
+      maintain:
+        - parthshah1
+        - smagdali
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+  slate-react-system:
+    archived: true
+  slate-stats:
+    archived: true
+  slate:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - Aminejvm
+      maintain:
+        - achalvs
+        - akuokojnr
+        - harisbutt
+        - martinalong
+      pull:
+        - gndclouds
+        - tmytrn
+        - uonai
+      push:
+        - johannes-jp
+        - jordattebayo
+        - tarafanlin
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  snapcraft-exporter:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - ianconsolata
+        - ognots
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - infra
+    visibility: public
+  snark-circuits:
+    archived: true
+  solidity-data-segment:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  sp-automation:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - bobdubois
+        - nonsense
+      push:
+        - brendalee
+        - joaosa
+        - LexLuthr
+        - schreck23
+        - Zorlin
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  sp-infographic:
+    archived: true
+  sp-mentorship-grants:
+    archived: true
+  sp.filecoin.io:
+    archived: true
+  specs-actors:
+    archived: true
+  specs-private:
+    archived: true
+  specs-storage:
+    archived: true
+  specs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - arajasek
+        - ianconsolata
+        - olizilla
+        - yiannisbot
+      maintain:
+        - barbaraperic
+        - lanzafame
+        - mirhamasala
+        - nonsense
+        - robertagora
+        - smagdali
+      push:
+        - ognots
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      maintain:
+        - specs
+      push:
+        - dev-misc
+      triage:
+        - research
+    visibility: public
+  SPWG:
+    archived: true
+  starling:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - starling-storage
+    visibility: public
+  state-storage-starter-kit:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - longfeiWan9
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - fil-b
+    visibility: public
+  statediff:
+    archived: true
+  storage-fsm:
+    archived: true
+  storage-team:
+    archived: true
+  storage.filecoin.io:
+    archived: true
+  sturdy-journey:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  system-test-matrix:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - BlocksOnAChain
+        - brdji
+        - raulk
+      pull:
+        - KatarinaKeti
+        - LaneBloxico
+        - TheDivic
+      push:
+        - AbominableSnowman730
+        - aleksaToljic
+        - bokimilinkovic
+        - MilosMarkoni
+        - mstojanovicbloxico
+        - StefanGajic
+        - Vojimirovich
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  taupipp:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - proofs
+        - research
+    visibility: public
+  terraform-google-lily-starter:
+    archived: true
+  test-vectors:
+    archived: true
+  testnet-calibration:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - eshon
+        - LesnyRumcajs
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  testnet-hyperspace:
+    archived: true
+  testnet-wallaby:
+    archived: true
+  time-capsule-app:
+    archived: true
+  tla-f3:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - jsoares
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - consensuslab
+    visibility: public
+  TODOnotes:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  token-distribution-procedures:
+    archived: true
+  tornado-deploy:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hannahhoward
+        - masih
+        - willscott
+      maintain:
+        - rvagg
+        - sti-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - bedrock-go
+    visibility: public
+  TPM:
+    archived: true
+  tweety:
+    archived: true
+  unified-github-workflows:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  venus-common-types:
+    archived: true
+  venus-docs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - arajasek
+        - elvin-du
+        - eshon
+        - hunjixin
+        - jennijuju
+        - mishmosh
+        - steven004
+      maintain:
+        - "0x5459"
+        - Joss-Hua
+        - simlecode
+      push:
+        - filecoin-helper
+        - LinZexiao
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  venus-sealer:
+    archived: true
+  venus-wallet:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - elvin-du
+        - simlecode
+      maintain:
+        - "0x5459"
+        - LinZexiao
+      pull:
+        - arajasek
+      push:
+        - tediou5
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - venus
+    visibility: public
+  venus:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - elvin-du
+      maintain:
+        - "0x5459"
+        - arajasek
+        - asamuj
+        - LinZexiao
+        - simlecode
+        - tediou5
+      push:
+        - ognots
+        - Stebalien
+        - StefanGajic
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - collab-ipfs-force
+      maintain:
+        - venus
+      pull:
+        - ci
+        - tooling
+      push:
+        - infra
+    visibility: public
+  wasm-tools:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - Jacarte
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  wasmtime:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - Stebalien
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  website-archive.discuss.filecoin.io:
+    archived: true
+  website-bounty.filecoin.io:
+    archived: true
+  website-grants:
+    archived: true
+  website-liftoff:
+    archived: true
+  website-security.filecoin.io:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - alanshaw
+        - andyschwab
+        - daviddias
+        - dkkapur
+        - eshon
+        - olizilla
+        - parthshah1
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  website:
+    archived: true
+  wge-post-deployment-template-renderer:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  why-market-sim:
+    archived: true
+  zexe:
+    archived: true
+teams:
+  actors-contributors:
+    members:
+      member:
+        - arajasek
+        - ec2
+        - kkarrancsu
+        - macro-ss
+        - marco-storswift
+  actors-maintainers:
+    members:
+      maintainer:
+        - anorth
+        - jennijuju
+        - Stebalien
+        - ZenGround0
+      member:
+        - aarshkshah1992
+        - Kubuxu
+        - masih
+        - rjan90
+        - rvagg
+        - TippyFlitsUK
+  advocates:
+    members:
+      member:
+        - hammertoe
+        - lksbrssr
+        - longfeiWan9
+        - mishmosh
+        - trruckerfling
+  alumni:
+    members:
+      maintainer:
+        - anorth
+        - BigLep
+        - jennijuju
+        - magik6k
+      member:
+        - alanshaw
+        - AmeanAsad
+        - androowoo
+        - andyschwab
+        - aschmahmann
+        - ashwanth-eth
+        - aysmed
+        - bradholden
+        - brendalee
+        - cbrocoum
+        - cryptonemo
+        - davidd8
+        - DiegoRBaquero
+        - dkkapur
+        - emilymvaughan
+        - eshon
+        - figureouter
+        - fridrik01
+        - frrist
+        - gammazero
+        - guanzo
+        - hammertoe
+        - hannahhoward
+        - ischasny
+        - jbenet
+        - juliangruber
+        - Kubuxu
+        - lucaniz
+        - masih
+        - matejpavlovic
+        - MF416
+        - mishmosh
+        - momack2
+        - nicola
+        - ninitrava
+        - nonsense
+        - olizilla
+        - patrickwoodhead
+        - pk-controller
+        - pk13-PLF
+        - protocolin
+        - raulk
+        - ribasushi
+        - rvagg
+        - scotthconner
+        - Stebalien
+        - Stefaan-V
+        - Terryhung
+        - TorfinnOlsen
+        - trruckerfling
+        - vesahc
+        - vmx
+        - whyrusleeping
+        - willscott
+        - yiannisbot
+        - ZenGround0
+  bedrock-go:
+    members:
+      maintainer:
+        - masih
+        - willscott
+      member:
+        - aarshkshah1992
+        - davidd8
+        - elijaharita
+        - gammazero
+        - hannahhoward
+        - LexLuthr
+        - nonsense
+        - rvagg
+  boost:
+    members:
+      maintainer:
+        - brendalee
+        - davidd8
+        - ischasny
+        - LexLuthr
+        - magik6k
+        - masih
+        - nonsense
+      member:
+        - Reiers
+        - snadrus
+  Boost:
+    {}
+  CERT:
+    members:
+      maintainer:
+        - mastrwayne-admin
+      member:
+        - monicaortel
+  ci:
+    members:
+      member:
+        - filecoin-ci
+  collab-ff-seo-ux:
+    members:
+      member:
+        - smagdali
+  collab-ipfs-force:
+    members:
+      member:
+        - steven004
+  community-mgmt:
+    members:
+      maintainer:
+        - jennijuju
+  consensuslab:
+    members:
+      maintainer:
+        - adlrocha
+        - jsoares
+        - vukolic
+      member:
+        - aakoshh
+        - cryptoAtwill
+        - dnkolegov
+        - guy-goren
+        - matejpavlovic
+  cpp-filecoin-team:
+    members:
+      member:
+        - Alexey-N-Chernyshov
+        - art-gor
+        - BulatSaif
+        - Cre-eD
+        - igor-egorov
+        - masterjedy
+        - Mingela
+        - ortyomka
+        - sergkaprovich
+        - turuslan
+        - zuiris
+  cryptoeconomics:
+    members:
+      maintainer:
+        - protocolin
+        - zixuanzh
+      member:
+        - jbenet
+        - nicola
+  curio:
+    members:
+      maintainer:
+        - magik6k
+        - snadrus
+      member:
+        - LexLuthr
+        - Reiers
+  Curio:
+    {}
+  Data Programs:
+    members:
+      maintainer:
+        - dkkapur
+      member:
+        - ribasushi
+  data:
+    members:
+      member:
+        - birdychang
+        - Terryhung
+  dev-misc:
+    members:
+      maintainer:
+        - anorth
+        - magik6k
+      member:
+        - DrPeterVanNostrand
+        - eshon
+        - filecoin-helper
+        - frrist
+        - jbenet
+        - jnthnvctr
+        - Kubuxu
+        - porcuquine
+        - vmx
+        - whyrusleeping
+        - ZenGround0
+        - zixuanzh
+  docs-admins:
+    {}
+  docs-storage-provider:
+    members:
+      member:
+        - smagdali
+  fil-b:
+    members:
+      maintainer:
+        - trruckerfling
+      member:
+        - longfeiWan9
+        - rk-rishikesh
+        - snissn
+        - xBalbinus
+        - XORS-eng
+  FIL-B:
+    {}
+  fil-plus-wg:
+    members:
+      maintainer:
+        - dkkapur
+        - simonkim0515
+      member:
+        - kevzak
+        - raghavrmadya
+  filoz-devguild-mentees:
+    members:
+      member:
+        - akaladarshi
+        - virajbhartiya
+  FilOz:
+    members:
+      maintainer:
+        - anorth
+        - jennijuju
+        - TippyFlitsUK
+      member:
+        - aarshkshah1992
+        - irenegia
+        - Kubuxu
+        - lucaniz
+        - masih
+        - momack2
+        - nicola
+        - rjan90
+        - rvagg
+        - Stebalien
+        - ZenGround0
+  fips-editors:
+    members:
+      maintainer:
+        - anorth
+        - jennijuju
+      member:
+        - dannyob
+        - jsoares
+        - lanzafame
+        - momack2
+        - rvagg
+        - TippyFlitsUK
+  Forest:
+    members:
+      maintainer:
+        - lemmih
+        - lerajk
+        - raulk
+      member:
+        - elmattic
+        - LesnyRumcajs
+        - q9f
+        - sudo-shashank
+  foundation:
+    members:
+      maintainer:
+        - ianconsolata
+        - realChainLife
+        - smagdali
+      member:
+        - SeedingTrees
+        - vnessasgrt
+  FVM Web:
+    members:
+      maintainer:
+        - jennijuju
+      member:
+        - eshon
+        - lksbrssr
+        - raulk
+        - trruckerfling
+  fvm-core-devs:
+    members:
+      maintainer:
+        - anorth
+      member:
+        - Kubuxu
+        - raulk
+        - Stebalien
+        - ZenGround0
+  fvm-crate-owners:
+    members:
+      maintainer:
+        - jennijuju
+        - magik6k
+      member:
+        - raulk
+        - rjan90
+        - rvagg
+        - Stebalien
+  fvm-team:
+    members:
+      maintainer:
+        - jennijuju
+        - magik6k
+      member:
+        - fridrik01
+        - hammertoe
+        - parthpathakweb3
+        - raulk
+        - Stebalien
+        - trruckerfling
+  github-mgmt approvers:
+    members:
+      member:
+        - rjan90
+        - Stebalien
+        - willscott
+  github-mgmt stewards:
+    members:
+      maintainer:
+        - BigLep
+        - galargh
+        - jennijuju
+      member:
+        - rjan90
+        - rvagg
+        - smagdali
+  infra:
+    members:
+      member:
+        - birdychang
+        - GlacierWalrus
+        - ns4plabs
+        - Terryhung
+  ipdx:
+    members:
+      maintainer:
+        - galargh
+      member:
+        - laurentsenta
+  legal:
+    {}
+  lotus-contributors:
+    members:
+      maintainer:
+        - BigLep
+        - jennijuju
+      member:
+        - cryptonemo
+        - fridrik01
+        - GlacierWalrus
+        - hannahhoward
+        - Kubuxu
+        - LexLuthr
+        - maciejwitowski
+        - masih
+        - nonsense
+        - raulk
+        - rjan90
+        - rvagg
+        - snissn
+        - TippyFlitsUK
+        - whyrusleeping
+        - willscott
+  lotus-maintainers:
+    members:
+      maintainer:
+        - BigLep
+        - jennijuju
+        - magik6k
+      member:
+        - aarshkshah1992
+        - Kubuxu
+        - masih
+        - rjan90
+        - rvagg
+        - Stebalien
+        - TippyFlitsUK
+        - ZenGround0
+  lotus-miner-maintainers:
+    members:
+      maintainer:
+        - tediou5
+  moderators:
+    members:
+      maintainer:
+        - dr-bizz
+        - mastrwayne-admin
+      member:
+        - arden-sead
+  motion:
+    members:
+      member:
+        - davidd8
+        - hannahhoward
+        - LaurenSpiegel
+        - masih
+        - willscott
+  Motion:
+    {}
+  oni:
+    members:
+      maintainer:
+        - raulk
+      member:
+        - alanshaw
+        - jimpick
+        - momack2
+        - nonsense
+        - whyrusleeping
+        - willscott
+  product-biz:
+    members:
+      maintainer:
+        - mishmosh
+        - protocolin
+      member:
+        - cbrocoum
+        - davidad
+        - jnthnvctr
+        - zixuanzh
+  product:
+    members:
+      member:
+        - dchoi27
+        - dkkapur
+        - jnthnvctr
+        - ribasushi
+  proj-mgmt:
+    members:
+      maintainer:
+        - anorth
+      member:
+        - davidd8
+        - eshon
+        - frrist
+        - jnthnvctr
+        - mishmosh
+        - porcuquine
+        - protocolin
+        - raulk
+        - whyrusleeping
+        - ZenGround0
+  proofs:
+    members:
+      maintainer:
+        - cryptonemo
+      member:
+        - DrPeterVanNostrand
+        - Kubuxu
+        - nicola
+        - porcuquine
+        - vmx
+  research:
+    members:
+      maintainer:
+        - nicola
+      member:
+        - DrPeterVanNostrand
+        - irenegia
+        - jbenet
+        - jsoares
+        - lucaniz
+        - ninitrava
+        - yiannisbot
+  Retrieval Market Builders:
+    members:
+      member:
+        - bajtos
+        - joaosa
+        - juliangruber
+        - patrickwoodhead
+  saturn:
+    members:
+      maintainer:
+        - patrickwoodhead
+      member:
+        - aarshkshah1992
+        - AmeanAsad
+        - bajtos
+        - DiegoRBaquero
+  security-managers:
+    members:
+      member:
+        - parthshah1
+        - relotnek
+        - smagdali
+  Sentinel Admin:
+    members:
+      maintainer:
+        - birdychang
+      member:
+        - Terryhung
+  Sentinel Operators:
+    members:
+      maintainer:
+        - birdychang
+      member:
+        - Terryhung
+  sentinel:
+    members:
+      maintainer:
+        - birdychang
+      member:
+        - Terryhung
+  Sentinel:
+    {}
+  space-meridian:
+    members:
+      maintainer:
+        - patrickwoodhead
+      member:
+        - bajtos
+        - juliangruber
+  specs:
+    members:
+      maintainer:
+        - anorth
+      member:
+        - jbenet
+        - mishmosh
+        - momack2
+        - nicola
+        - porcuquine
+        - whyrusleeping
+        - yiannisbot
+        - zixuanzh
+  starling-storage:
+    members:
+      member:
+        - alexandrumatei36
+        - george-haddad
+        - JadTermsani
+        - mishmosh
+        - smooth-operator
+  tooling:
+    members:
+      member:
+        - frrist
+        - jnthnvctr
+  UXimprovement team:
+    members:
+      maintainer:
+        - smagdali
+  venus:
+    members:
+      maintainer:
+        - steven004
+      member:
+        - Fatman13
+  Venus:
+    {}
+  w3dt-stewards:
+    members:
+      maintainer:
+        - BigLep
+        - jennijuju
+        - magik6k
+        - Stebalien
+      member:
+        - BlocksOnAChain
+        - ZenGround0
+  Weaveworks:
+    {}
+  website:
+    members:
+      maintainer:
+        - eshon
+      member:
+        - andyschwab
+        - dkkapur
+        - emilymvaughan
+        - filecoin-helper
+        - jnthnvctr
+        - mishmosh
+        - momack2
+        - nicola
+        - protocolin
+        - vesahc
