@@ -768,6 +768,7 @@ repositories:
       admin:
         - magik6k
       push:
+        - aarshkshah1992
         - ZenGround0
     has_discussions: true
     merge_commit_message: PR_BODY
@@ -1842,7 +1843,6 @@ repositories:
         - lukasz-wal
         - willscott
       push:
-        - CodeWarriorr
         - Filip-L
         - pingwindyktator
         - tmaciej-neti
@@ -1951,7 +1951,7 @@ repositories:
     archived: false
     collaborators:
       push:
-        - luckyparadise
+        - Tanisha-fil
       triage:
         - filecoin-governance
     has_discussions: true
@@ -4435,8 +4435,7 @@ repositories:
         content: >
           # Please see the documentation for all configuration options:
 
-          #
-          https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+          # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 
           version: 2
@@ -4812,7 +4811,6 @@ repositories:
     archived: true
 teams:
   actors-contributors:
-    create_default_maintainer: false
     members:
       member:
         - arajasek
@@ -4843,7 +4841,6 @@ teams:
         - mishmosh
         - trruckerfling
   alumni:
-    create_default_maintainer: false
     members:
       maintainer:
         - anorth
@@ -5052,7 +5049,6 @@ teams:
         - kevzak
         - raghavrmadya
   filoz-devguild-mentees:
-    create_default_maintainer: false
     members:
       member:
         - akaladarshi
@@ -5155,7 +5151,6 @@ teams:
     # 4. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
     # 5. Leaning on "github-mgmt approvers" for day-to-day admin over true org owners was done
     #    as part of the effort to reduce org owners in https://github.com/filecoin-project/github-mgmt/issues/47
-    create_default_maintainer: false
     members:
       # ATTN: members are expected to:
       #  - be familiar with github-mgmt / github-as-code
@@ -5229,7 +5224,6 @@ teams:
         - ns4plabs
         - Terryhung
   ipdx:
-    create_default_maintainer: false
     members:
       maintainer:
         - galargh
@@ -5275,12 +5269,10 @@ teams:
         - TippyFlitsUK
         - ZenGround0
   lotus-miner-maintainers:
-    create_default_maintainer: false
     members:
       maintainer:
         - tediou5
   moderators:
-    create_default_maintainer: false
     # Assigning this team the Moderator role is configured through the GitHub UI, not in github-mgmt.
     # Sead team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
     members:
@@ -5381,7 +5373,6 @@ teams:
         - DiegoRBaquero
   security-managers:
     # Note: members of this team have read access to all repos per https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
-    create_default_maintainer: false
     # Filecoin Foundation team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
     members:
       member:
@@ -5408,7 +5399,6 @@ teams:
         - Terryhung
   space-meridian:
     # This team is used for @mentioning, particularly in the service-classes repo.
-    create_default_maintainer: false
     members:
       maintainer:
         - patrickwoodhead
