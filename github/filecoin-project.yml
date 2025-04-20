@@ -305,7 +305,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - curio
+        - Curio
     visibility: public
   aq:
     archived: true
@@ -446,7 +446,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
-        - boost
+        - Boost
     visibility: public
   boost-gfm:
     advanced_security: false
@@ -467,7 +467,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
-        - boost
+        - Boost
     visibility: public
   boost-graphsync:
     advanced_security: false
@@ -489,7 +489,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
-        - boost
+        - Boost
     visibility: public
   boost:
     advanced_security: false
@@ -523,7 +523,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
-        - boost
+        - Boost
     visibility: public
   bsci-collab:
     archived: true
@@ -589,7 +589,7 @@ repositories:
         - Forest
         - fvm-core-devs
         - lotus-contributors
-        - venus
+        - Venus
     visibility: public
   c-bls-sigs:
     archived: true
@@ -779,7 +779,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - curio
+        - Curio
     visibility: public
   dagstore:
     advanced_security: false
@@ -1057,7 +1057,7 @@ repositories:
         - lotus-maintainers
       push:
         - Forest
-        - venus
+        - Venus
     visibility: public
   f3-passive-testing:
     advanced_security: false
@@ -1099,7 +1099,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - fil-b
+        - FIL-B
         - lotus-maintainers
       push:
         - fvm-core-devs
@@ -1133,7 +1133,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - fil-b
+        - FIL-B
     visibility: public
   fevm-hardhat-kit:
     advanced_security: false
@@ -1153,7 +1153,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - fil-b
+        - FIL-B
       push:
         - lotus-maintainers
     visibility: public
@@ -1170,7 +1170,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - fil-b
+        - FIL-B
         - lotus-maintainers
     visibility: public
   ff-bounties:
@@ -1319,7 +1319,7 @@ repositories:
       admin:
         - data
         - Sentinel Admin
-        - sentinel
+        - Sentinel
     visibility: public
   fildevsummit:
     advanced_security: false
@@ -1453,7 +1453,7 @@ repositories:
     teams:
       push:
         - advocates
-        - boost
+        - Boost
         - docs-storage-provider
     visibility: public
   filecoin-explorer-private:
@@ -1800,7 +1800,7 @@ repositories:
     teams:
       admin:
         - data
-        - sentinel
+        - Sentinel
     visibility: public
   filplus-backend:
     advanced_security: false
@@ -1970,7 +1970,7 @@ repositories:
         - Forest
         - lotus-maintainers
         - research
-        - venus
+        - Venus
     visibility: public
   foundation-website:
     archived: true
@@ -2094,7 +2094,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - fil-b
+        - FIL-B
       maintain:
         - fvm-core-devs
         - fvm-team
@@ -2120,7 +2120,7 @@ repositories:
         - Forest
         - lotus-contributors
         - lotus-maintainers
-        - venus
+        - Venus
     visibility: public
   fvm-wasm-instrument:
     advanced_security: false
@@ -2397,7 +2397,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - curio
+        - Curio
         - lotus-maintainers
       push:
         - lotus-contributors
@@ -2794,7 +2794,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - curio
+        - Curio
         - lotus-maintainers
       push:
         - lotus-contributors
@@ -3082,7 +3082,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
-        - boost
+        - Boost
     visibility: private
   lightning-planning:
     advanced_security: false
@@ -3676,7 +3676,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - fil-b
+        - FIL-B
     visibility: public
   ref-fvm-fuzz-corpora:
     advanced_security: false
@@ -3733,7 +3733,7 @@ repositories:
       admin:
         - lotus-maintainers
       push:
-        - fil-b
+        - FIL-B
         - Forest
         - fvm-core-devs
         - lotus-contributors
@@ -4088,7 +4088,7 @@ repositories:
       admin:
         - data
         - Sentinel Admin
-        - sentinel
+        - Sentinel
       maintain:
         - infra
     visibility: private
@@ -4144,7 +4144,7 @@ repositories:
       admin:
         - data
         - Sentinel Admin
-        - sentinel
+        - Sentinel
       push:
         - infra
         - lotus-contributors
@@ -4387,7 +4387,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - fil-b
+        - FIL-B
     visibility: public
   statediff:
     archived: true
@@ -4692,7 +4692,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
-        - venus
+        - Venus
     visibility: public
   venus:
     advanced_security: false
@@ -4723,7 +4723,7 @@ repositories:
       admin:
         - collab-ipfs-force
       maintain:
-        - venus
+        - Venus
       pull:
         - ci
         - tooling
@@ -4919,7 +4919,7 @@ teams:
         - LexLuthr
         - nonsense
         - rvagg
-  boost:
+  Boost:
     members:
       maintainer:
         - brendalee
@@ -4932,8 +4932,6 @@ teams:
       member:
         - Reiers
         - snadrus
-  Boost:
-    {}
   CERT:
     members:
       maintainer:
@@ -4990,7 +4988,7 @@ teams:
       member:
         - jbenet
         - nicola
-  curio:
+  Curio:
     members:
       maintainer:
         - magik6k
@@ -4998,8 +4996,6 @@ teams:
       member:
         - LexLuthr
         - Reiers
-  Curio:
-    {}
   Data Programs:
     members:
       maintainer:
@@ -5035,7 +5031,7 @@ teams:
     members:
       member:
         - smagdali
-  fil-b:
+  FIL-B:
     members:
       maintainer:
         - trruckerfling
@@ -5045,8 +5041,6 @@ teams:
         - snissn
         - xBalbinus
         - XORS-eng
-  FIL-B:
-    {}
   fil-plus-wg:
     members:
       maintainer:
@@ -5289,7 +5283,7 @@ teams:
         - mastrwayne-admin
       member:
         - arden-sead
-  motion:
+  Motion:
     members:
       member:
         - davidd8
@@ -5297,8 +5291,6 @@ teams:
         - LaurenSpiegel
         - masih
         - willscott
-  Motion:
-    {}
   oni:
     members:
       maintainer:
@@ -5400,14 +5392,12 @@ teams:
         - birdychang
       member:
         - Terryhung
-  sentinel:
+  Sentinel:
     members:
       maintainer:
         - birdychang
       member:
         - Terryhung
-  Sentinel:
-    {}
   space-meridian:
     # This team is used for @mentioning, particularly in the service-classes repo.
     members:
@@ -5446,14 +5436,12 @@ teams:
     members:
       maintainer:
         - smagdali
-  venus:
+  Venus:
     members:
       maintainer:
         - steven004
       member:
         - Fatman13
-  Venus:
-    {}
   w3dt-stewards:
     members:
       maintainer:
