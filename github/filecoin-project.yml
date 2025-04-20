@@ -305,7 +305,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - Curio
+        - curio
     visibility: public
   aq:
     archived: true
@@ -446,7 +446,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
-        - Boost
+        - boost
     visibility: public
   boost-gfm:
     advanced_security: false
@@ -467,7 +467,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
-        - Boost
+        - boost
     visibility: public
   boost-graphsync:
     advanced_security: false
@@ -489,7 +489,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
-        - Boost
+        - boost
     visibility: public
   boost:
     advanced_security: false
@@ -523,7 +523,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
-        - Boost
+        - boost
     visibility: public
   bsci-collab:
     archived: true
@@ -589,7 +589,7 @@ repositories:
         - Forest
         - fvm-core-devs
         - lotus-contributors
-        - Venus
+        - venus
     visibility: public
   c-bls-sigs:
     archived: true
@@ -768,6 +768,7 @@ repositories:
       admin:
         - magik6k
       push:
+        - aarshkshah1992
         - ZenGround0
     has_discussions: true
     merge_commit_message: PR_BODY
@@ -778,7 +779,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - Curio
+        - curio
     visibility: public
   dagstore:
     advanced_security: false
@@ -1056,7 +1057,7 @@ repositories:
         - lotus-maintainers
       push:
         - Forest
-        - Venus
+        - venus
     visibility: public
   f3-passive-testing:
     advanced_security: false
@@ -1098,7 +1099,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - FIL-B
+        - fil-b
         - lotus-maintainers
       push:
         - fvm-core-devs
@@ -1132,7 +1133,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - FIL-B
+        - fil-b
     visibility: public
   fevm-hardhat-kit:
     advanced_security: false
@@ -1152,7 +1153,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - FIL-B
+        - fil-b
       push:
         - lotus-maintainers
     visibility: public
@@ -1169,7 +1170,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - FIL-B
+        - fil-b
         - lotus-maintainers
     visibility: public
   ff-bounties:
@@ -1318,7 +1319,7 @@ repositories:
       admin:
         - data
         - Sentinel Admin
-        - Sentinel
+        - sentinel
     visibility: public
   fildevsummit:
     advanced_security: false
@@ -1452,7 +1453,7 @@ repositories:
     teams:
       push:
         - advocates
-        - Boost
+        - boost
         - docs-storage-provider
     visibility: public
   filecoin-explorer-private:
@@ -1799,7 +1800,7 @@ repositories:
     teams:
       admin:
         - data
-        - Sentinel
+        - sentinel
     visibility: public
   filplus-backend:
     advanced_security: false
@@ -1842,7 +1843,6 @@ repositories:
         - lukasz-wal
         - willscott
       push:
-        - CodeWarriorr
         - Filip-L
         - pingwindyktator
         - tmaciej-neti
@@ -1951,7 +1951,7 @@ repositories:
     archived: false
     collaborators:
       push:
-        - luckyparadise
+        - Tanisha-fil
       triage:
         - filecoin-governance
     has_discussions: true
@@ -1970,7 +1970,7 @@ repositories:
         - Forest
         - lotus-maintainers
         - research
-        - Venus
+        - venus
     visibility: public
   foundation-website:
     archived: true
@@ -2094,7 +2094,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - FIL-B
+        - fil-b
       maintain:
         - fvm-core-devs
         - fvm-team
@@ -2120,7 +2120,7 @@ repositories:
         - Forest
         - lotus-contributors
         - lotus-maintainers
-        - Venus
+        - venus
     visibility: public
   fvm-wasm-instrument:
     advanced_security: false
@@ -2397,7 +2397,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - Curio
+        - curio
         - lotus-maintainers
       push:
         - lotus-contributors
@@ -2794,7 +2794,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - Curio
+        - curio
         - lotus-maintainers
       push:
         - lotus-contributors
@@ -3082,7 +3082,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
-        - Boost
+        - boost
     visibility: private
   lightning-planning:
     advanced_security: false
@@ -3676,7 +3676,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - FIL-B
+        - fil-b
     visibility: public
   ref-fvm-fuzz-corpora:
     advanced_security: false
@@ -3733,7 +3733,7 @@ repositories:
       admin:
         - lotus-maintainers
       push:
-        - FIL-B
+        - fil-b
         - Forest
         - fvm-core-devs
         - lotus-contributors
@@ -4088,7 +4088,7 @@ repositories:
       admin:
         - data
         - Sentinel Admin
-        - Sentinel
+        - sentinel
       maintain:
         - infra
     visibility: private
@@ -4144,7 +4144,7 @@ repositories:
       admin:
         - data
         - Sentinel Admin
-        - Sentinel
+        - sentinel
       push:
         - infra
         - lotus-contributors
@@ -4387,7 +4387,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - FIL-B
+        - fil-b
     visibility: public
   statediff:
     archived: true
@@ -4692,7 +4692,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
-        - Venus
+        - venus
     visibility: public
   venus:
     advanced_security: false
@@ -4723,7 +4723,7 @@ repositories:
       admin:
         - collab-ipfs-force
       maintain:
-        - Venus
+        - venus
       pull:
         - ci
         - tooling
@@ -4812,7 +4812,6 @@ repositories:
     archived: true
 teams:
   actors-contributors:
-    create_default_maintainer: false
     members:
       member:
         - arajasek
@@ -4843,7 +4842,6 @@ teams:
         - mishmosh
         - trruckerfling
   alumni:
-    create_default_maintainer: false
     members:
       maintainer:
         - anorth
@@ -4921,7 +4919,7 @@ teams:
         - LexLuthr
         - nonsense
         - rvagg
-  Boost:
+  boost:
     members:
       maintainer:
         - brendalee
@@ -4934,6 +4932,8 @@ teams:
       member:
         - Reiers
         - snadrus
+  Boost:
+    {}
   CERT:
     members:
       maintainer:
@@ -4990,7 +4990,7 @@ teams:
       member:
         - jbenet
         - nicola
-  Curio:
+  curio:
     members:
       maintainer:
         - magik6k
@@ -4998,6 +4998,8 @@ teams:
       member:
         - LexLuthr
         - Reiers
+  Curio:
+    {}
   Data Programs:
     members:
       maintainer:
@@ -5033,7 +5035,7 @@ teams:
     members:
       member:
         - smagdali
-  FIL-B:
+  fil-b:
     members:
       maintainer:
         - trruckerfling
@@ -5043,6 +5045,8 @@ teams:
         - snissn
         - xBalbinus
         - XORS-eng
+  FIL-B:
+    {}
   fil-plus-wg:
     members:
       maintainer:
@@ -5052,7 +5056,6 @@ teams:
         - kevzak
         - raghavrmadya
   filoz-devguild-mentees:
-    create_default_maintainer: false
     members:
       member:
         - akaladarshi
@@ -5155,7 +5158,6 @@ teams:
     # 4. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
     # 5. Leaning on "github-mgmt approvers" for day-to-day admin over true org owners was done
     #    as part of the effort to reduce org owners in https://github.com/filecoin-project/github-mgmt/issues/47
-    create_default_maintainer: false
     members:
       # ATTN: members are expected to:
       #  - be familiar with github-mgmt / github-as-code
@@ -5229,7 +5231,6 @@ teams:
         - ns4plabs
         - Terryhung
   ipdx:
-    create_default_maintainer: false
     members:
       maintainer:
         - galargh
@@ -5275,12 +5276,10 @@ teams:
         - TippyFlitsUK
         - ZenGround0
   lotus-miner-maintainers:
-    create_default_maintainer: false
     members:
       maintainer:
         - tediou5
   moderators:
-    create_default_maintainer: false
     # Assigning this team the Moderator role is configured through the GitHub UI, not in github-mgmt.
     # Sead team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
     members:
@@ -5290,7 +5289,7 @@ teams:
         - mastrwayne-admin
       member:
         - arden-sead
-  Motion:
+  motion:
     members:
       member:
         - davidd8
@@ -5298,6 +5297,8 @@ teams:
         - LaurenSpiegel
         - masih
         - willscott
+  Motion:
+    {}
   oni:
     members:
       maintainer:
@@ -5381,7 +5382,6 @@ teams:
         - DiegoRBaquero
   security-managers:
     # Note: members of this team have read access to all repos per https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
-    create_default_maintainer: false
     # Filecoin Foundation team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
     members:
       member:
@@ -5400,15 +5400,16 @@ teams:
         - birdychang
       member:
         - Terryhung
-  Sentinel:
+  sentinel:
     members:
       maintainer:
         - birdychang
       member:
         - Terryhung
+  Sentinel:
+    {}
   space-meridian:
     # This team is used for @mentioning, particularly in the service-classes repo.
-    create_default_maintainer: false
     members:
       maintainer:
         - patrickwoodhead
@@ -5445,12 +5446,14 @@ teams:
     members:
       maintainer:
         - smagdali
-  Venus:
+  venus:
     members:
       maintainer:
         - steven004
       member:
         - Fatman13
+  Venus:
+    {}
   w3dt-stewards:
     members:
       maintainer:
