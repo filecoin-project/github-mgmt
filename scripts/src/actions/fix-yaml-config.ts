@@ -8,30 +8,27 @@ import {runToggleArchivedRepos} from './shared/toggle-archived-repos.js'
 import {runDescribeAccessChanges} from './shared/describe-access-changes.js'
 
 import * as core from '@actions/core'
+import {GitHub} from '../github.js'
 
 function isPublic(repository: Repository) {
   return repository.visibility === 'public'
 }
 
-function isRust(repository: Repository) {
-  return repository.name.startsWith('rust-')
-}
-
 async function run() {
-  await runSetPropertyInAllRepos(
-    'secret_scanning',
-    true,
-    r => isPublic(r)
+  const github = await GitHub.getGitHub()
+  const repositories = await github.listRepositories()
+  const isRust = (repository: Repository) => {
+    return (
+      repositories.find(r => r.name === repository.name)?.language === 'Rust'
+    )
+  }
+
+  await runSetPropertyInAllRepos('secret_scanning', true, r => isPublic(r))
+  await runSetPropertyInAllRepos('secret_scanning_push_protection', true, r =>
+    isPublic(r)
   )
-  await runSetPropertyInAllRepos(
-    'secret_scanning_push_protection',
-    true,
-    r => isPublic(r)
-  )
-  await runAddCollaboratorToAllRepos(
-    'web3-bot',
-    Permission.Push,
-    r => isRust(r)
+  await runAddCollaboratorToAllRepos('web3-bot', Permission.Push, r =>
+    isRust(r)
   )
   await runToggleArchivedRepos()
   const accessChangesDescription = await runDescribeAccessChanges()
