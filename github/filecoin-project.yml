@@ -1531,8 +1531,8 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
-        - proofs
         - proofs-crate-owners
+        - proofs
     visibility: private
   filecoin-ffi:
     advanced_security: false
@@ -1551,8 +1551,8 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
-        - proofs
         - proofs-crate-owners
+        - proofs
     visibility: public
   filecoin-fvm-localnet:
     advanced_security: false
@@ -3793,8 +3793,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - lotus-maintainers
         - fvm-crate-owners
+        - lotus-maintainers
     visibility: private
   ref-fvm:
     advanced_security: false
@@ -3812,8 +3812,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - lotus-maintainers
         - fvm-crate-owners
+        - lotus-maintainers
       push:
         - FIL-B
         - Forest
@@ -5202,7 +5202,8 @@ teams:
         - rvagg
         - Stebalien
         - ZenGround0
-  filplus-crate-owners: {}
+  filplus-crate-owners:
+    {}
   fips-editors:
     members:
       maintainer:
@@ -5465,6 +5466,8 @@ teams:
         - raulk
         - whyrusleeping
         - ZenGround0
+  proofs-crate-owners:
+    {}
   proofs:
     members:
       maintainer:
@@ -5475,7 +5478,6 @@ teams:
         - nicola
         - porcuquine
         - vmx
-  proofs-crate-owners: {}
   research:
     members:
       maintainer:
