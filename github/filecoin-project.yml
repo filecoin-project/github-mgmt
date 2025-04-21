@@ -236,6 +236,7 @@ repositories:
     collaborators:
       push:
         - alexytsu
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -343,6 +344,8 @@ repositories:
     collaborators:
       admin:
         - cryptonemo
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -393,6 +396,7 @@ repositories:
       admin:
         - cryptonemo
       push:
+        - filecoin-helper
         - ognots
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -418,6 +422,8 @@ repositories:
     collaborators:
       admin:
         - cryptonemo
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -531,6 +537,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -550,6 +559,7 @@ repositories:
     archived: false
     collaborators:
       push:
+        - filecoin-helper
         - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -571,6 +581,7 @@ repositories:
     archived: false
     collaborators:
       push:
+        - filecoin-helper
         - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -973,6 +984,8 @@ repositories:
       admin:
         - cryptonemo
         - porcuquine
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1229,6 +1242,8 @@ repositories:
       admin:
         - cryptonemo
         - vmx
+      push:
+        - filecoin-helper
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -1278,6 +1293,8 @@ repositories:
     collaborators:
       admin:
         - vmx
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1296,6 +1313,8 @@ repositories:
     collaborators:
       admin:
         - vmx
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1481,6 +1500,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1497,6 +1519,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1554,6 +1579,7 @@ repositories:
         - cryptonemo
       push:
         - DrPeterVanNostrand
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1817,6 +1843,7 @@ repositories:
         - willscott
       push:
         - CodeWarriorr
+        - filecoin-helper
         - Filip-L
         - orvn
         - pingwindyktator
@@ -1986,6 +2013,8 @@ repositories:
         - Jacarte
       maintain:
         - arajasek
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2132,6 +2161,7 @@ repositories:
       maintain:
         - arajasek
       push:
+        - filecoin-helper
         - Jacarte
     files:
       .github/dependabot.yml:
@@ -2193,6 +2223,7 @@ repositories:
     collaborators:
       push:
         - alexytsu
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2923,6 +2954,8 @@ repositories:
     collaborators:
       admin:
         - vmx
+      push:
+        - filecoin-helper
     files:
       .github/dependabot.yml:
         content: |
@@ -3377,6 +3410,7 @@ repositories:
         - cryptonemo
       push:
         - arajasek
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3608,6 +3642,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3704,6 +3741,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - filecoin-helper
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -3722,6 +3762,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - filecoin-helper
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3900,6 +3943,8 @@ repositories:
         - vmx
       pull:
         - ognots
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3920,6 +3965,8 @@ repositories:
     collaborators:
       admin:
         - porcuquine
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3937,6 +3984,8 @@ repositories:
     collaborators:
       admin:
         - cryptonemo
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3958,6 +4007,7 @@ repositories:
         - DignifiedquireSyncBot
         - ognots
       push:
+        - filecoin-helper
         - porcuquine
     has_discussions: true
     merge_commit_message: PR_TITLE
@@ -3989,6 +4039,8 @@ repositories:
     collaborators:
       admin:
         - cryptonemo
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4004,6 +4056,8 @@ repositories:
     collaborators:
       admin:
         - cryptonemo
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4026,6 +4080,8 @@ repositories:
         - cryptonemo
         - porcuquine
         - vmx
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4048,6 +4104,8 @@ repositories:
     collaborators:
       maintain:
         - vmx
+      push:
+        - filecoin-helper
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -4523,6 +4581,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4735,6 +4796,7 @@ repositories:
     archived: false
     collaborators:
       push:
+        - filecoin-helper
         - Jacarte
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -4751,6 +4813,8 @@ repositories:
     collaborators:
       admin:
         - Stebalien
+      push:
+        - filecoin-helper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
