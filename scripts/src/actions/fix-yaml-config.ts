@@ -1,6 +1,8 @@
 import 'reflect-metadata'
 import {Repository} from '../resources/repository.js'
+import {Permission} from '../resources/repository-collaborator.js'
 import {runFormat} from './shared/format.js'
+import {runAddCollaboratorToAllRepos} from './shared/add-collaborator-to-all-repos.js'
 import {runSetPropertyInAllRepos} from './shared/set-property-in-all-repos.js'
 import {runToggleArchivedRepos} from './shared/toggle-archived-repos.js'
 import {runDescribeAccessChanges} from './shared/describe-access-changes.js'
@@ -9,6 +11,10 @@ import * as core from '@actions/core'
 
 function isPublic(repository: Repository) {
   return repository.visibility === 'public'
+}
+
+function isRust(repository: Repository) {
+  return repository.name.startsWith('rust-')
 }
 
 async function run() {
@@ -21,6 +27,11 @@ async function run() {
     'secret_scanning_push_protection',
     true,
     r => isPublic(r)
+  )
+  await runAddCollaboratorToAllRepos(
+    'web3-bot',
+    Permission.Push,
+    r => isRust(r)
   )
   await runToggleArchivedRepos()
   const accessChangesDescription = await runDescribeAccessChanges()
