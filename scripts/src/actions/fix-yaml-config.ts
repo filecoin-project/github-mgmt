@@ -27,7 +27,7 @@ async function run() {
   await runSetPropertyInAllRepos('secret_scanning_push_protection', true, r =>
     isPublic(r)
   )
-  await runAddCollaboratorToAllRepos('web3-bot', Permission.Push, r =>
+  await runAddCollaboratorToAllRepos('filecoin-helper', Permission.Push, r =>
     isRust(r)
   )
   await runToggleArchivedRepos()
