@@ -99,7 +99,7 @@ members:
     - FF-FOIT
     - figureouter
     - filecoin-ci
-    - filecoin-helper
+    - 
     - FilOzzy
     - fridrik01
     - frrist
@@ -2957,7 +2957,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - filecoin-helper
         - GlacierWalrus
         - ognots
       push:
@@ -3232,7 +3231,6 @@ repositories:
     collaborators:
       admin:
         - arajasek
-        - filecoin-helper
         - ognots
       maintain:
         - rvagg
@@ -3685,7 +3683,6 @@ repositories:
     collaborators:
       admin:
         - arajasek
-        - filecoin-helper
         - Kubuxu
       push:
         - Jacarte
@@ -4655,7 +4652,6 @@ repositories:
         - Joss-Hua
         - simlecode
       push:
-        - filecoin-helper
         - LinZexiao
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -5014,7 +5010,6 @@ teams:
       member:
         - DrPeterVanNostrand
         - eshon
-        - filecoin-helper
         - frrist
         - jbenet
         - jnthnvctr
@@ -5461,7 +5456,6 @@ teams:
         - andyschwab
         - dkkapur
         - emilymvaughan
-        - filecoin-helper
         - jnthnvctr
         - mishmosh
         - momack2
