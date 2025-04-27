@@ -1879,9 +1879,6 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - filplus-crate-owners
     visibility: public
   filplus-registry:
     advanced_security: false
@@ -5202,8 +5199,6 @@ teams:
         - rvagg
         - Stebalien
         - ZenGround0
-  filplus-crate-owners:
-    {}
   fips-editors:
     members:
       maintainer:
@@ -5467,7 +5462,15 @@ teams:
         - whyrusleeping
         - ZenGround0
   proofs-crate-owners:
-    {}
+    members:
+      maintainer:
+        - jennijuju
+      member:
+        - Kubuxu
+        - rjan90
+        - rvagg
+        - Stebalien
+        - ZenGround0
   proofs:
     members:
       maintainer:

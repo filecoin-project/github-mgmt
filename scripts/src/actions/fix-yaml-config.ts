@@ -27,6 +27,7 @@ async function run() {
   await runSetPropertyInAllRepos('secret_scanning_push_protection', true, r =>
     isPublic(r)
   )
+  // Ensure all Rust repos have a consistent superuser per https://github.com/filecoin-project/github-mgmt/issues/104
   await runAddCollaboratorToAllRepos('filecoin-helper', Permission.Push, r =>
     isRust(r)
   )
