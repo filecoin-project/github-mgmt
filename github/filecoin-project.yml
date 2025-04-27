@@ -1064,7 +1064,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - anorth
         - jennijuju
         - Kubuxu
         - masih
