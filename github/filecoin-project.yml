@@ -99,6 +99,7 @@ members:
     - FF-FOIT
     - figureouter
     - filecoin-ci
+    - filecoin-helper
     - FilOzzy
     - fridrik01
     - frrist
