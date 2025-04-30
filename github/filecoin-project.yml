@@ -246,6 +246,7 @@ repositories:
     teams:
       admin:
         - actors-maintainers
+        - fvm-crate-owners
     visibility: public
   Allocator-Governance:
     advanced_security: false
@@ -351,6 +352,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - proofs-crate-owners
       push:
         - proofs
     visibility: public
@@ -402,6 +405,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - proofs-crate-owners
       pull:
         - ci
       push:
@@ -426,6 +431,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - proofs-crate-owners
       maintain:
         - proofs
     visibility: public
@@ -538,6 +545,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    # NOTE: We don't add create-owners team here because this repo is never published
     teams:
       admin:
         - actors-maintainers
@@ -582,6 +590,7 @@ repositories:
     teams:
       admin:
         - actors-maintainers
+        - fvm-crate-owners
       maintain:
         - lotus-maintainers
       push:
@@ -981,6 +990,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - proofs-crate-owners
       maintain:
         - proofs
     visibility: public
@@ -1239,6 +1250,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - proofs-crate-owners
       push:
         - proofs
     visibility: public
@@ -1285,6 +1298,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - proofs-crate-owners
       push:
         - proofs
     visibility: public
@@ -1302,6 +1317,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - proofs-crate-owners
     visibility: public
   filcryo:
     advanced_security: false
@@ -1487,6 +1505,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    # NOTE: We don't add create-owners team here because this repo is never published
     teams:
       admin:
         - lotus-maintainers
@@ -1506,6 +1525,7 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
+        - proofs-crate-owners
         - proofs
     visibility: public
   filecoin-fvm-localnet:
@@ -1560,6 +1580,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - proofs-crate-owners
     visibility: public
   filecoin-plus-application-json-restructure:
     advanced_security: false
@@ -1993,6 +2016,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - fvm-crate-owners
       maintain:
         - fvm-core-devs
     visibility: private
@@ -2155,6 +2180,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - fvm-crate-owners
       maintain:
         - lotus-maintainers
     visibility: public
@@ -2202,6 +2229,7 @@ repositories:
     teams:
       admin:
         - actors-maintainers
+        - fvm-crate-owners
     visibility: public
   gb-filecoin-docs:
     advanced_security: false
@@ -2947,6 +2975,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - proofs-crate-owners
       push:
         - proofs
     visibility: public
@@ -3382,6 +3412,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - proofs-crate-owners
       maintain:
         - proofs
       pull:
@@ -3613,6 +3645,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - proofs-crate-owners
       push:
         - proofs
     visibility: public
@@ -3710,6 +3744,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    # NOTE: We don't add create-owners team here because this repo is never published
     teams:
       admin:
         - lotus-maintainers
@@ -3727,6 +3762,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
+        - fvm-crate-owners
         - lotus-maintainers
       push:
         - FIL-B
@@ -3904,6 +3940,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - proofs-crate-owners
       maintain:
         - proofs
       pull:
@@ -3923,9 +3961,13 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - proofs-crate-owners
     visibility: public
   rust-fil-proofs-ffi:
     archived: true
+  # NOTE: We don't add create-owners team here because this repo is never published
   rust-fil-proofs-private:
     advanced_security: false
     allow_update_branch: false
@@ -3963,6 +4005,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - proofs-crate-owners
       pull:
         - ci
         - dev-misc
@@ -3978,6 +4022,7 @@ repositories:
     archived: true
   rust-filbase:
     archived: true
+  # NOTE: We don't add create-owners team here because this repo is never published
   rust-filecoin-proofs-api-private:
     advanced_security: false
     allow_update_branch: false
@@ -4008,6 +4053,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - proofs-crate-owners
       maintain:
         - proofs
       pull:
@@ -4030,6 +4077,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - proofs-crate-owners
       push:
         - proofs
     visibility: public
@@ -4054,6 +4103,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - proofs-crate-owners
     visibility: public
   sample-data:
     archived: true
@@ -4527,6 +4579,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - proofs-crate-owners
       pull:
         - proofs
         - research
@@ -4738,6 +4792,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - fvm-crate-owners
     visibility: public
   wasmtime:
     advanced_security: false
@@ -4753,6 +4810,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - fvm-crate-owners
     visibility: public
   website-archive.discuss.filecoin.io:
     archived: true
@@ -5326,6 +5386,16 @@ teams:
         - protocolin
         - raulk
         - whyrusleeping
+        - ZenGround0
+  proofs-crate-owners:
+    members:
+      maintainer:
+        - jennijuju
+      member:
+        - Kubuxu
+        - rjan90
+        - rvagg
+        - Stebalien
         - ZenGround0
   proofs:
     members:
