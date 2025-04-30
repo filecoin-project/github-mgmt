@@ -12,15 +12,9 @@ function isPublic(repository: Repository) {
 }
 
 async function run() {
-  await runSetPropertyInAllRepos(
-    'secret_scanning',
-    true,
-    r => isPublic(r)
-  )
-  await runSetPropertyInAllRepos(
-    'secret_scanning_push_protection',
-    true,
-    r => isPublic(r)
+  await runSetPropertyInAllRepos('secret_scanning', true, r => isPublic(r))
+  await runSetPropertyInAllRepos('secret_scanning_push_protection', true, r =>
+    isPublic(r)
   )
   await runToggleArchivedRepos()
   const accessChangesDescription = await runDescribeAccessChanges()
