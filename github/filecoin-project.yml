@@ -545,10 +545,10 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    # NOTE: We don't add create-owners team here because this repo is never published
     teams:
       admin:
         - actors-maintainers
-        - fvm-crate-owners
       pull:
         - lotus-maintainers
     visibility: private
@@ -1505,10 +1505,10 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    # NOTE: We don't add create-owners team here because this repo is never published
     teams:
       admin:
         - lotus-maintainers
-        - proofs-crate-owners
         - proofs
     visibility: private
   filecoin-ffi:
@@ -3747,9 +3747,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    # NOTE: We don't add create-owners team here because this repo is never published
     teams:
       admin:
-        - fvm-crate-owners
         - lotus-maintainers
     visibility: private
   ref-fvm:
@@ -3970,6 +3970,7 @@ repositories:
     visibility: public
   rust-fil-proofs-ffi:
     archived: true
+  # NOTE: We don't add create-owners team here because this repo is never published
   rust-fil-proofs-private:
     advanced_security: false
     allow_update_branch: false
@@ -3984,9 +3985,6 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - proofs-crate-owners
     visibility: private
   rust-fil-proofs:
     advanced_security: false
@@ -4027,6 +4025,7 @@ repositories:
     archived: true
   rust-filbase:
     archived: true
+  # NOTE: We don't add create-owners team here because this repo is never published
   rust-filecoin-proofs-api-private:
     advanced_security: false
     allow_update_branch: false
@@ -4041,9 +4040,6 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - proofs-crate-owners
     visibility: private
   rust-filecoin-proofs-api:
     advanced_security: false
