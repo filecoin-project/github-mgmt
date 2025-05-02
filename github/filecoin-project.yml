@@ -99,7 +99,7 @@ members:
     - FF-FOIT
     - figureouter
     - filecoin-ci
-    - filecoin-helper
+    - filecoin-crate-owner
     - FilOzzy
     - fridrik01
     - frrist
@@ -5388,6 +5388,7 @@ teams:
         - whyrusleeping
         - ZenGround0
   proofs-crate-owners:
+    create_default_maintainer: false
     members:
       maintainer:
         - jennijuju
