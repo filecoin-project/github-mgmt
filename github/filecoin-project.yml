@@ -1765,8 +1765,8 @@ repositories:
       admin:
         - dr-bizz
         - filecoinfoundation-inf
-        - smagdali
         - mirhamasala
+        - smagdali
       maintain:
         - andyschwab
       pull:
