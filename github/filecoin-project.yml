@@ -1766,6 +1766,7 @@ repositories:
         - dr-bizz
         - filecoinfoundation-inf
         - smagdali
+        - mirhamasala
       maintain:
         - andyschwab
       pull:
