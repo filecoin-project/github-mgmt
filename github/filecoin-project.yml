@@ -1869,7 +1869,6 @@ repositories:
         - Filip-L
         - pingwindyktator
         - tmaciej-neti
-        - tplocic20
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3502,7 +3501,6 @@ repositories:
       admin:
         - dkkapur
         - fabriziogianni7
-        - filecoin-plus-bot
         - galen-mcandrew
         - ialberquilla
         - jnthnvctr
@@ -3513,7 +3511,6 @@ repositories:
         - panges2
         - simonkim0515
       push:
-        - filplus-bot
         - xmcai2016
     has_discussions: true
     merge_commit_message: PR_TITLE
