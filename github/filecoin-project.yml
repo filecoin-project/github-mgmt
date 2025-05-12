@@ -5179,7 +5179,6 @@ teams:
         - jennijuju
         - magik6k
       member:
-        - filecoin-crate-owner # temporary as part of https://github.com/filecoin-project/github-mgmt/issues/104
         - raulk
         - rjan90
         - rvagg
@@ -5392,7 +5391,6 @@ teams:
       maintainer:
         - jennijuju
       member:
-        - filecoin-crate-owner # temporary as part of https://github.com/filecoin-project/github-mgmt/issues/104
         - Kubuxu
         - rjan90
         - rvagg
