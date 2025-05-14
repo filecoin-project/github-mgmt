@@ -280,8 +280,8 @@ repositories:
         - Kevin-FF-USA
         - willscott
       push:
-        - Filip-L
         - CharlyMartin
+        - Filip-L
         - martapiekarska
     has_discussions: false
     merge_commit_message: PR_TITLE
