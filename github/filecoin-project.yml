@@ -1206,8 +1206,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
-        - lotus-maintainers
         - lotus-contributors
+        - lotus-maintainers
     visibility: private
   fff:
     archived: true
