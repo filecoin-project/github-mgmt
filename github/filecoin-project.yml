@@ -1080,7 +1080,6 @@ repositories:
         - Kubuxu
         - masih
         - rjan90
-        - Stebalien
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2624,7 +2623,6 @@ repositories:
         - nonsense
       maintain:
         - rvagg
-        - Stebalien
       push:
         - arajasek
       triage:
@@ -4756,7 +4754,6 @@ repositories:
         - tediou5
       push:
         - ognots
-        - Stebalien
         - StefanGajic
     has_discussions: true
     merge_commit_message: PR_TITLE
@@ -4798,9 +4795,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - Stebalien
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4871,12 +4865,12 @@ teams:
         - kkarrancsu
         - macro-ss
         - marco-storswift
+        - Stebalien
   actors-maintainers:
     members:
       maintainer:
         - anorth
         - jennijuju
-        - Stebalien
         - ZenGround0
       member:
         - aarshkshah1992
@@ -5121,7 +5115,6 @@ teams:
         - nicola
         - rjan90
         - rvagg
-        - Stebalien
         - ZenGround0
   fips-editors:
     members:
@@ -5182,7 +5175,6 @@ teams:
         - raulk
         - rjan90
         - rvagg
-        - Stebalien
   fvm-team:
     members:
       maintainer:
@@ -5302,6 +5294,7 @@ teams:
         - rjan90
         - rvagg
         - snissn
+        - Stebalien
         - TippyFlitsUK
         - whyrusleeping
         - willscott
@@ -5317,7 +5310,6 @@ teams:
         - masih
         - rjan90
         - rvagg
-        - Stebalien
         - TippyFlitsUK
         - ZenGround0
   lotus-miner-maintainers:
@@ -5394,7 +5386,6 @@ teams:
         - Kubuxu
         - rjan90
         - rvagg
-        - Stebalien
         - ZenGround0
   proofs:
     members:
@@ -5510,7 +5501,6 @@ teams:
         - BigLep
         - jennijuju
         - magik6k
-        - Stebalien
       member:
         - BlocksOnAChain
         - ZenGround0
