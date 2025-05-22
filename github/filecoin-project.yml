@@ -794,9 +794,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - arajasek
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -805,6 +802,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      maintain:
+        - lotus-maintainers
       push:
         - bedrock-go
         - lotus-contributors
@@ -1207,6 +1206,7 @@ repositories:
     teams:
       push:
         - lotus-contributors
+        - lotus-maintainers
     visibility: private
   fff:
     archived: true
@@ -1227,6 +1227,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      maintain:
+        - lotus-maintainers
       push:
         - lotus-contributors
     visibility: public
@@ -2506,6 +2508,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      maintain:
+        - lotus-maintainers
       push:
         - lotus-contributors
     visibility: public
@@ -3246,6 +3250,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      maintain:
+        - lotus-maintainers
       push:
         - lotus-contributors
     visibility: public
@@ -4192,6 +4198,7 @@ repositories:
       push:
         - infra
         - lotus-contributors
+        - lotus-maintainers
     visibility: public
   sentinel:
     advanced_security: false
