@@ -3867,7 +3867,7 @@ repositories:
     teams:
       admin:
         # NOTE: This repo is never published, but we still use this group for admin.
-  
+
         - proofs-crate-owners
     visibility: private
   rust-fil-proofs:
@@ -3907,7 +3907,7 @@ repositories:
     teams:
       admin:
         # NOTE: This repo is never published but we use this team for admin.
-  
+
         - proofs-crate-owners
     visibility: private
   rust-filecoin-proofs-api:
