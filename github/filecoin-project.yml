@@ -2430,8 +2430,9 @@ repositories:
       admin:
         - hannahhoward
         - rvagg
-      push:
+      maintain:
         - aarshkshah1992
+      push:
         - arajasek
         - mishmosh
       triage:
@@ -3093,13 +3094,14 @@ repositories:
         # end of temporary addition
         - jennijuju
         - rjan90
+      maintain:
+        - TippyFlitsUK
       push:
         - arajasek
         - laurentsenta
         - LexLuthr
         - Reiers
         - snadrus
-        - TippyFlitsUK
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3209,6 +3211,7 @@ repositories:
       admin:
         - lotus-maintainers
       push:
+        - lotus-ci # Credentials for members of this team are used to automate GitHub Release creation 
         - lotus-contributors
       triage:
         - filoz-devguild-mentees
@@ -4517,20 +4520,7 @@ repositories:
         - fvm-crate-owners
     visibility: public
   wasmtime:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - fvm-crate-owners
-    visibility: public
+    archived: true
   website-archive.discuss.filecoin.io:
     archived: true
   website-bounty.filecoin.io:
@@ -5000,6 +4990,10 @@ teams:
         - laurentsenta
   legal:
     {}
+  lotus-ci:
+    members:
+      member:
+        - FilOzzy # This account is used to automate GitHub Release creation in Lotus
   lotus-contributors:
     members:
       maintainer:
