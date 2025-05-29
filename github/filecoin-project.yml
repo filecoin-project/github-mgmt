@@ -1214,25 +1214,7 @@ repositories:
         - lotus-contributors
     visibility: public
   fil_pasta_curves:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - proofs-crate-owners
-      push:
-        - proofs
-    visibility: public
+    archived: true
   fil-b:
     advanced_security: false
     allow_update_branch: false
@@ -1279,20 +1261,7 @@ repositories:
         - proofs
     visibility: public
   fil-sppark:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - proofs-crate-owners
-    visibility: public
+    archived: true
   filcryo:
     advanced_security: false
     allow_update_branch: false
@@ -2894,39 +2863,7 @@ repositories:
   hackathons-microgen-legacy:
     archived: true
   halo2:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    files:
-      .github/dependabot.yml:
-        content: |
-          version: 2
-          updates:
-          - package-ecosystem: github-actions
-            directory: "/"
-            schedule:
-              interval: daily
-              timezone: Etc/UTC
-            open-pull-requests-limit: 10
-            reviewers:
-            - str4d
-            assignees:
-            - str4d
-            labels:
-            - "A-CI"
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - proofs-crate-owners
-      push:
-        - proofs
-    visibility: public
+    archived: true
   helm-charts:
     advanced_security: false
     allow_update_branch: true
@@ -3501,20 +3438,7 @@ repositories:
   parity-wasm:
     archived: true
   pc2_cuda:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      push:
-        - proofs
-    visibility: public
+    archived: true
   PebblingAndDepthReductionAttacks:
     archived: true
   phase2-attestations-internal-verification:
@@ -3564,24 +3488,6 @@ repositories:
   product:
     archived: true
   proofs-buildbot:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - galargh
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      push:
-        - proofs
-    visibility: private
-  proofs:
     archived: true
   pubsub:
     # KEEP: this is a lotus dependency
@@ -3854,22 +3760,7 @@ repositories:
   rust-fil-proofs-ffi:
     archived: true
   rust-fil-proofs-private:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        # NOTE: This repo is never published, but we still use this group for admin.
-
-        - proofs-crate-owners
-    visibility: private
+    archived: true
   rust-fil-proofs:
     advanced_security: false
     allow_update_branch: false
