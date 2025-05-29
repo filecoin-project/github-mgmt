@@ -3353,6 +3353,7 @@ repositories:
       admin:
         - lotus-maintainers
       push:
+        - lotus-ci # Credentials for members of this team are used to automate GitHub Release creation 
         - lotus-contributors
       triage:
         - filoz-devguild-mentees
@@ -5271,6 +5272,10 @@ teams:
         - laurentsenta
   legal:
     {}
+  lotus-ci:
+    members:
+      member:
+        - FilOzzy # This account is used to automate GitHub Release creation in Lotus
   lotus-contributors:
     members:
       maintainer:
