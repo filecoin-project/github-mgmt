@@ -3342,6 +3342,8 @@ repositories:
         - snadrus # Curio lead
       triage:
         - ribasushi # Independent contributor active on various Lotus issues.  Now can assign labels and leave reviews.
+      write:
+        - FilOzzy # The account used for GitHub release creation automation
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
