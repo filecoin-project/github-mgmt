@@ -3489,6 +3489,8 @@ repositories:
     archived: true
   proofs-buildbot:
     archived: true
+  proofs:
+    archived: true
   pubsub:
     # KEEP: this is a lotus dependency
     advanced_security: false
@@ -3752,7 +3754,7 @@ repositories:
     teams:
       admin:
         - proofs-crate-owners
-      maintain:
+      push:
         - proofs
     visibility: public
   rust-fil-nse-gpu:
@@ -3800,7 +3802,7 @@ repositories:
     teams:
       admin:
         - proofs-crate-owners
-      maintain:
+      push:
         - proofs
     visibility: public
   rust-gpu-tools:
@@ -4521,7 +4523,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
+    secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
