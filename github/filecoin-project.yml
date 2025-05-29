@@ -3271,7 +3271,7 @@ repositories:
     teams:
       admin:
         - proofs-crate-owners
-      maintain:
+      push:
         - proofs
     visibility: public
   meta-aggregator-frontend:
@@ -3785,22 +3785,7 @@ repositories:
   rust-filbase:
     archived: true
   rust-filecoin-proofs-api-private:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        # NOTE: This repo is never published but we use this team for admin.
-
-        - proofs-crate-owners
-    visibility: private
+    archived: true
   rust-filecoin-proofs-api:
     advanced_security: false
     allow_update_branch: false
