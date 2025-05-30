@@ -3273,7 +3273,7 @@ repositories:
     teams:
       admin:
         - proofs-crate-owners
-      maintain:
+      push:
         - proofs
     visibility: public
   meta-aggregator-frontend:
