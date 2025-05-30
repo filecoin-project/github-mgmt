@@ -279,9 +279,10 @@ repositories:
         - galen-mcandrew
         - Kevin-FF-USA
         - willscott
+      maintain:
+        - martapiekarska
       push:
         - Filip-L
-        - martapiekarska
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1450,7 +1451,6 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
-      push:
         - proofs
     visibility: private
   filecoin-ffi:
@@ -1467,7 +1467,6 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
-      push:
         - proofs
     visibility: public
   filecoin-fvm-localnet:
@@ -3274,7 +3273,7 @@ repositories:
     teams:
       admin:
         - proofs-crate-owners
-      push:
+      maintain:
         - proofs
     visibility: public
   meta-aggregator-frontend:
@@ -3458,9 +3457,6 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      push:
-        - proofs
     visibility: public
   phase2:
     archived: true
@@ -3757,7 +3753,7 @@ repositories:
     teams:
       admin:
         - proofs-crate-owners
-      push:
+      maintain:
         - proofs
     visibility: public
   rust-fil-nse-gpu:
@@ -3805,7 +3801,7 @@ repositories:
     teams:
       admin:
         - proofs-crate-owners
-      push:
+      maintain:
         - proofs
     visibility: public
   rust-gpu-tools:
@@ -4991,6 +4987,7 @@ teams:
   legal:
     {}
   lotus-ci:
+    create_default_maintainer: false
     members:
       member:
         - FilOzzy # This account is used to automate GitHub Release creation in Lotus
