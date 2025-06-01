@@ -282,6 +282,7 @@ repositories:
       maintain:
         - martapiekarska
       push:
+        - CharlyMartin
         - Filip-L
     has_discussions: false
     merge_commit_message: PR_TITLE
