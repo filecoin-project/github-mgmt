@@ -1992,7 +1992,6 @@ repositories:
         - longfeiWan9
         - snissn
       pull:
-        - DrPeterVanNostrand
         - WhiteFlamingo
       push:
         - jsoares
@@ -3129,13 +3128,10 @@ repositories:
       pull:
         - turinglabsorg
       push:
-        - cryptonemo
-        - DrPeterVanNostrand
         - irenegia
         - LexLuthr
         - ribasushi
         - scotthconner
-        - vmx
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4620,6 +4616,7 @@ teams:
         - davidd8
         - DiegoRBaquero
         - dkkapur
+        - DrPeterVanNostrand
         - emilymvaughan
         - eshon
         - figureouter
@@ -4770,14 +4767,11 @@ teams:
         - anorth
         - magik6k
       member:
-        - DrPeterVanNostrand
         - eshon
         - frrist
         - jbenet
         - jnthnvctr
         - Kubuxu
-        - porcuquine
-        - vmx
         - whyrusleeping
         - ZenGround0
         - zixuanzh
@@ -4997,7 +4991,6 @@ teams:
         - BigLep
         - jennijuju
       member:
-        - cryptonemo
         - fridrik01
         - GlacierWalrus
         - hannahhoward
@@ -5088,7 +5081,6 @@ teams:
         - frrist
         - jnthnvctr
         - mishmosh
-        - porcuquine
         - protocolin
         - raulk
         - whyrusleeping
@@ -5107,19 +5099,20 @@ teams:
   proofs:
     members:
       maintainer:
-        - cryptonemo
-      member:
-        - DrPeterVanNostrand
         - Kubuxu
+      member:
+        # 202506: not active, but here in case help is needed in 202506+.
+        - cryptonemo
         - nicola
-        - porcuquine
+        - rvagg
+        # 202506: not active, but here in case help is needed in 202506+.
         - vmx
+        - ZenGround0
   research:
     members:
       maintainer:
         - nicola
       member:
-        - DrPeterVanNostrand
         - irenegia
         - jbenet
         - jsoares
@@ -5185,7 +5178,6 @@ teams:
         - mishmosh
         - momack2
         - nicola
-        - porcuquine
         - whyrusleeping
         - yiannisbot
         - zixuanzh
