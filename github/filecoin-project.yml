@@ -354,7 +354,7 @@ repositories:
       admin:
         - proofs-crate-owners
       push:
-        - proofs
+        - proofs-contributors
     visibility: public
   benchmark-service:
     archived: true
@@ -402,7 +402,7 @@ repositories:
       admin:
         - proofs-crate-owners
       push:
-        - proofs
+        - proofs-contributors
     visibility: public
   blst:
     archived: true
@@ -421,7 +421,7 @@ repositories:
       admin:
         - proofs-crate-owners
       maintain:
-        - proofs
+        - proofs-contributors
     visibility: public
   boost-docs:
     advanced_security: false
@@ -975,7 +975,7 @@ repositories:
       admin:
         - proofs-crate-owners
       maintain:
-        - proofs
+        - proofs-contributors
     visibility: public
   ecodash:
     advanced_security: false
@@ -1260,7 +1260,7 @@ repositories:
       admin:
         - proofs-crate-owners
       push:
-        - proofs
+        - proofs-contributors
     visibility: public
   fil-sppark:
     archived: true
@@ -1452,7 +1452,7 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
-        - proofs
+        - proofs-contributors
     visibility: private
   filecoin-ffi:
     advanced_security: false
@@ -1468,7 +1468,7 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
-        - proofs
+        - proofs-contributors
     visibility: public
   filecoin-fvm-localnet:
     advanced_security: false
@@ -2695,7 +2695,7 @@ repositories:
       admin:
         - lotus-maintainers
       push:
-        - proofs
+        - proofs-contributors
     visibility: public
   go-proofs:
     archived: true
@@ -3271,7 +3271,7 @@ repositories:
       admin:
         - proofs-crate-owners
       push:
-        - proofs
+        - proofs-contributors
     visibility: public
   meta-aggregator-frontend:
     advanced_security: false
@@ -3477,7 +3477,7 @@ repositories:
       admin:
         - proofs-crate-owners
       push:
-        - proofs
+        - proofs-contributors
     visibility: public
   product-biz:
     archived: true
@@ -3751,7 +3751,7 @@ repositories:
       admin:
         - proofs-crate-owners
       maintain:
-        - proofs
+        - proofs-contributors
     visibility: public
   rust-fil-nse-gpu:
     archived: true
@@ -3774,7 +3774,7 @@ repositories:
       admin:
         - proofs-crate-owners
       push:
-        - proofs
+        - proofs-contributors
     visibility: public
   rust-fil-secp256k1:
     archived: true
@@ -3799,7 +3799,7 @@ repositories:
       admin:
         - proofs-crate-owners
       maintain:
-        - proofs
+        - proofs-contributors
     visibility: public
   rust-gpu-tools:
     advanced_security: false
@@ -3816,7 +3816,7 @@ repositories:
       admin:
         - proofs-crate-owners
       push:
-        - proofs
+        - proofs-contributors
     visibility: public
   rust-proofs-backup:
     archived: true
@@ -4300,7 +4300,7 @@ repositories:
       admin:
         - proofs-crate-owners
       pull:
-        - proofs
+        - proofs-contributors
     visibility: public
   terraform-google-lily-starter:
     archived: true
@@ -5096,8 +5096,7 @@ teams:
         - rjan90
         - rvagg
         - ZenGround0
-  # TODO: rename this to proofs-contributors as part of https://github.com/filecoin-project/github-mgmt/issues/132
-  proofs:
+  proofs-contributors:
     members:
       maintainer:
         - Kubuxu
