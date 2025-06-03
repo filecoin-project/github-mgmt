@@ -5086,16 +5086,6 @@ teams:
         - raulk
         - whyrusleeping
         - ZenGround0
-  proofs-crate-owners:
-    create_default_maintainer: false
-    members:
-      maintainer:
-        - jennijuju
-      member:
-        - Kubuxu
-        - rjan90
-        - rvagg
-        - ZenGround0
   proofs-contributors:
     members:
       maintainer:
@@ -5107,6 +5097,16 @@ teams:
         - rvagg
         # 202506: not active, but here in case help is needed in 202506+.
         - vmx
+        - ZenGround0
+  proofs-crate-owners:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - jennijuju
+      member:
+        - Kubuxu
+        - rjan90
+        - rvagg
         - ZenGround0
   research:
     members:
