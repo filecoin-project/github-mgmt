@@ -1052,27 +1052,6 @@ repositories:
         - Forest
         - Venus
     visibility: public
-  f3-passive-testing:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - jennijuju
-        - Kubuxu
-        - masih
-        - rjan90
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      push:
-        - FilOz
-    visibility: private
   fc-cap-sim:
     archived: true
   fcnr:
@@ -1762,6 +1741,27 @@ repositories:
         - data
         - Sentinel
     visibility: public
+  filoz-infra:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - jennijuju
+        - Kubuxu
+        - masih
+        - rjan90
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - FilOz
+    visibility: private
   filplus-backend:
     advanced_security: false
     allow_update_branch: true
