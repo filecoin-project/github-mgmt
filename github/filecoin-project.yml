@@ -58,6 +58,7 @@ members:
     - alanshaw
     - alexandrumatei36
     - Alexey-N-Chernyshov
+    - AlexeyKrasnoperov
     - AmeanAsad
     - androowoo
     - andyschwab
@@ -109,6 +110,7 @@ members:
     - guanzo
     - guy-goren
     - hammertoe
+    - hanabi1224
     - hannahhoward
     - hunjixin
     - ianconsolata
@@ -117,7 +119,6 @@ members:
     - ischasny
     - JadTermsani
     - jbenet
-    - jdjaustin
     - jimpick
     - jnthnvctr
     - joaosa
@@ -131,8 +132,6 @@ members:
     - lanzafame
     - LaurenSpiegel
     - laurentsenta
-    - lemmih
-    - lerajk
     - LesnyRumcajs
     - LexLuthr
     - lksbrssr
@@ -165,7 +164,6 @@ members:
     - porcuquine
     - protocol-labs
     - protocolin
-    - q9f
     - raghavrmadya
     - raulk
     - realChainLife
@@ -3155,7 +3153,6 @@ repositories:
     archived: false
     collaborators:
       pull:
-        - lemmih
         - LesnyRumcajs
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -4837,13 +4834,13 @@ teams:
   Forest:
     members:
       maintainer:
-        - lemmih
-        - lerajk
-        - raulk
-      member:
-        - elmattic
+        - kalambet
         - LesnyRumcajs
-        - q9f
+      member:
+        - akaladarshi
+        - AlexeyKrasnoperov
+        - elmattic
+        - hanabi1224
         - sudo-shashank
   foundation:
     members:
