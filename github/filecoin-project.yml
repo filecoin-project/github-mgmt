@@ -432,7 +432,6 @@ repositories:
     collaborators:
       admin:
         - LexLuthr
-        - masih
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -498,7 +497,6 @@ repositories:
         - jennijuju
         - LexLuthr
         - magik6k
-        - masih
         - nonsense
         - willscott
       maintain:
@@ -861,7 +859,6 @@ repositories:
         - davidd8
         - dkkapur
         - gammazero
-        - masih
         - rvagg
     files:
       .github/dependabot.yml:
@@ -1751,7 +1748,6 @@ repositories:
       admin:
         - jennijuju
         - Kubuxu
-        - masih
         - rjan90
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2560,7 +2556,6 @@ repositories:
         - anorth
         - hannahhoward
         - magik6k
-        - masih
         - mishmosh
         - nonsense
       maintain:
@@ -2643,7 +2638,6 @@ repositories:
       maintain:
         - arajasek
         - hannahhoward
-        - masih
       push:
         - adlrocha
         - web3-bot
@@ -2876,7 +2870,6 @@ repositories:
         - ognots
       push:
         - andrestorresGL
-        - masih
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3303,7 +3296,6 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
-        - masih
         - willscott
         - xinaxu
       maintain:
@@ -4368,7 +4360,6 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
-        - masih
         - willscott
       maintain:
         - rvagg
@@ -4584,7 +4575,6 @@ teams:
       member:
         - aarshkshah1992
         - Kubuxu
-        - masih
         - rjan90
         - rvagg
         - TippyFlitsUK
@@ -4664,7 +4654,6 @@ teams:
   bedrock-go:
     members:
       maintainer:
-        - masih
         - willscott
       member:
         - aarshkshah1992
@@ -4683,7 +4672,6 @@ teams:
         - ischasny
         - LexLuthr
         - magik6k
-        - masih
         - nonsense
       member:
         - Reiers
@@ -4817,7 +4805,6 @@ teams:
         - irenegia
         - Kubuxu
         - lucaniz
-        - masih
         - momack2
         - nicola
         - rjan90
@@ -4999,7 +4986,6 @@ teams:
         - Kubuxu
         - LexLuthr
         - maciejwitowski
-        - masih
         - nonsense
         - raulk
         - rjan90
@@ -5019,7 +5005,6 @@ teams:
       member:
         - aarshkshah1992
         - Kubuxu
-        - masih
         - rjan90
         - rvagg
         - TippyFlitsUK
@@ -5044,7 +5029,6 @@ teams:
         - davidd8
         - hannahhoward
         - LaurenSpiegel
-        - masih
         - willscott
   oni:
     members:
