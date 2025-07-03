@@ -762,6 +762,7 @@ repositories:
         - magik6k
       push:
         - aarshkshah1992
+        - rjan90
         - ZenGround0
     has_discussions: true
     merge_commit_message: PR_BODY
