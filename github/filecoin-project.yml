@@ -3198,12 +3198,14 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
+      # Note that there is a master branch protection rule that further restricts write access
+      # https://github.com/filecoin-project/lotus/settings/branch_protection_rules/11929673
       push:
         - lotus-ci # Credentials for members of this team are used to automate GitHub Release creation 
         - lotus-contributors
+        - lotus-miner-maintainers # Push access needed to repo so can make changes in the miner code
       triage:
         - filoz-devguild-mentees
-        - lotus-miner-maintainers
     visibility: public
   lua-filecoin:
     archived: true
