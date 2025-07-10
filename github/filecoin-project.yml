@@ -764,9 +764,6 @@ repositories:
         - aarshkshah1992
         - rjan90
         - ZenGround0
-    files:
-      .github/workflows/add-issues-and-prs-to-fs-project-board.yml:
-        content: workflows/add-issues-and-prs-to-fs-project-board.yml
     has_discussions: true
     merge_commit_message: PR_BODY
     merge_commit_title: PR_TITLE
@@ -3191,9 +3188,6 @@ repositories:
         - snadrus # Curio lead
       triage:
         - ribasushi # Independent contributor active on various Lotus issues.  Now can assign labels and leave reviews.
-    files:
-      .github/workflows/add-issues-and-prs-to-fs-project-board.yml:
-        content: workflows/add-issues-and-prs-to-fs-project-board.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
