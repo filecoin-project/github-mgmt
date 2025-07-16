@@ -1360,9 +1360,9 @@ repositories:
     collaborators:
       admin:
         - andyschwab
+        - ianconsolata
         - jennijuju
         - raulk
-        - smagdali
       maintain:
         - bobdubois
         - eshon
@@ -1677,7 +1677,6 @@ repositories:
         - filecoinfoundation-inf
         - ianconsolata
         - mirhamasala
-        - smagdali
       maintain:
         - andyschwab
       pull:
@@ -1882,8 +1881,8 @@ repositories:
         - eshon
         - expede
         - hugomrdias
+        - ianconsolata
         - maciejwitowski
-        - smagdali
       maintain:
         - avivash
         - meandavejustice
@@ -1988,11 +1987,11 @@ repositories:
       pull:
         - WhiteFlamingo
       push:
+        - ianconsolata
         - jsoares
         - LaurenSpiegel
         - rk-rishikesh
         - robertagora
-        - smagdali
         - xBalbinus
         - XORS-eng
     has_discussions: false
@@ -3378,7 +3377,6 @@ repositories:
         - liuzeming1
         - macro-ss
         - mor9x00
-        - smagdali
         - willpan1102
       maintain:
         - QuietLiu01
@@ -3963,8 +3961,8 @@ repositories:
       admin:
         - relotnek
       maintain:
+        - ianconsolata
         - parthshah1
-        - smagdali
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4090,7 +4088,6 @@ repositories:
         - mirhamasala
         - nonsense
         - robertagora
-        - smagdali
       push:
         - ognots
     has_discussions: false
@@ -4686,7 +4683,7 @@ teams:
   collab-ff-seo-ux:
     members:
       member:
-        - smagdali
+        - ianconsolata
   collab-ipfs-force:
     members:
       member:
@@ -4767,7 +4764,7 @@ teams:
   docs-storage-provider:
     members:
       member:
-        - smagdali
+        - ianconsolata
   FIL-B:
     members:
       maintainer:
@@ -4833,7 +4830,6 @@ teams:
       maintainer:
         - ianconsolata
         - realChainLife
-        - smagdali
       member:
         - SeedingTrees
         - vnessasgrt
@@ -4934,6 +4930,9 @@ teams:
         # 2. She is part of the team rather than just relying on "org.admin" abilities so she sees the @filecoin-project/github-mgmt-stewards team mentions/notifications.
         - jennijuju
       member:
+        # Why @ianconsolata?
+        # 1. Serves as technical projects representative for the Filecoin Foundation.
+        - ianconsolata
         # Why @rjain90?
         # 1. He is a project manager at FilOz.
         - rjan90
@@ -4946,9 +4945,6 @@ teams:
         #    See https://github.com/ipdxco/github-as-code/issues/126 for more info.)
         # 2. He has experience working with github-mgmt in other contexts (e.g., ipld)
         - rvagg
-        # Why @smagdali?
-        # 1. Serves as technical projects representative for the Filecoin Foundation.
-        - smagdali
   infra:
     members:
       member:
@@ -5119,9 +5115,9 @@ teams:
     # Filecoin Foundation team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
     members:
       member:
+        - ianconsolata
         - parthshah1
         - relotnek
-        - smagdali
   Sentinel Admin:
     members:
       maintainer:
@@ -5176,7 +5172,7 @@ teams:
   UXimprovement team:
     members:
       maintainer:
-        - smagdali
+        - mirhamasala
   Venus:
     members:
       maintainer:
