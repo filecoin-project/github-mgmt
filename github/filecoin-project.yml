@@ -1360,9 +1360,9 @@ repositories:
     collaborators:
       admin:
         - andyschwab
+        - ianconsolata
         - jennijuju
         - raulk
-        - ianconsolata
       maintain:
         - bobdubois
         - eshon
@@ -1881,8 +1881,8 @@ repositories:
         - eshon
         - expede
         - hugomrdias
-        - maciejwitowski
         - ianconsolata
+        - maciejwitowski
       maintain:
         - avivash
         - meandavejustice
@@ -1987,11 +1987,11 @@ repositories:
       pull:
         - WhiteFlamingo
       push:
+        - ianconsolata
         - jsoares
         - LaurenSpiegel
         - rk-rishikesh
         - robertagora
-        - ianconsolata
         - xBalbinus
         - XORS-eng
     has_discussions: false
@@ -3961,8 +3961,8 @@ repositories:
       admin:
         - relotnek
       maintain:
-        - parthshah1
         - ianconsolata
+        - parthshah1
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4932,6 +4932,9 @@ teams:
       member:
         # Why @rjain90?
         # 1. He is a project manager at FilOz.
+        # Why @ianconsolata?
+        # 1. Serves as technical projects representative for the Filecoin Foundation.
+        - ianconsolata
         - rjan90
         # Why @rvagg?
         # 1. He is an active in-the-GitHub-trenches maintainer for FilOz, often touching the 10+ repos that FilOz owns/maintains.
@@ -4942,9 +4945,6 @@ teams:
         #    See https://github.com/ipdxco/github-as-code/issues/126 for more info.)
         # 2. He has experience working with github-mgmt in other contexts (e.g., ipld)
         - rvagg
-        # Why @ianconsolata?
-        # 1. Serves as technical projects representative for the Filecoin Foundation.
-        - ianconsolata
   infra:
     members:
       member:
@@ -5115,9 +5115,9 @@ teams:
     # Filecoin Foundation team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
     members:
       member:
+        - ianconsolata
         - parthshah1
         - relotnek
-        - ianconsolata
   Sentinel Admin:
     members:
       maintainer:
