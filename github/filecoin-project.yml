@@ -4930,11 +4930,11 @@ teams:
         # 2. She is part of the team rather than just relying on "org.admin" abilities so she sees the @filecoin-project/github-mgmt-stewards team mentions/notifications.
         - jennijuju
       member:
-        # Why @rjain90?
-        # 1. He is a project manager at FilOz.
         # Why @ianconsolata?
         # 1. Serves as technical projects representative for the Filecoin Foundation.
         - ianconsolata
+        # Why @rjain90?
+        # 1. He is a project manager at FilOz.
         - rjan90
         # Why @rvagg?
         # 1. He is an active in-the-GitHub-trenches maintainer for FilOz, often touching the 10+ repos that FilOz owns/maintains.
