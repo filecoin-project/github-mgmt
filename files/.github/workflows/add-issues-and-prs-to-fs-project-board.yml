@@ -1,9 +1,9 @@
 ######################################################################################
 # READ THIS FIRST
-# This file is authored in filecoin-project/github-mgmt repository and copied to other repos via automation.
-# If you need to make changes, either:
-# 1. Make the changes in filecoin-project/github-mgmt repository OR
-# 2. Make the changes in the local repo and remove the automated copying from github-mgmt.
+# This file is authored in filecoin-project/github-mgmt repository and MANUALLY copied to other repos.
+# At least as of 2025-07-16, changes to this file will not be automatically propagated.
+# This is discussed more in https://github.com/FilOzone/github-mgmt/issues/10.
+# This file resides in filecoin-project/github-mgmt for visibility. 
 ######################################################################################
 
 # This action adds all issues and PRs with a "team/fs-wg" label to the FS project board.
