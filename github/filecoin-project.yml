@@ -5082,6 +5082,7 @@ teams:
       maintainer:
         - jennijuju
       member:
+        - FilOzzy # Present so can use token in CI for releasing/publishing crates
         - Kubuxu
         - rjan90
         - rvagg
