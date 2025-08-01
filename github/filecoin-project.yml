@@ -117,7 +117,6 @@ members:
     - ischasny
     - JadTermsani
     - jbenet
-    - jdjaustin
     - jimpick
     - jnthnvctr
     - joaosa
@@ -125,14 +124,13 @@ members:
     - jsoares
     - juliangruber
     - kaitlin-beegle
+    - kalambet
     - kevzak
     - kkarrancsu
     - Kubuxu
     - lanzafame
     - LaurenSpiegel
     - laurentsenta
-    - lemmih
-    - lerajk
     - LesnyRumcajs
     - LexLuthr
     - lksbrssr
@@ -148,10 +146,12 @@ members:
     - mb1896
     - MF416
     - Mingela
+    - mirhamasala
     - mishmosh
     - momack2
     - monicaortel
     - nicola
+    - nijoe1
     - ninitrava
     - nonsense
     - ns4plabs
@@ -165,7 +165,6 @@ members:
     - porcuquine
     - protocol-labs
     - protocolin
-    - q9f
     - raghavrmadya
     - raulk
     - realChainLife
@@ -279,9 +278,11 @@ repositories:
         - galen-mcandrew
         - Kevin-FF-USA
         - willscott
-      push:
-        - Filip-L
+      maintain:
         - martapiekarska
+      push:
+        - CharlyMartin
+        - Filip-L
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -341,9 +342,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - cryptonemo
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -355,7 +353,7 @@ repositories:
       admin:
         - proofs-crate-owners
       push:
-        - proofs
+        - proofs-contributors
     visibility: public
   benchmark-service:
     archived: true
@@ -392,11 +390,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - cryptonemo
-      push:
-        - ognots
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -407,12 +400,8 @@ repositories:
     teams:
       admin:
         - proofs-crate-owners
-      pull:
-        - ci
       push:
-        - dev-misc
-        - proofs
-        - research
+        - proofs-contributors
     visibility: public
   blst:
     archived: true
@@ -420,9 +409,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - cryptonemo
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -434,7 +420,7 @@ repositories:
       admin:
         - proofs-crate-owners
       maintain:
-        - proofs
+        - proofs-contributors
     visibility: public
   boost-docs:
     advanced_security: false
@@ -443,7 +429,6 @@ repositories:
     collaborators:
       admin:
         - LexLuthr
-        - masih
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -509,7 +494,6 @@ repositories:
         - jennijuju
         - LexLuthr
         - magik6k
-        - masih
         - nonsense
         - willscott
       maintain:
@@ -725,6 +709,8 @@ repositories:
       maintain:
         - dannyob
         - rjan90
+      push:
+        - Tanisha-fil
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -778,6 +764,7 @@ repositories:
         - magik6k
       push:
         - aarshkshah1992
+        - rjan90
         - ZenGround0
     has_discussions: true
     merge_commit_message: PR_BODY
@@ -794,9 +781,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - arajasek
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -805,6 +789,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      maintain:
+        - lotus-maintainers
       push:
         - bedrock-go
         - lotus-contributors
@@ -873,7 +859,6 @@ repositories:
         - davidd8
         - dkkapur
         - gammazero
-        - masih
         - rvagg
     files:
       .github/dependabot.yml:
@@ -927,7 +912,6 @@ repositories:
         - BlocksOnAChain
         - FF-FOIT
         - realChainLife
-        - smagdali
       maintain:
         - eshon
         - figureouter
@@ -978,10 +962,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - cryptonemo
-        - porcuquine
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -993,7 +973,7 @@ repositories:
       admin:
         - proofs-crate-owners
       maintain:
-        - proofs
+        - proofs-contributors
     visibility: public
   ecodash:
     advanced_security: false
@@ -1070,28 +1050,6 @@ repositories:
         - Forest
         - Venus
     visibility: public
-  f3-passive-testing:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - jennijuju
-        - Kubuxu
-        - masih
-        - rjan90
-        - Stebalien
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      push:
-        - FilOz
-    visibility: private
   fc-cap-sim:
     archived: true
   fcnr:
@@ -1208,6 +1166,7 @@ repositories:
     teams:
       push:
         - lotus-contributors
+        - lotus-maintainers
     visibility: private
   fff:
     archived: true
@@ -1228,33 +1187,13 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      maintain:
+        - lotus-maintainers
       push:
         - lotus-contributors
     visibility: public
   fil_pasta_curves:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - cryptonemo
-        - vmx
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - proofs-crate-owners
-      push:
-        - proofs
-    visibility: public
+    archived: true
   fil-b:
     advanced_security: false
     allow_update_branch: false
@@ -1287,9 +1226,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - vmx
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1301,26 +1237,10 @@ repositories:
       admin:
         - proofs-crate-owners
       push:
-        - proofs
+        - proofs-contributors
     visibility: public
   fil-sppark:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - vmx
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - proofs-crate-owners
-    visibility: public
+    archived: true
   filcryo:
     advanced_security: false
     allow_update_branch: false
@@ -1444,9 +1364,9 @@ repositories:
     collaborators:
       admin:
         - andyschwab
+        - ianconsolata
         - jennijuju
         - raulk
-        - smagdali
       maintain:
         - bobdubois
         - eshon
@@ -1509,7 +1429,7 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
-        - proofs
+        - proofs-contributors
     visibility: private
   filecoin-ffi:
     advanced_security: false
@@ -1525,8 +1445,7 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
-        - proofs-crate-owners
-        - proofs
+        - proofs-contributors
     visibility: public
   filecoin-fvm-localnet:
     advanced_security: false
@@ -1568,11 +1487,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - cryptonemo
-      push:
-        - DrPeterVanNostrand
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1767,7 +1681,6 @@ repositories:
         - filecoinfoundation-inf
         - ianconsolata
         - mirhamasala
-        - smagdali
       maintain:
         - andyschwab
       pull:
@@ -1825,6 +1738,26 @@ repositories:
         - data
         - Sentinel
     visibility: public
+  filoz-infra:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - jennijuju
+        - Kubuxu
+        - rjan90
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - FilOz
+    visibility: private
   filplus-backend:
     advanced_security: false
     allow_update_branch: true
@@ -1952,8 +1885,8 @@ repositories:
         - eshon
         - expede
         - hugomrdias
+        - ianconsolata
         - maciejwitowski
-        - smagdali
       maintain:
         - avivash
         - meandavejustice
@@ -2056,14 +1989,13 @@ repositories:
         - longfeiWan9
         - snissn
       pull:
-        - DrPeterVanNostrand
         - WhiteFlamingo
       push:
+        - ianconsolata
         - jsoares
         - LaurenSpiegel
         - rk-rishikesh
         - robertagora
-        - smagdali
         - xBalbinus
         - XORS-eng
     has_discussions: false
@@ -2493,8 +2425,9 @@ repositories:
       admin:
         - hannahhoward
         - rvagg
-      push:
+      maintain:
         - aarshkshah1992
+      push:
         - arajasek
         - mishmosh
       triage:
@@ -2507,6 +2440,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      maintain:
+        - lotus-maintainers
       push:
         - lotus-contributors
     visibility: public
@@ -2619,12 +2554,10 @@ repositories:
         - anorth
         - hannahhoward
         - magik6k
-        - masih
         - mishmosh
         - nonsense
       maintain:
         - rvagg
-        - Stebalien
       push:
         - arajasek
       triage:
@@ -2703,7 +2636,6 @@ repositories:
       maintain:
         - arajasek
         - hannahhoward
-        - masih
       push:
         - adlrocha
         - web3-bot
@@ -2757,7 +2689,7 @@ repositories:
       admin:
         - lotus-maintainers
       push:
-        - proofs
+        - proofs-contributors
     visibility: public
   go-proofs:
     archived: true
@@ -2845,26 +2777,7 @@ repositories:
   go-storage-market:
     archived: true
   go-storage-miner:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - magik6k
-        - whyrusleeping
-      maintain:
-        - Kubuxu
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      maintain:
-        - proofs
-    visibility: public
+    archived: true
   go-storedcounter:
     # KEEP: this is a lotus dependency
     advanced_security: false
@@ -2944,42 +2857,7 @@ repositories:
   hackathons-microgen-legacy:
     archived: true
   halo2:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - vmx
-    files:
-      .github/dependabot.yml:
-        content: |
-          version: 2
-          updates:
-          - package-ecosystem: github-actions
-            directory: "/"
-            schedule:
-              interval: daily
-              timezone: Etc/UTC
-            open-pull-requests-limit: 10
-            reviewers:
-            - str4d
-            assignees:
-            - str4d
-            labels:
-            - "A-CI"
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - proofs-crate-owners
-      push:
-        - proofs
-    visibility: public
+    archived: true
   helm-charts:
     advanced_security: false
     allow_update_branch: true
@@ -2990,7 +2868,6 @@ repositories:
         - ognots
       push:
         - andrestorresGL
-        - masih
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3197,31 +3074,7 @@ repositories:
   lotus-badges:
     archived: true
   lotus-dcops:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - cryptonemo
-        - schreck23
-      pull:
-        - vvkio
-      push:
-        - ognots
-        - Zorlin
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - proofs
-      push:
-        - infra
-    visibility: private
+    archived: true
   lotus-docs:
     advanced_security: false
     allow_update_branch: false
@@ -3233,13 +3086,14 @@ repositories:
         # end of temporary addition
         - jennijuju
         - rjan90
+      maintain:
+        - TippyFlitsUK
       push:
         - arajasek
         - laurentsenta
         - LexLuthr
         - Reiers
         - snadrus
-        - TippyFlitsUK
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3248,6 +3102,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      maintain:
+        - lotus-maintainers
       push:
         - lotus-contributors
     visibility: public
@@ -3266,13 +3122,10 @@ repositories:
       pull:
         - turinglabsorg
       push:
-        - cryptonemo
-        - DrPeterVanNostrand
         - irenegia
         - LexLuthr
         - ribasushi
         - scotthconner
-        - vmx
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3295,7 +3148,6 @@ repositories:
     archived: false
     collaborators:
       pull:
-        - lemmih
         - LesnyRumcajs
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -3346,11 +3198,14 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
+      # Note that there is a master branch protection rule that further restricts write access
+      # https://github.com/filecoin-project/lotus/settings/branch_protection_rules/11929673
       push:
+        - lotus-ci # Credentials for members of this team are used to automate GitHub Release creation 
         - lotus-contributors
+        - lotus-miner-maintainers # Push access needed to repo so can make changes in the miner code
       triage:
         - filoz-devguild-mentees
-        - lotus-miner-maintainers
     visibility: public
   lua-filecoin:
     archived: true
@@ -3399,11 +3254,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - cryptonemo
-      push:
-        - arajasek
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3414,10 +3264,8 @@ repositories:
     teams:
       admin:
         - proofs-crate-owners
-      maintain:
-        - proofs
-      pull:
-        - ci
+      push:
+        - proofs-contributors
     visibility: public
   meta-aggregator-frontend:
     advanced_security: false
@@ -3448,7 +3296,6 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
-        - masih
         - willscott
         - xinaxu
       maintain:
@@ -3534,7 +3381,6 @@ repositories:
         - liuzeming1
         - macro-ss
         - mor9x00
-        - smagdali
         - willpan1102
       maintain:
         - QuietLiu01
@@ -3583,20 +3429,7 @@ repositories:
   parity-wasm:
     archived: true
   pc2_cuda:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - vmx
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
+    archived: true
   PebblingAndDepthReductionAttacks:
     archived: true
   phase2-attestations-internal-verification:
@@ -3606,16 +3439,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - porcuquine
-      pull:
-        - ribasushi
-      push:
-        - cryptonemo
-        - DrPeterVanNostrand
-        - jnthnvctr
-        - vmx
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3646,30 +3469,14 @@ repositories:
       admin:
         - proofs-crate-owners
       push:
-        - proofs
+        - proofs-contributors
     visibility: public
   product-biz:
     archived: true
   product:
     archived: true
   proofs-buildbot:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - galargh
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      push:
-        - proofs
-    visibility: private
+    archived: true
   proofs:
     archived: true
   pubsub:
@@ -3925,11 +3732,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - vmx
-      pull:
-        - ognots
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3941,60 +3743,18 @@ repositories:
       admin:
         - proofs-crate-owners
       maintain:
-        - proofs
-      pull:
-        - dev-misc
+        - proofs-contributors
     visibility: public
   rust-fil-nse-gpu:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - porcuquine
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - proofs-crate-owners
-    visibility: public
+    archived: true
   rust-fil-proofs-ffi:
     archived: true
-  # NOTE: We don't add create-owners team here because this repo is never published
   rust-fil-proofs-private:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - cryptonemo
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
+    archived: true
   rust-fil-proofs:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - cryptonemo
-        - jennijuju
-      pull:
-        - BlocksOnAChain
-        - DignifiedquireSyncBot
-        - ognots
-      push:
-        - porcuquine
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4005,14 +3765,8 @@ repositories:
     teams:
       admin:
         - proofs-crate-owners
-      pull:
-        - ci
-        - dev-misc
-        - infra
       push:
-        - proofs
-      triage:
-        - research
+        - proofs-contributors
     visibility: public
   rust-fil-secp256k1:
     archived: true
@@ -4020,29 +3774,12 @@ repositories:
     archived: true
   rust-filbase:
     archived: true
-  # NOTE: We don't add create-owners team here because this repo is never published
   rust-filecoin-proofs-api-private:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - cryptonemo
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
+    archived: true
   rust-filecoin-proofs-api:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - cryptonemo
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4054,19 +3791,12 @@ repositories:
       admin:
         - proofs-crate-owners
       maintain:
-        - proofs
-      pull:
-        - ci
+        - proofs-contributors
     visibility: public
   rust-gpu-tools:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - cryptonemo
-        - porcuquine
-        - vmx
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4078,33 +3808,14 @@ repositories:
       admin:
         - proofs-crate-owners
       push:
-        - proofs
+        - proofs-contributors
     visibility: public
   rust-proofs-backup:
     archived: true
   rust-proofs-infra:
     archived: true
   rust-sha2ni:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      maintain:
-        - vmx
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - proofs-crate-owners
-    visibility: public
+    archived: true
   sample-data:
     archived: true
   sapling-crypto:
@@ -4194,6 +3905,7 @@ repositories:
       push:
         - infra
         - lotus-contributors
+        - lotus-maintainers
     visibility: public
   sentinel:
     advanced_security: false
@@ -4253,8 +3965,8 @@ repositories:
       admin:
         - relotnek
       maintain:
+        - ianconsolata
         - parthshah1
-        - smagdali
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4380,7 +4092,6 @@ repositories:
         - mirhamasala
         - nonsense
         - robertagora
-        - smagdali
       push:
         - ognots
     has_discussions: false
@@ -4580,8 +4291,7 @@ repositories:
       admin:
         - proofs-crate-owners
       pull:
-        - proofs
-        - research
+        - proofs-contributors
     visibility: public
   terraform-google-lily-starter:
     archived: true
@@ -4648,7 +4358,6 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
-        - masih
         - willscott
       maintain:
         - rvagg
@@ -4756,7 +4465,6 @@ repositories:
         - tediou5
       push:
         - ognots
-        - Stebalien
         - StefanGajic
     has_discussions: true
     merge_commit_message: PR_TITLE
@@ -4795,23 +4503,7 @@ repositories:
         - fvm-crate-owners
     visibility: public
   wasmtime:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - Stebalien
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - fvm-crate-owners
-    visibility: public
+    archived: true
   website-archive.discuss.filecoin.io:
     archived: true
   website-bounty.filecoin.io:
@@ -4871,17 +4563,16 @@ teams:
         - kkarrancsu
         - macro-ss
         - marco-storswift
+        - Stebalien
   actors-maintainers:
     members:
       maintainer:
         - anorth
         - jennijuju
-        - Stebalien
         - ZenGround0
       member:
         - aarshkshah1992
         - Kubuxu
-        - masih
         - rjan90
         - rvagg
         - TippyFlitsUK
@@ -4915,6 +4606,7 @@ teams:
         - davidd8
         - DiegoRBaquero
         - dkkapur
+        - DrPeterVanNostrand
         - emilymvaughan
         - eshon
         - figureouter
@@ -4960,7 +4652,6 @@ teams:
   bedrock-go:
     members:
       maintainer:
-        - masih
         - willscott
       member:
         - aarshkshah1992
@@ -4979,7 +4670,6 @@ teams:
         - ischasny
         - LexLuthr
         - magik6k
-        - masih
         - nonsense
       member:
         - Reiers
@@ -4997,7 +4687,7 @@ teams:
   collab-ff-seo-ux:
     members:
       member:
-        - smagdali
+        - ianconsolata
   collab-ipfs-force:
     members:
       member:
@@ -5065,14 +4755,11 @@ teams:
         - anorth
         - magik6k
       member:
-        - DrPeterVanNostrand
         - eshon
         - frrist
         - jbenet
         - jnthnvctr
         - Kubuxu
-        - porcuquine
-        - vmx
         - whyrusleeping
         - ZenGround0
         - zixuanzh
@@ -5081,7 +4768,7 @@ teams:
   docs-storage-provider:
     members:
       member:
-        - smagdali
+        - ianconsolata
   FIL-B:
     members:
       maintainer:
@@ -5116,12 +4803,10 @@ teams:
         - irenegia
         - Kubuxu
         - lucaniz
-        - masih
         - momack2
         - nicola
         - rjan90
         - rvagg
-        - Stebalien
         - ZenGround0
   fips-editors:
     members:
@@ -5138,20 +4823,17 @@ teams:
   Forest:
     members:
       maintainer:
-        - lemmih
-        - lerajk
-        - raulk
-      member:
-        - elmattic
+        - kalambet
         - LesnyRumcajs
-        - q9f
+      member:
+        - akaladarshi
+        - elmattic
         - sudo-shashank
   foundation:
     members:
       maintainer:
         - ianconsolata
         - realChainLife
-        - smagdali
       member:
         - SeedingTrees
         - vnessasgrt
@@ -5182,7 +4864,6 @@ teams:
         - raulk
         - rjan90
         - rvagg
-        - Stebalien
   fvm-team:
     members:
       maintainer:
@@ -5253,6 +4934,9 @@ teams:
         # 2. She is part of the team rather than just relying on "org.admin" abilities so she sees the @filecoin-project/github-mgmt-stewards team mentions/notifications.
         - jennijuju
       member:
+        # Why @ianconsolata?
+        # 1. Serves as technical projects representative for the Filecoin Foundation.
+        - ianconsolata
         # Why @rjain90?
         # 1. He is a project manager at FilOz.
         - rjan90
@@ -5265,9 +4949,6 @@ teams:
         #    See https://github.com/ipdxco/github-as-code/issues/126 for more info.)
         # 2. He has experience working with github-mgmt in other contexts (e.g., ipld)
         - rvagg
-        # Why @smagdali?
-        # 1. Serves as technical projects representative for the Filecoin Foundation.
-        - smagdali
   infra:
     members:
       member:
@@ -5283,25 +4964,30 @@ teams:
         - laurentsenta
   legal:
     {}
+  lotus-ci:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - FilOzzy
   lotus-contributors:
     members:
       maintainer:
         - BigLep
         - jennijuju
       member:
-        - cryptonemo
         - fridrik01
         - GlacierWalrus
         - hannahhoward
         - Kubuxu
         - LexLuthr
         - maciejwitowski
-        - masih
         - nonsense
         - raulk
         - rjan90
         - rvagg
         - snissn
+        - Stebalien
+        - tediou5
         - TippyFlitsUK
         - whyrusleeping
         - willscott
@@ -5314,11 +5000,10 @@ teams:
       member:
         - aarshkshah1992
         - Kubuxu
-        - masih
         - rjan90
         - rvagg
-        - Stebalien
         - TippyFlitsUK
+        - wjmelements
         - ZenGround0
   lotus-miner-maintainers:
     members:
@@ -5340,7 +5025,6 @@ teams:
         - davidd8
         - hannahhoward
         - LaurenSpiegel
-        - masih
         - willscott
   oni:
     members:
@@ -5380,10 +5064,19 @@ teams:
         - frrist
         - jnthnvctr
         - mishmosh
-        - porcuquine
         - protocolin
         - raulk
         - whyrusleeping
+        - ZenGround0
+  proofs-contributors:
+    members:
+      maintainer:
+        - Kubuxu
+      member:
+        - cryptonemo
+        - nicola
+        - rvagg
+        - vmx
         - ZenGround0
   proofs-crate-owners:
     create_default_maintainer: false
@@ -5391,27 +5084,16 @@ teams:
       maintainer:
         - jennijuju
       member:
+        - FilOzzy # Present so can use token in CI for releasing/publishing crates
         - Kubuxu
         - rjan90
         - rvagg
-        - Stebalien
         - ZenGround0
-  proofs:
-    members:
-      maintainer:
-        - cryptonemo
-      member:
-        - DrPeterVanNostrand
-        - Kubuxu
-        - nicola
-        - porcuquine
-        - vmx
   research:
     members:
       maintainer:
         - nicola
       member:
-        - DrPeterVanNostrand
         - irenegia
         - jbenet
         - jsoares
@@ -5439,9 +5121,9 @@ teams:
     # Filecoin Foundation team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
     members:
       member:
+        - ianconsolata
         - parthshah1
         - relotnek
-        - smagdali
   Sentinel Admin:
     members:
       maintainer:
@@ -5477,7 +5159,6 @@ teams:
         - mishmosh
         - momack2
         - nicola
-        - porcuquine
         - whyrusleeping
         - yiannisbot
         - zixuanzh
@@ -5497,7 +5178,7 @@ teams:
   UXimprovement team:
     members:
       maintainer:
-        - smagdali
+        - mirhamasala
   Venus:
     members:
       maintainer:
@@ -5510,7 +5191,6 @@ teams:
         - BigLep
         - jennijuju
         - magik6k
-        - Stebalien
       member:
         - BlocksOnAChain
         - ZenGround0
