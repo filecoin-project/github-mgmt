@@ -3569,9 +3569,10 @@ repositories:
       admin:
         - fvm-crate-owners
         - lotus-maintainers
+      maintain:
+        - Forest
       push:
         - FIL-B
-        - Forest
         - fvm-core-devs
         - lotus-contributors
     visibility: public
