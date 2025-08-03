@@ -204,6 +204,7 @@ members:
     - web3-bot
     - whyrusleeping
     - willscott
+    - wjmelements
     - xBalbinus
     - xmcai2016
     - XORS-eng
@@ -3432,6 +3433,22 @@ repositories:
     archived: true
   PebblingAndDepthReductionAttacks:
     archived: true
+  pgf-programs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - davidgasquez
+        - sejalrekhan97
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   phase2-attestations-internal-verification:
     archived: true
   phase2-attestations:
@@ -4776,6 +4793,7 @@ teams:
         - trruckerfling
       member:
         - longfeiWan9
+        - nijoe1
         - rk-rishikesh
         - snissn
         - xBalbinus
