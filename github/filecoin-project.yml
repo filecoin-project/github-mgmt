@@ -766,6 +766,7 @@ repositories:
       push:
         - aarshkshah1992
         - rjan90
+        - rvagg
         - ZenGround0
     has_discussions: true
     merge_commit_message: PR_BODY
@@ -3440,15 +3441,17 @@ repositories:
     collaborators:
       admin:
         - davidgasquez
-        - sejalrekhan97
+        - joshuadaniels09
+      push:
+        - daviddao
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
+    secret_scanning_push_protection: false
+    secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
+    visibility: private
   phase2-attestations-internal-verification:
     archived: true
   phase2-attestations:
