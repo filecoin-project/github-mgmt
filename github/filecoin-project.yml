@@ -1206,8 +1206,6 @@ repositories:
         - rk-rishikesh
         - snissn
         - trruckerfling
-        - xBalbinus
-        - XORS-eng
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1215,6 +1213,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - FIL-B
     visibility: public
   fil-blst:
     archived: true
@@ -1361,7 +1362,7 @@ repositories:
     visibility: public
   filecoin-docs:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
@@ -3434,24 +3435,6 @@ repositories:
     archived: true
   PebblingAndDepthReductionAttacks:
     archived: true
-  pgf-programs:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - davidgasquez
-        - joshuadaniels09
-      push:
-        - daviddao
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
   phase2-attestations-internal-verification:
     archived: true
   phase2-attestations:
