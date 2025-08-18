@@ -4356,27 +4356,7 @@ repositories:
   token-distribution-procedures:
     archived: true
   tornado-deploy:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - hannahhoward
-        - willscott
-      maintain:
-        - rvagg
-        - sti-bot
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      maintain:
-        - bedrock-go
-    visibility: public
+    archived: true
   TPM:
     archived: true
   tweety:
