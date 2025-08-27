@@ -764,9 +764,12 @@ repositories:
       admin:
         - magik6k
       push:
+        # These FilOz team members have push access so they approve/push PRs to development/feature branches.
+        # Repo branch protections rules or rulesets are used to ensure these individuals can't push to `main`.
         - aarshkshah1992
         - rjan90
         - rvagg
+        - wjmelements
         - ZenGround0
     has_discussions: true
     merge_commit_message: PR_BODY
