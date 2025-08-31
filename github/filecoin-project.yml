@@ -1217,7 +1217,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      pull:
+      admin:
         - FIL-B
     visibility: public
   fil-blst:
@@ -3380,7 +3380,6 @@ repositories:
     collaborators:
       admin:
         - dannyob
-        - Huang-Zexiang
         - ianconsolata
         - joekingss
         - kaitlin-beegle
