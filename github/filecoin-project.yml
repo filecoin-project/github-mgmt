@@ -58,6 +58,7 @@ members:
     - alanshaw
     - alexandrumatei36
     - Alexey-N-Chernyshov
+    - AlexeyKrasnoperov
     - AmeanAsad
     - androowoo
     - andyschwab
@@ -109,6 +110,7 @@ members:
     - guanzo
     - guy-goren
     - hammertoe
+    - hanabi1224
     - hannahhoward
     - hunjixin
     - ianconsolata
@@ -4814,7 +4816,9 @@ teams:
         - LesnyRumcajs
       member:
         - akaladarshi
+        - AlexeyKrasnoperov
         - elmattic
+        - hanabi1224
         - sudo-shashank
   foundation:
     members:
