@@ -764,6 +764,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - jennijuju
         - magik6k
       push:
         # These FilOz team members have push access so they approve/push PRs to development/feature branches.
