@@ -234,9 +234,6 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
-    collaborators:
-      push:
-        - alexytsu
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -297,9 +294,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - snadrus
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -323,9 +317,6 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
-    collaborators:
-      admin:
-        - LesnyRumcajs
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -363,9 +354,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - jennijuju
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -446,12 +434,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - LexLuthr
-        - nonsense
-      push:
-        - hannahhoward
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -467,13 +449,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - LexLuthr
-        - nonsense
-      push:
-        - hannahhoward
-        - rvagg
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -491,22 +466,10 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - davidd8
-        - hannahhoward
-        - jennijuju
         - LexLuthr
         - magik6k
-        - nonsense
-        - willscott
       maintain:
-        - brendalee
-        - LaurenSpiegel
         - rvagg
-      push:
-        - aarshkshah1992
-        - aschmahmann
-        - gammazero
-        - ischasny
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -563,9 +526,6 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -604,9 +564,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - daviddias
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -628,17 +585,7 @@ repositories:
       admin:
         - ArseniiPetrovich
         - dumikau
-        - dzmitrykliapkou
-        - eshon
-        - jbenet
-        - jennijuju
         - mur-me
-        - protocolin
-      pull:
-        - arajasek
-        - pk-controller
-      push:
-        - openworklabbot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -665,28 +612,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - jennijuju
-        - momack2
-        - rjan90
-        - Tanisha-fil
-      maintain:
-        - eshon
-        - trruckerfling
-      push:
-        - arajasek
-        - dkkapur
-        - Onkar-san
-        - vnessasgrt
-        # Onkar-san's permissions are temporary to enable self-service moderation of https://github.com/filecoin-project/community/discussions/744 
-        # They need write permissions per https://docs.github.com/en/communities/moderating-comments-and-conversations/managing-disruptive-comments 
-        # This can be removed 2025-12-01 (1st December, 2025).
-
-      triage:
-        - ec2
-        - haochizzle
-        - timguo-ipfs
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -709,12 +634,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - jennijuju
-        - momack2
-        - relotnek
       maintain:
-        - dannyob
         - rjan90
       push:
         - Tanisha-fil
@@ -730,15 +650,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - zuiris
-      push:
-        - Elestrias
-        - Harrm
-        - Markuu-s
-        - Mingela
-        - wer1st
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -811,10 +722,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - anjor
-        - willscott
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -827,9 +734,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -842,10 +746,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      maintain:
-        - AlexxNica
-        - dkkapur
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -861,17 +761,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - nonsense
-        - raulk
-        - willscott
-      maintain:
-        - arajasek
-        - davidd8
-        - dkkapur
-        - gammazero
-        - rvagg
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -921,17 +810,10 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - BlocksOnAChain
         - FF-FOIT
         - realChainLife
       maintain:
         - eshon
-        - figureouter
-        - philippbanhardt
-      push:
-        - arajasek
-        - pap1ll0n
-        - SeedingTrees
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -948,9 +830,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - ianconsolata
-        - ognots
       push:
         - web3-bot
     has_discussions: false
@@ -991,21 +870,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - ashwanth-eth
-        - mishmosh
-        - orvn
-        - timelytree
-        - vesahc
-      maintain:
-        - D3AS8A
-        - svvimming
-        - tikagan
-      push:
-        - lksbrssr
-        - splumms
-        - tjsMck
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1088,10 +952,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      maintain:
-        - hammertoe
-        - trruckerfling
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1119,11 +979,6 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
-    collaborators:
-      admin:
-        - hammertoe
-      push:
-        - arajasek
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1157,17 +1012,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - BigLep
-        - jennijuju
-        - momack2
-        - parthshah1
-        - relotnek
-      pull:
-        - AnomalRoil
-      push:
-        - arajasek
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1188,9 +1032,7 @@ repositories:
     archived: false
     collaborators:
       push:
-        - arajasek
         - web3-bot
-        - willscott
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1292,9 +1134,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - ognots
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -1321,13 +1160,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - jnthnvctr
-      push:
-        - frm
-        - zamith
-        - ZePedroResende
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1376,20 +1208,15 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - andyschwab
         - ianconsolata
         - jennijuju
-        - raulk
       maintain:
-        - bobdubois
         - eshon
         - lanzafame
         - trruckerfling
       push:
-        - Angelo-gh3990
         - barbaraperic
         - dannyob
-        - ivanka
         - jochasinga
         - mirhamasala
         - robertagora
@@ -1412,10 +1239,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - arajasek
-        - ognots
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1464,9 +1287,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hammertoe
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1518,14 +1338,6 @@ repositories:
     collaborators:
       admin:
         - rvagg
-      push:
-        - aschmahmann
-        - bajtos
-        - hugomrdias
-        - juliangruber
-        - lidel
-        - patrickwoodhead
-        - pyropy
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1541,15 +1353,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - dkkapur
-        - fabriziogianni7
-        - galen-mcandrew
-        - jbesraa
-        - ssallam
-      maintain:
-        - willscott
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1564,18 +1367,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - AlexMCon
-        - clriesco
-        - jbesraa
-        - kokal33
-        - panges2
-        - simonkim0515
-        - timelytree
-      push:
-        - data-programs
-        - orvn
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1591,11 +1382,8 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - dkkapur
       maintain:
         - AlexxNica
-        - willscott
     files:
       .github/dependabot.yml:
         content: |
@@ -1621,14 +1409,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - dkkapur
-        - simonkim0515
-      maintain:
-        - kevzak
-        - raghavrmadya
-        - willscott
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1644,13 +1424,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - abelsoares
-        - patrickwoodhead
-      maintain:
-        - claudiorodr
-        - tiago258
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -1670,20 +1443,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - BlocksOnAChain
-        - robertagora
-        - scotthconner
       push:
-        - 4l8ee
-        - andrejrakic
-        - arajasek
-        - milos1731
         - snissn
-        - vaniiiii
-        - vesahc
-        - vonum
-        - wertikalk
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1722,14 +1483,10 @@ repositories:
         - mirhamasala
       maintain:
         - andyschwab
-      pull:
-        - arajasek
-        - Isabellabcj
       push:
         - barbaraperic
         - CharlyMartin
         - momack2
-        - TippyFlitsUK
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1750,9 +1507,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hammertoe
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1803,20 +1557,10 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - AlexMCon
-        - clriesco
-        - dkkapur
         - kacperzuk-neti
         - lukasz-wal
-        - panges2
-        - willscott
       push:
-        - CodeWarriorr
         - Filip-L
-        - orvn
-        - pingwindyktator
-        - timelytree
-        - tmaciej-neti
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1831,16 +1575,11 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - AlexMCon
-        - clriesco
-        - dkkapur
         - kacperzuk-neti
         - lukasz-wal
         - willscott
       push:
         - Filip-L
-        - pingwindyktator
-        - tmaciej-neti
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1854,15 +1593,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - AlexMCon
-        - clriesco
-        - dkkapur
-        - kacperzuk-neti
-        - willscott
       push:
         - Filip-L
-        - lukasz-wal
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1875,19 +1607,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - AlexMCon
-        - clriesco
-        - dkkapur
-        - jbesraa
-        - kokal33
-        - orvn
-        - panges2
-        - timelytree
-        - willscott
-      push:
-        - data-programs
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1900,13 +1619,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - AlexMCon
-        - clriesco
-        - dkkapur
-        - jbesraa
-        - kokal33
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1922,13 +1634,7 @@ repositories:
     collaborators:
       admin:
         - eshon
-        - expede
         - hugomrdias
-        - ianconsolata
-        - maciejwitowski
-      maintain:
-        - avivash
-        - meandavejustice
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1946,8 +1652,6 @@ repositories:
     collaborators:
       push:
         - Tanisha-fil
-      triage:
-        - filecoin-governance
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1974,12 +1678,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - BlocksOnAChain
-        - Jacarte
-      maintain:
-        - arajasek
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2017,26 +1715,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - BlocksOnAChain
-        - lksbrssr
-        - trruckerfling
-      maintain:
-        - arajasek
-        - eshon
-        - longfeiWan9
-        - snissn
-      pull:
-        - WhiteFlamingo
-      push:
-        - ianconsolata
-        - jsoares
-        - LaurenSpiegel
-        - rk-rishikesh
-        - robertagora
-        - xBalbinus
-        - XORS-eng
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2055,9 +1733,6 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
-    collaborators:
-      admin:
-        - raulk
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2075,11 +1750,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - snissn
-      maintain:
-        - arajasek
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2099,10 +1769,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - arajasek
-        - ec2
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2121,13 +1787,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - magik6k
-      maintain:
-        - arajasek
-      push:
-        - Jacarte
     files:
       .github/dependabot.yml:
         content: |
@@ -2160,14 +1819,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - raulk
-      push:
-        - arajasek
-        - eshon
-        - mirhamasala
-        - momack2
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -2187,9 +1838,6 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
-    collaborators:
-      push:
-        - alexytsu
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2223,9 +1871,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - arajasek
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2242,9 +1887,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - ianconsolata
-        - ognots
       push:
         - web3-bot
     has_discussions: false
@@ -2405,9 +2047,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - Schwartz10
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2423,9 +2062,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - ribasushi
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2460,17 +2096,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
-        - rvagg
-      maintain:
-        - aarshkshah1992
-      push:
-        - arajasek
-        - mishmosh
-      triage:
-        - dkkapur
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2507,8 +2132,6 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - anorth
       push:
         - web3-bot
     has_discussions: false
@@ -2526,10 +2149,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      maintain:
-        - aschmahmann
-        - ribasushi
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2587,20 +2206,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - aarshkshah1992
-        - anorth
-        - hannahhoward
-        - magik6k
-        - mishmosh
-        - nonsense
-      maintain:
-        - rvagg
-      push:
-        - arajasek
-      triage:
-        - dkkapur
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2669,14 +2274,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - gammazero
-        - willscott
-      maintain:
-        - arajasek
-        - hannahhoward
       push:
-        - adlrocha
         - web3-bot
     files:
       .github/dependabot.yml:
@@ -2738,9 +2336,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2845,21 +2440,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - dr-bizz
-        - orvn
-        - svvimming
-        - timelytree
-      maintain:
-        - splumms
-      push:
-        - D3AS8A
-        - joannaong
-        - nicole-code
-        - redransil
-      triage:
-        - emilymariahh
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2877,11 +2457,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - lksbrssr
-        - suzannaaltman
-        - vvkio
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2901,12 +2476,6 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
-    collaborators:
-      admin:
-        - GlacierWalrus
-        - ognots
-      push:
-        - andrestorresGL
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2923,9 +2492,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - ianconsolata
-        - ognots
       push:
         - web3-bot
     has_discussions: false
@@ -2943,9 +2509,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - laurentsenta
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2981,11 +2544,7 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - hannahhoward
         - rvagg
-      maintain:
-        - AmeanAsad
-        - davidd8
       push:
         - web3-bot
     files:
@@ -3010,13 +2569,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - LexLuthr
-        - magik6k
-        - nonsense
-      push:
-        - rjan90
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3032,12 +2584,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - davidd8
-        - hannahhoward
-      push:
-        - arajasek
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3051,8 +2597,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      maintain:
-        - ognots
       push:
         - web3-bot
     files:
@@ -3077,8 +2621,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - LaurenSpiegel
-        - starboard-devops
         - Terryhung
     files:
       .github/dependabot.yml:
@@ -3122,17 +2664,10 @@ repositories:
       admin:
         # 2024-08-15: temporary addition while working on https://github.com/filecoin-project/lotus-docs/issues/742
         - BigLep
-        # end of temporary addition
-        - jennijuju
         - rjan90
-      maintain:
-        - TippyFlitsUK
       push:
-        - arajasek
         - laurentsenta
         - LexLuthr
-        - Reiers
-        - snadrus
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3152,19 +2687,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - arajasek
-        - ognots
-      maintain:
-        - rvagg
-      pull:
-        - turinglabsorg
-      push:
-        - irenegia
-        - LexLuthr
-        - ribasushi
-        - scotthconner
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3185,9 +2707,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      pull:
-        - LesnyRumcajs
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3223,8 +2742,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      maintain:
-        - snadrus # Curio lead
       triage:
         - ribasushi # Independent contributor active on various Lotus issues.  Now can assign labels and leave reviews.
     has_discussions: true
@@ -3273,9 +2790,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      triage:
-        - arajasek
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3332,15 +2846,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
-        - willscott
-        - xinaxu
-      maintain:
-        - davidd8
-        - elijaharita
-        - LaurenSpiegel
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3356,13 +2861,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - rvagg
-      push:
-        - elijaharita
-        - gammazero
-        - xinaxu
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3385,19 +2883,8 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - dkkapur
-        - fabriziogianni7
         - galen-mcandrew
-        - ialberquilla
-        - jnthnvctr
         - Kevin-FF-USA
-        - raghavrmadya
-      maintain:
-        - kevzak
-        - panges2
-        - simonkim0515
-      push:
-        - xmcai2016
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3412,17 +2899,13 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - dannyob
         - ianconsolata
         - joekingss
-        - kaitlin-beegle
         - liuzeming1
         - macro-ss
         - willpan1102
       maintain:
         - QuietLiu01
-      pull:
-        - filipagr
       push:
         - ygy-1231
     has_discussions: false
@@ -3441,11 +2924,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - andyschwab
-        - dr-bizz
-        - suzannaaltman
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3539,7 +3017,6 @@ repositories:
     collaborators:
       push:
         - lordshashank
-        - ravish1729
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3555,12 +3032,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - arajasek
-        - Kubuxu
-      push:
-        - Jacarte
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3617,10 +3088,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - ianconsolata
-        - ognots
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3646,13 +3113,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - anorth
-        - nicola
-      push:
-        - irenegia
-        - lucaniz
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3673,9 +3133,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3691,16 +3148,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
-        - momack2
-        - patrickwoodhead
-      pull:
-        - daviddias
-      push:
-        - arajasek
-        - willscott
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3716,11 +3163,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - patrickwoodhead
-      pull:
-        - daviddias
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3736,9 +3178,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3751,9 +3190,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - momack2
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3866,9 +3302,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      maintain:
-        - ognots
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -3893,9 +3326,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - ognots
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -3921,10 +3351,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - arajasek
-        - ognots
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -3949,15 +3375,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - daviddias
-        - starboard-devops
-      pull:
-        - momack2
-        - nicola
-        - olizilla
-        - zixuanzh
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4002,9 +3419,6 @@ repositories:
     collaborators:
       admin:
         - relotnek
-      maintain:
-        - ianconsolata
-        - parthshah1
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4021,22 +3435,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - Aminejvm
-      maintain:
-        - achalvs
-        - akuokojnr
-        - harisbutt
-        - martinalong
-      pull:
-        - gndclouds
-        - tmytrn
-        - uonai
-      push:
-        - johannes-jp
-        - jordattebayo
-        - tarafanlin
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4050,9 +3448,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - ianconsolata
-        - ognots
       push:
         - web3-bot
     has_discussions: false
@@ -4084,16 +3479,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - bobdubois
-        - nonsense
-      push:
-        - brendalee
-        - joaosa
-        - LexLuthr
-        - schreck23
-        - Zorlin
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4120,18 +3505,11 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - arajasek
         - ianconsolata
-        - olizilla
-        - yiannisbot
       maintain:
         - barbaraperic
         - lanzafame
         - mirhamasala
-        - nonsense
-        - robertagora
-      push:
-        - ognots
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4170,9 +3548,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - longfeiWan9
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4208,23 +3583,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - BlocksOnAChain
-        - brdji
-        - raulk
-      pull:
-        - KatarinaKeti
-        - LaneBloxico
-        - TheDivic
-      push:
-        - AbominableSnowman730
-        - aleksaToljic
-        - bokimilinkovic
-        - MilosMarkoni
-        - mstojanovicbloxico
-        - StefanGajic
-        - Vojimirovich
     files:
       .github/dependabot.yml:
         content: >
@@ -4361,9 +3719,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - jsoares
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4417,17 +3772,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - arajasek
-        - elvin-du
-        - eshon
-        - hunjixin
-        - jennijuju
-        - mishmosh
-        - steven004
       maintain:
-        - "0x5459"
-        - Joss-Hua
         - simlecode
       push:
         - LinZexiao
@@ -4447,13 +3792,10 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - elvin-du
         - simlecode
       maintain:
         - "0x5459"
         - LinZexiao
-      pull:
-        - arajasek
       push:
         - tediou5
     has_discussions: false
@@ -4472,18 +3814,11 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - elvin-du
       maintain:
-        - "0x5459"
-        - arajasek
         - asamuj
         - LinZexiao
         - simlecode
         - tediou5
-      push:
-        - ognots
-        - StefanGajic
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4506,9 +3841,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - Jacarte
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4534,15 +3866,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - alanshaw
-        - andyschwab
-        - daviddias
-        - dkkapur
-        - eshon
-        - olizilla
-        - parthshah1
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4576,11 +3899,6 @@ teams:
   actors-contributors:
     members:
       member:
-        - arajasek
-        - ec2
-        - kkarrancsu
-        - macro-ss
-        - marco-storswift
         - Stebalien
   actors-maintainers:
     members:
@@ -4589,7 +3907,6 @@ teams:
         - jennijuju
         - ZenGround0
       member:
-        - aarshkshah1992
         - Kubuxu
         - rjan90
         - rvagg
@@ -4597,157 +3914,133 @@ teams:
   advocates:
     members:
       member:
-        - hammertoe
-        - lksbrssr
         - longfeiWan9
-        - mishmosh
         - trruckerfling
   alumni:
+    {}
+  Alumni:
     members:
-      maintainer:
-        - anorth
-        - BigLep
-        - jennijuju
-        - magik6k
       member:
+        - aakoshh
+        - adlrocha
         - alanshaw
+        - alexandrumatei36
+        - Alexey-N-Chernyshov
         - AmeanAsad
         - androowoo
-        - andyschwab
-        - aschmahmann
+        - arden-sead
+        - art-gor
         - ashwanth-eth
         - aysmed
+        - birdychang
+        - BlocksOnAChain
         - bradholden
+        - brdji
         - brendalee
+        - BulatSaif
         - cbrocoum
-        - cryptonemo
+        - Cre-eD
+        - davidad
         - davidd8
+        - dchoi27
         - DiegoRBaquero
         - dkkapur
-        - DrPeterVanNostrand
-        - emilymvaughan
-        - eshon
+        - dnkolegov
+        - ec2
+        - elijaharita
+        - expede
         - figureouter
+        - filecoin-ci
+        - filecoin-crate-owner
+        - FilOzzy
         - fridrik01
-        - frrist
-        - gammazero
+        - george-haddad
+        - GlacierWalrus
         - guanzo
+        - guy-goren
         - hammertoe
-        - hannahhoward
+        - hunjixin
+        - igor-egorov
         - ischasny
+        - JadTermsani
         - jbenet
-        - juliangruber
-        - Kubuxu
-        - lucaniz
-        - masih
+        - joaosa
+        - kalambet
+        - kevzak
+        - kkarrancsu
+        - LaurenSpiegel
+        - maciejwitowski
+        - marco-storswift
+        - Markuu-s
+        - masterjedy
+        - mastrwayne-admin
+        - mastrwayne
         - matejpavlovic
+        - mb1896
         - MF416
+        - Mingela
         - mishmosh
-        - momack2
+        - monicaortel
         - nicola
         - ninitrava
         - nonsense
+        - ns4plabs
         - olizilla
-        - patrickwoodhead
-        - pk-controller
+        - ortyomka
+        - parthpathakweb3
         - pk13-PLF
+        - protocol-labs
         - protocolin
-        - raulk
-        - ribasushi
-        - rvagg
+        - raghavrmadya
         - scotthconner
-        - Stebalien
+        - SeedingTrees
+        - sergkaprovich
+        - simonkim0515
+        - smooth-operator
         - Stefaan-V
-        - Terryhung
+        - steven004
+        - TheDivic
+        - TheMenko
         - TorfinnOlsen
-        - trruckerfling
+        - turuslan
         - vesahc
-        - vmx
+        - vnessasgrt
         - whyrusleeping
-        - willscott
-        - yiannisbot
-        - ZenGround0
+        - xmcai2016
+        - YuliiaFilecoin
+        - zixuanzh
+        - zuiris
   bedrock-go:
     members:
       maintainer:
         - willscott
       member:
-        - aarshkshah1992
-        - davidd8
-        - elijaharita
-        - gammazero
-        - hannahhoward
-        - LexLuthr
-        - nonsense
         - rvagg
   Boost:
     members:
       maintainer:
-        - brendalee
-        - davidd8
-        - ischasny
         - LexLuthr
         - magik6k
-        - nonsense
       member:
-        - Reiers
         - snadrus
   CERT:
-    members:
-      maintainer:
-        - mastrwayne-admin
-      member:
-        - monicaortel
+    {}
   ci:
-    members:
-      member:
-        - filecoin-ci
+    {}
   collab-ff-seo-ux:
     members:
       member:
         - ianconsolata
   collab-ipfs-force:
-    members:
-      member:
-        - steven004
+    {}
   community-mgmt:
-    members:
-      maintainer:
-        - jennijuju
+    {}
   consensuslab:
-    members:
-      maintainer:
-        - adlrocha
-        - jsoares
-        - vukolic
-      member:
-        - aakoshh
-        - cryptoAtwill
-        - dnkolegov
-        - guy-goren
-        - matejpavlovic
+    {}
   cpp-filecoin-team:
-    members:
-      member:
-        - Alexey-N-Chernyshov
-        - art-gor
-        - BulatSaif
-        - Cre-eD
-        - igor-egorov
-        - masterjedy
-        - Mingela
-        - ortyomka
-        - sergkaprovich
-        - turuslan
-        - zuiris
+    {}
   cryptoeconomics:
-    members:
-      maintainer:
-        - protocolin
-        - zixuanzh
-      member:
-        - jbenet
-        - nicola
+    {}
   Curio:
     members:
       maintainer:
@@ -4757,30 +4050,11 @@ teams:
         - LexLuthr
         - Reiers
   Data Programs:
-    members:
-      maintainer:
-        - dkkapur
-      member:
-        - ribasushi
+    {}
   data:
-    members:
-      member:
-        - birdychang
-        - Terryhung
+    {}
   dev-misc:
-    members:
-      maintainer:
-        - anorth
-        - magik6k
-      member:
-        - eshon
-        - frrist
-        - jbenet
-        - jnthnvctr
-        - Kubuxu
-        - whyrusleeping
-        - ZenGround0
-        - zixuanzh
+    {}
   docs-admins:
     {}
   docs-storage-provider:
@@ -4799,13 +4073,7 @@ teams:
         - xBalbinus
         - XORS-eng
   fil-plus-wg:
-    members:
-      maintainer:
-        - dkkapur
-        - simonkim0515
-      member:
-        - kevzak
-        - raghavrmadya
+    {}
   filoz-devguild-mentees:
     members:
       member:
@@ -4818,15 +4086,12 @@ teams:
         - jennijuju
         - TippyFlitsUK
       member:
-        - aarshkshah1992
         - irenegia
         - Kubuxu
         - lucaniz
         - momack2
-        - nicola
         - rjan90
         - rvagg
-        - wjmelements
         - ZenGround0
   fips-editors:
     members:
@@ -4843,7 +4108,6 @@ teams:
   Forest:
     members:
       maintainer:
-        - kalambet
         - LesnyRumcajs
       member:
         - akaladarshi
@@ -4856,25 +4120,14 @@ teams:
       maintainer:
         - ianconsolata
         - realChainLife
-      member:
-        - SeedingTrees
-        - vnessasgrt
   FVM Web:
-    members:
-      maintainer:
-        - jennijuju
-      member:
-        - eshon
-        - lksbrssr
-        - raulk
-        - trruckerfling
+    {}
   fvm-core-devs:
     members:
       maintainer:
         - anorth
       member:
         - Kubuxu
-        - raulk
         - Stebalien
         - ZenGround0
   fvm-crate-owners:
@@ -4888,15 +4141,7 @@ teams:
         - rvagg
   fvm-team:
     members:
-      maintainer:
-        - jennijuju
-        - magik6k
       member:
-        - fridrik01
-        - hammertoe
-        - parthpathakweb3
-        - raulk
-        - Stebalien
         - trruckerfling
   github-mgmt approvers:
     # Notes:
@@ -4919,10 +4164,6 @@ teams:
         # 1. Long-time Filecoin developer with broad awareness and GitHub operational experience.
         # 2. He has experience working with github-mgmt in other contexts (e.g., ipfs, libp2p, ipld)
         - Stebalien
-        # Why @willscott?
-        # 1. Represents another part of the ecosystem: Filecoin Incentive Design Labs
-        # 2. He's experienced working with and administering github-mgmt in other organizations (e.g., ipld, ipfs)
-        - willscott
   github-mgmt stewards:
     # Notes:
     # 1. These members have push+ access to the github-mgmt repository (in addition to the org owners listed in "members.admin" above).
@@ -4972,38 +4213,22 @@ teams:
         # 2. He has experience working with github-mgmt in other contexts (e.g., ipld)
         - rvagg
   infra:
-    members:
-      member:
-        - birdychang
-        - GlacierWalrus
-        - ns4plabs
-        - Terryhung
+    {}
   ipdx:
-    members:
-      maintainer:
-        - galargh
-      member:
-        - laurentsenta
+    {}
   legal:
     {}
   lotus-ci:
     create_default_maintainer: false
-    members:
-      maintainer:
-        - FilOzzy
   lotus-contributors:
     members:
       maintainer:
         - BigLep
         - jennijuju
       member:
-        - fridrik01
-        - GlacierWalrus
         - hannahhoward
         - Kubuxu
         - LexLuthr
-        - maciejwitowski
-        - nonsense
         - raulk
         - rjan90
         - rvagg
@@ -5011,7 +4236,6 @@ teams:
         - Stebalien
         - tediou5
         - TippyFlitsUK
-        - whyrusleeping
         - willscott
   lotus-maintainers:
     members:
@@ -5034,188 +4258,71 @@ teams:
   moderators:
     # Assigning this team the Moderator role is configured through the GitHub UI, not in github-mgmt.
     # Sead team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
-    members:
-      maintainer:
-        # @masterway-admin is listed as a maintainer rather than member because GitHub will automatically make him a maintainer given he is an org.admin above.
-        - dr-bizz
-        - mastrwayne-admin
-      member:
-        - arden-sead
+    {}
   Motion:
-    members:
-      member:
-        - davidd8
-        - hannahhoward
-        - LaurenSpiegel
-        - willscott
+    {}
   oni:
-    members:
-      maintainer:
-        - raulk
-      member:
-        - alanshaw
-        - jimpick
-        - momack2
-        - nonsense
-        - whyrusleeping
-        - willscott
+    {}
   product-biz:
-    members:
-      maintainer:
-        - mishmosh
-        - protocolin
-      member:
-        - cbrocoum
-        - davidad
-        - jnthnvctr
-        - zixuanzh
+    {}
   product:
-    members:
-      member:
-        - dchoi27
-        - dkkapur
-        - jnthnvctr
-        - ribasushi
+    {}
   proj-mgmt:
-    members:
-      maintainer:
-        - anorth
-      member:
-        - davidd8
-        - eshon
-        - frrist
-        - jnthnvctr
-        - mishmosh
-        - protocolin
-        - raulk
-        - whyrusleeping
-        - ZenGround0
+    {}
   proofs-contributors:
     members:
       maintainer:
         - Kubuxu
       member:
         - cryptonemo
-        - nicola
         - rvagg
         - vmx
-        - ZenGround0
   proofs-crate-owners:
     create_default_maintainer: false
     members:
-      maintainer:
-        - jennijuju
       member:
-        - FilOzzy # Present so can use token in CI for releasing/publishing crates
         - Kubuxu
         - rjan90
         - rvagg
-        - ZenGround0
   research:
     members:
-      maintainer:
-        - nicola
       member:
         - irenegia
-        - jbenet
         - jsoares
         - lucaniz
-        - ninitrava
-        - yiannisbot
   Retrieval Market Builders:
-    members:
-      member:
-        - bajtos
-        - joaosa
-        - juliangruber
-        - patrickwoodhead
+    {}
   saturn:
-    members:
-      maintainer:
-        - patrickwoodhead
-      member:
-        - aarshkshah1992
-        - AmeanAsad
-        - bajtos
-        - DiegoRBaquero
+    {}
   security-managers:
     # Note: members of this team have read access to all repos per https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
     # Filecoin Foundation team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
-    members:
-      member:
-        - ianconsolata
-        - parthshah1
-        - relotnek
+    {}
   Sentinel Admin:
     members:
-      maintainer:
-        - birdychang
       member:
         - Terryhung
   Sentinel Operators:
-    members:
-      maintainer:
-        - birdychang
-      member:
-        - Terryhung
+    {}
   Sentinel:
-    members:
-      maintainer:
-        - birdychang
-      member:
-        - Terryhung
+    {}
   space-meridian:
     # This team is used for @mentioning, particularly in the service-classes repo.
-    members:
-      maintainer:
-        - patrickwoodhead
-      member:
-        - bajtos
-        - juliangruber
+    {}
   specs:
-    members:
-      maintainer:
-        - anorth
-      member:
-        - jbenet
-        - mishmosh
-        - momack2
-        - nicola
-        - whyrusleeping
-        - yiannisbot
-        - zixuanzh
+    {}
   starling-storage:
-    members:
-      member:
-        - alexandrumatei36
-        - george-haddad
-        - JadTermsani
-        - mishmosh
-        - smooth-operator
+    {}
   tooling:
-    members:
-      member:
-        - frrist
-        - jnthnvctr
+    {}
   UXimprovement team:
-    members:
-      maintainer:
-        - mirhamasala
+    {}
   Venus:
     members:
-      maintainer:
-        - steven004
       member:
         - Fatman13
   w3dt-stewards:
-    members:
-      maintainer:
-        - BigLep
-        - jennijuju
-        - magik6k
-      member:
-        - BlocksOnAChain
-        - ZenGround0
+    {}
   Weaveworks:
     {}
   website:
@@ -5224,11 +4331,5 @@ teams:
         - eshon
       member:
         - andyschwab
-        - dkkapur
         - emilymvaughan
-        - jnthnvctr
-        - mishmosh
         - momack2
-        - nicola
-        - protocolin
-        - vesahc

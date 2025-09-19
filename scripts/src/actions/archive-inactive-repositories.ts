@@ -34,9 +34,11 @@ async function run(): Promise<void> {
   logStartDate.setMonth(logStartDate.getMonth() - AUDIT_LOG_LENGTH_IN_MONTHS)
 
   const github = await GitHub.getGitHub()
-  const repositoriesFromGitHub = (await github.listRepositories()).filter(repository => {
-    return !repository.archived
-  })
+  const repositoriesFromGitHub = (await github.listRepositories()).filter(
+    repository => {
+      return !repository.archived
+    }
+  )
 
   const repositoryEvents = []
   for (const repository of repositoriesFromGitHub) {
@@ -70,8 +72,10 @@ async function run(): Promise<void> {
       return repositoryActivity.repository.name === repository.name
     })?.activity
 
-    const recentEvent = event?.created_at && new Date(event?.created_at) >= logStartDate
-    const recentActivity = activity?.timestamp && new Date(activity?.timestamp) >= logStartDate
+    const recentEvent =
+      event?.created_at && new Date(event?.created_at) >= logStartDate
+    const recentActivity =
+      activity?.timestamp && new Date(activity?.timestamp) >= logStartDate
 
     if (recentEvent || recentActivity) {
       continue
