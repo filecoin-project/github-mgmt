@@ -73,7 +73,6 @@ members:
     - birdychang
     - BlocksOnAChain
     - bradholden
-    - brdji
     - brendalee
     - BulatSaif
     - cbrocoum
@@ -144,7 +143,6 @@ members:
     - masih
     - masterjedy
     - matejpavlovic
-    - mb1896
     - MF416
     - Mingela
     - mirhamasala
@@ -163,7 +161,6 @@ members:
     - patrickwoodhead
     - pk-controller
     - pk13-PLF
-    - porcuquine
     - protocol-labs
     - protocolin
     - raghavrmadya
@@ -176,11 +173,9 @@ members:
     - rk-rishikesh
     - robertagora
     - rvagg
-    - scotthconner
     - SeedingTrees
     - sergkaprovich
     - simonkim0515
-    - smagdali
     - smooth-operator
     - snadrus
     - snissn
@@ -191,7 +186,6 @@ members:
     - tediou5
     - Terryhung
     - TheDivic
-    - TheMenko
     - TippyFlitsUK
     - TorfinnOlsen
     - trruckerfling
@@ -210,7 +204,6 @@ members:
     - xmcai2016
     - XORS-eng
     - yiannisbot
-    - YuliiaFilecoin
     - ZenGround0
     - zixuanzh
     - zuiris
@@ -1521,11 +1514,15 @@ repositories:
       push:
         - aschmahmann
         - bajtos
+        - davidgasquez
         - hugomrdias
         - juliangruber
         - lidel
+        - nandit123
         - patrickwoodhead
         - pyropy
+        - ravish1729
+        - SgtPooki
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4655,7 +4652,6 @@ teams:
         - raulk
         - ribasushi
         - rvagg
-        - scotthconner
         - Stebalien
         - Stefaan-V
         - Terryhung
