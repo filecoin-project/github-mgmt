@@ -1511,6 +1511,8 @@ repositories:
     collaborators:
       admin:
         - rvagg
+      maintain:
+        - rjan90
       push:
         - aschmahmann
         - bajtos
@@ -1518,7 +1520,6 @@ repositories:
         - hugomrdias
         - juliangruber
         - lidel
-        - nandit123
         - patrickwoodhead
         - pyropy
         - ravish1729
@@ -2048,6 +2049,24 @@ repositories:
     visibility: private
   fvm-runtime-experiment:
     archived: true
+  fvm-solidity:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - wjmelements
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - FilOz
+    visibility: public
   fvm-spacewarp:
     advanced_security: false
     allow_update_branch: true
