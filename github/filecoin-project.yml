@@ -3148,6 +3148,9 @@ repositories:
         - laurentsenta
         - LexLuthr
         - Reiers
+        # 2025-09-30: temporary addition while working on a demonstration of https://github.com/filecoin-project/filecoin-pin/issues/49.
+        # Can be removed in a week or two.
+        - SgtPooki
         - snadrus
     has_discussions: false
     merge_commit_message: PR_TITLE
