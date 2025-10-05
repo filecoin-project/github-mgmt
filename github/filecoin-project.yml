@@ -1504,6 +1504,44 @@ repositories:
       admin:
         - proofs-crate-owners
     visibility: public
+  filecoin-pin-github-action-test:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - SgtPooki
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - FilOz
+    visibility: private
+  filecoin-pin-website:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      maintain:
+        - virajbhartiya
+      push:
+        - filipagr
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - FilOz
+    visibility: private
   filecoin-pin:
     advanced_security: false
     allow_update_branch: false
@@ -1524,17 +1562,18 @@ repositories:
         - pyropy
         - ravish1729
         - SgtPooki
+        - virajbhartiya
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - FilOz
-    visibility: private
+    visibility: public
   filecoin-plus-application-json-restructure:
     advanced_security: false
     allow_update_branch: false
