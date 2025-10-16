@@ -70,7 +70,6 @@ members:
     - autonome
     - aysmed
     - bajtos
-    - bambooogreen
     - birdychang
     - BlocksOnAChain
     - bradholden
@@ -167,6 +166,7 @@ members:
     - raghavrmadya
     - raulk
     - realChainLife
+    - redpanda-f
     - Reiers
     - relotnek
     - ribasushi
@@ -498,7 +498,6 @@ repositories:
         - LaurenSpiegel
         - rvagg
       push:
-        - aarshkshah1992
         - aschmahmann
         - gammazero
         - ischasny
@@ -2525,8 +2524,6 @@ repositories:
       admin:
         - hannahhoward
         - rvagg
-      maintain:
-        - aarshkshah1992
       push:
         - arajasek
         - mishmosh
@@ -2650,7 +2647,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - aarshkshah1992
         - anorth
         - hannahhoward
         - magik6k
@@ -4653,7 +4649,6 @@ teams:
         - jennijuju
         - ZenGround0
       member:
-        - aarshkshah1992
         - Kubuxu
         - rjan90
         - rvagg
@@ -4881,12 +4876,12 @@ teams:
         - jennijuju
         - TippyFlitsUK
       member:
-        - bambooogreen
         - irenegia
         - Kubuxu
         - lucaniz
         - momack2
         - nicola
+        - redpanda-f
         - rjan90
         - rvagg
         - wjmelements
@@ -5083,8 +5078,8 @@ teams:
         - jennijuju
         - magik6k
       member:
-        - aarshkshah1992
         - Kubuxu
+        - redpanda-f
         - rjan90
         - rvagg
         - TippyFlitsUK
