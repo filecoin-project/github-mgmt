@@ -70,7 +70,6 @@ members:
     - autonome
     - aysmed
     - bajtos
-    - bambooogreen
     - birdychang
     - BlocksOnAChain
     - bradholden
@@ -167,6 +166,7 @@ members:
     - raghavrmadya
     - raulk
     - realChainLife
+    - redpanda-f
     - Reiers
     - relotnek
     - ribasushi
@@ -249,7 +249,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - decentramike
         - galen-mcandrew
         - Kevin-FF-USA
         - martapiekarska
@@ -615,6 +614,21 @@ repositories:
     visibility: private
   client-growth:
     archived: true
+  client-success:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - dannyob
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   cmc-circulating-supply-fil-addresses:
     advanced_security: false
     allow_update_branch: false
@@ -1532,22 +1546,24 @@ repositories:
       maintain:
         - CharlyMartin
         - SgtPooki
-        - virajbhartiya
       push:
         - barbaraperic
         - filipagr
+        - gmoranxyz
+        - timfong888
         - trruckerfling
+        - virajbhartiya
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - FilOz
-    visibility: private
+    visibility: public
   filecoin-pin:
     advanced_security: false
     allow_update_branch: false
@@ -2523,6 +2539,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - gammazero
         - hannahhoward
         - rvagg
       maintain:
@@ -4881,12 +4898,12 @@ teams:
         - jennijuju
         - TippyFlitsUK
       member:
-        - bambooogreen
         - irenegia
         - Kubuxu
         - lucaniz
         - momack2
         - nicola
+        - redpanda-f
         - rjan90
         - rvagg
         - wjmelements
