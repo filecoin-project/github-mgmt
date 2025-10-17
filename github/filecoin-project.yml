@@ -497,7 +497,6 @@ repositories:
         - LaurenSpiegel
         - rvagg
       push:
-        - aarshkshah1992
         - aschmahmann
         - gammazero
         - ischasny
@@ -2542,8 +2541,6 @@ repositories:
         - gammazero
         - hannahhoward
         - rvagg
-      maintain:
-        - aarshkshah1992
       push:
         - arajasek
         - mishmosh
@@ -2667,7 +2664,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - aarshkshah1992
         - anorth
         - hannahhoward
         - magik6k
@@ -4670,7 +4666,6 @@ teams:
         - jennijuju
         - ZenGround0
       member:
-        - aarshkshah1992
         - Kubuxu
         - rjan90
         - rvagg
@@ -5100,8 +5095,8 @@ teams:
         - jennijuju
         - magik6k
       member:
-        - aarshkshah1992
         - Kubuxu
+        - redpanda-f
         - rjan90
         - rvagg
         - TippyFlitsUK
