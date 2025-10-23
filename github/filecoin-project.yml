@@ -680,16 +680,16 @@ repositories:
         - rjan90
         - Tanisha-fil
       maintain:
+        - dannyob
         - eshon
         - trruckerfling
-        - dannyob
       push:
         - arajasek
-        - pwrepo
         - dkkapur
         - Onkar-san
-        - vnessasgrt
         - pwrepo
+        - pwrepo
+        - vnessasgrt
         # Onkar-san's permissions are temporary to enable self-service moderation of https://github.com/filecoin-project/community/discussions/744 
         # They need write permissions per https://docs.github.com/en/communities/moderating-comments-and-conversations/managing-disruptive-comments 
         # This can be removed 2025-12-01 (1st December, 2025).
