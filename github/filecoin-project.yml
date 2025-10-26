@@ -166,7 +166,6 @@ members:
     - raghavrmadya
     - raulk
     - realChainLife
-    - redpanda-f
     - Reiers
     - relotnek
     - ribasushi
@@ -614,20 +613,7 @@ repositories:
   client-growth:
     archived: true
   client-success:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - dannyob
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
+    archived: true
   cmc-circulating-supply-fil-addresses:
     advanced_security: false
     allow_update_branch: false
@@ -2731,7 +2717,7 @@ repositories:
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - lotus-maintainers
@@ -3878,7 +3864,7 @@ repositories:
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - proofs-crate-owners
@@ -4900,7 +4886,6 @@ teams:
         - lucaniz
         - momack2
         - nicola
-        - redpanda-f
         - rjan90
         - rvagg
         - wjmelements
@@ -5098,7 +5083,6 @@ teams:
         - magik6k
       member:
         - Kubuxu
-        - redpanda-f
         - rjan90
         - rvagg
         - TippyFlitsUK
