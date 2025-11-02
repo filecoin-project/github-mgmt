@@ -166,6 +166,7 @@ members:
     - raghavrmadya
     - raulk
     - realChainLife
+    - redpanda-f
     - Reiers
     - relotnek
     - ribasushi
@@ -673,7 +674,6 @@ repositories:
         - arajasek
         - dkkapur
         - Onkar-san
-        - pwrepo
         - vnessasgrt
         # Onkar-san's permissions are temporary to enable self-service moderation of https://github.com/filecoin-project/community/discussions/744 
         # They need write permissions per https://docs.github.com/en/communities/moderating-comments-and-conversations/managing-disruptive-comments 
@@ -1540,6 +1540,8 @@ repositories:
         - timfong888
         - trruckerfling
         - virajbhartiya
+      triage:
+        - FilOzzy
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1572,6 +1574,8 @@ repositories:
         - ravish1729
         - SgtPooki
         - virajbhartiya
+      triage:
+        - FilOzzy
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4886,6 +4890,7 @@ teams:
         - lucaniz
         - momack2
         - nicola
+        - redpanda-f
         - rjan90
         - rvagg
         - wjmelements
@@ -5083,6 +5088,7 @@ teams:
         - magik6k
       member:
         - Kubuxu
+        - redpanda-f
         - rjan90
         - rvagg
         - TippyFlitsUK
