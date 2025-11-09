@@ -90,6 +90,7 @@ members:
     - DrPeterVanNostrand
     - ec2
     - elijaharita
+    - elmattic
     - emilymvaughan
     - eshon
     - expede
@@ -1384,6 +1385,7 @@ repositories:
         - Angelo-gh3990
         - barbaraperic
         - dannyob
+        - hammertoe
         - ivanka
         - jochasinga
         - mirhamasala
@@ -3527,6 +3529,26 @@ repositories:
     visibility: private
   orient:
     archived: true
+  painpoints-private:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - dannyob
+        - ianconsolata
+        - pwrepo
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - cswg
+    visibility: private
   paired:
     archived: true
   paper-porep-drg:
@@ -4814,6 +4836,12 @@ teams:
       member:
         - jbenet
         - nicola
+  cswg:
+    members:
+      maintainer:
+        - dannyob
+      member:
+        - ianconsolata
   Curio:
     members:
       maintainer:
@@ -4914,6 +4942,7 @@ teams:
       member:
         - akaladarshi
         - AlexeyKrasnoperov
+        - elmattic
         - hanabi1224
         - sudo-shashank
   foundation:
