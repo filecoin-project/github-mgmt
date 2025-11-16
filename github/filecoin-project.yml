@@ -103,6 +103,7 @@ members:
     - fridrik01
     - frrist
     - gammazero
+    - geomatrick
     - george-haddad
     - GlacierWalrus
     - guanzo
@@ -158,7 +159,6 @@ members:
     - ortyomka
     - parthpathakweb3
     - parthshah1
-    - patrickwoodhead
     - pk-controller
     - pk13-PLF
     - protocol-labs
@@ -1567,10 +1567,10 @@ repositories:
         - aschmahmann
         - bajtos
         - davidgasquez
+        - geomatrick
         - hugomrdias
         - juliangruber
         - lidel
-        - patrickwoodhead
         - pyropy
         - ravish1729
         - SgtPooki
@@ -1698,7 +1698,7 @@ repositories:
     collaborators:
       admin:
         - abelsoares
-        - patrickwoodhead
+        - geomatrick
       maintain:
         - claudiorodr
         - tiago258
@@ -3537,7 +3537,6 @@ repositories:
       admin:
         - dannyob
         - ianconsolata
-        - pwrepo
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3549,6 +3548,25 @@ repositories:
       admin:
         - cswg
     visibility: private
+  painpoints:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - BigLep
+        - dannyob
+        - filecoinfoundation-inf
+        - ianconsolata
+        - RichardHerold
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   paired:
     archived: true
   paper-porep-drg:
@@ -3783,9 +3801,9 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - geomatrick
         - hannahhoward
         - momack2
-        - patrickwoodhead
       pull:
         - daviddias
       push:
@@ -3808,7 +3826,7 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - patrickwoodhead
+        - geomatrick
       pull:
         - daviddias
     has_discussions: false
@@ -4070,7 +4088,7 @@ repositories:
     archived: false
     collaborators:
       maintain:
-        - patrickwoodhead
+        - geomatrick
       push:
         - bajtos
         - davidgasquez
@@ -4720,6 +4738,7 @@ teams:
         - fridrik01
         - frrist
         - gammazero
+        - geomatrick
         - guanzo
         - hammertoe
         - hannahhoward
@@ -4737,7 +4756,6 @@ teams:
         - ninitrava
         - nonsense
         - olizilla
-        - patrickwoodhead
         - pk-controller
         - pk13-PLF
         - protocolin
@@ -5220,13 +5238,13 @@ teams:
     members:
       member:
         - bajtos
+        - geomatrick
         - joaosa
         - juliangruber
-        - patrickwoodhead
   saturn:
     members:
       maintainer:
-        - patrickwoodhead
+        - geomatrick
       member:
         - aarshkshah1992
         - AmeanAsad
@@ -5262,7 +5280,7 @@ teams:
     # This team is used for @mentioning, particularly in the service-classes repo.
     members:
       maintainer:
-        - patrickwoodhead
+        - geomatrick
       member:
         - bajtos
         - juliangruber
