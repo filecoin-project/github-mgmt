@@ -1561,6 +1561,7 @@ repositories:
     collaborators:
       admin:
         - rvagg
+        - SgtPooki
       maintain:
         - rjan90
       push:
@@ -1573,7 +1574,6 @@ repositories:
         - lidel
         - pyropy
         - ravish1729
-        - SgtPooki
         - virajbhartiya
       triage:
         - FilOzzy
