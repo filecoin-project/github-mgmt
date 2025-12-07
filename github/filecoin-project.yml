@@ -990,9 +990,9 @@ repositories:
     collaborators:
       admin:
         - ashwanth-eth
+        - justanothersynth
         - mishmosh
         - orvn
-        - timelytree
         - vesahc
       maintain:
         - D3AS8A
@@ -1620,10 +1620,10 @@ repositories:
         - AlexMCon
         - clriesco
         - jbesraa
+        - justanothersynth
         - kokal33
         - panges2
         - simonkim0515
-        - timelytree
       push:
         - data-programs
         - orvn
@@ -1864,9 +1864,9 @@ repositories:
       push:
         - CodeWarriorr
         - Filip-L
+        - justanothersynth
         - orvn
         - pingwindyktator
-        - timelytree
         - tmaciej-neti
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -1932,10 +1932,10 @@ repositories:
         - clriesco
         - dkkapur
         - jbesraa
+        - justanothersynth
         - kokal33
         - orvn
         - panges2
-        - timelytree
         - willscott
       push:
         - data-programs
@@ -2915,9 +2915,9 @@ repositories:
     collaborators:
       admin:
         - dr-bizz
+        - justanothersynth
         - orvn
         - svvimming
-        - timelytree
       maintain:
         - splumms
       push:
