@@ -243,6 +243,7 @@ repositories:
         - actors-maintainers
         - fvm-crate-owners
     visibility: public
+    web_commit_signoff_required: false
   Allocator-Governance:
     advanced_security: false
     allow_update_branch: false
@@ -265,6 +266,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   Allocator-Registry:
     advanced_security: false
     allow_update_branch: false
@@ -287,6 +289,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   apt:
     advanced_security: false
     allow_update_branch: false
@@ -305,6 +308,7 @@ repositories:
       admin:
         - Curio
     visibility: public
+    web_commit_signoff_required: false
   aq:
     archived: true
   armadillo:
@@ -328,6 +332,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   batching-snarks:
     archived: true
   bellperson-gadgets:
@@ -351,6 +356,7 @@ repositories:
       push:
         - proofs-contributors
     visibility: public
+    web_commit_signoff_required: false
   benchmark-service:
     archived: true
   benchmarks:
@@ -368,6 +374,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   biscuit-dao:
     advanced_security: false
     allow_update_branch: false
@@ -380,6 +387,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   bitsets:
     archived: true
   bls-signatures:
@@ -399,6 +407,7 @@ repositories:
       push:
         - proofs-contributors
     visibility: public
+    web_commit_signoff_required: false
   blst:
     archived: true
   blstrs:
@@ -418,6 +427,7 @@ repositories:
       maintain:
         - proofs-contributors
     visibility: public
+    web_commit_signoff_required: false
   boost-docs:
     advanced_security: false
     allow_update_branch: false
@@ -436,6 +446,7 @@ repositories:
       maintain:
         - Boost
     visibility: public
+    web_commit_signoff_required: false
   boost-gfm:
     advanced_security: false
     allow_update_branch: false
@@ -457,6 +468,7 @@ repositories:
       maintain:
         - Boost
     visibility: public
+    web_commit_signoff_required: false
   boost-graphsync:
     advanced_security: false
     allow_update_branch: false
@@ -479,6 +491,7 @@ repositories:
       maintain:
         - Boost
     visibility: public
+    web_commit_signoff_required: false
   boost:
     advanced_security: false
     allow_update_branch: false
@@ -511,6 +524,7 @@ repositories:
       push:
         - Boost
     visibility: public
+    web_commit_signoff_required: false
   bsci-collab:
     archived: true
   builtin-actor-priv:
@@ -552,6 +566,7 @@ repositories:
       push:
         - fvm-core-devs
     visibility: public
+    web_commit_signoff_required: false
   builtin-actors:
     advanced_security: false
     allow_update_branch: true
@@ -579,6 +594,7 @@ repositories:
         - lotus-contributors
         - Venus
     visibility: public
+    web_commit_signoff_required: false
   c-bls-sigs:
     archived: true
   cache-action:
@@ -642,6 +658,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
+    web_commit_signoff_required: false
   cod-starter-kit:
     advanced_security: false
     allow_update_branch: false
@@ -654,6 +671,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   community-china:
     archived: true
   community:
@@ -694,6 +712,7 @@ repositories:
       push:
         - advocates
     visibility: public
+    web_commit_signoff_required: false
   conformance-tools:
     archived: true
   consensus-dep:
@@ -722,6 +741,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   cpp-filecoin:
     advanced_security: false
     allow_update_branch: false
@@ -746,6 +766,7 @@ repositories:
       push:
         - cpp-filecoin-team
     visibility: public
+    web_commit_signoff_required: false
   cryptoecon-sim-david:
     archived: true
   cryptoeconomics-sim:
@@ -785,6 +806,7 @@ repositories:
       admin:
         - Curio
     visibility: public
+    web_commit_signoff_required: false
   dagstore:
     advanced_security: false
     allow_update_branch: false
@@ -803,6 +825,7 @@ repositories:
         - bedrock-go
         - lotus-contributors
     visibility: public
+    web_commit_signoff_required: false
   data-prep-tools:
     advanced_security: false
     allow_update_branch: false
@@ -819,6 +842,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   data-transfer-benchmark:
     advanced_security: false
     allow_update_branch: false
@@ -834,6 +858,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   data:
     advanced_security: false
     allow_update_branch: false
@@ -884,6 +909,7 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
+    web_commit_signoff_required: false
   depr-notary-governance:
     archived: true
   deprecated-cryptoeconomics-simulator:
@@ -911,6 +937,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   devgrants:
     advanced_security: false
     allow_update_branch: false
@@ -939,6 +966,7 @@ repositories:
       push:
         - foundation
     visibility: public
+    web_commit_signoff_required: false
   docker-hub-exporter:
     advanced_security: false
     allow_update_branch: false
@@ -960,6 +988,7 @@ repositories:
       admin:
         - infra
     visibility: public
+    web_commit_signoff_required: false
   drg-attacks-deprecated:
     archived: true
   drg-attacks:
@@ -983,6 +1012,7 @@ repositories:
       maintain:
         - proofs-contributors
     visibility: public
+    web_commit_signoff_required: false
   ecodash:
     advanced_security: false
     allow_update_branch: false
@@ -1010,6 +1040,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   ecosystem-dashboard:
     archived: true
   ecsim2:
@@ -1032,6 +1063,7 @@ repositories:
       admin:
         - actors-maintainers
     visibility: public
+    web_commit_signoff_required: false
   eudico:
     archived: true
   events-directory:
@@ -1058,6 +1090,7 @@ repositories:
         - Forest
         - Venus
     visibility: public
+    web_commit_signoff_required: false
   fc-cap-sim:
     archived: true
   fcnr:
@@ -1080,6 +1113,7 @@ repositories:
       push:
         - fvm-core-devs
     visibility: public
+    web_commit_signoff_required: false
   fevm-data-dao-kit:
     advanced_security: false
     allow_update_branch: false
@@ -1096,6 +1130,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   fevm-foundry-kit:
     advanced_security: false
     allow_update_branch: false
@@ -1111,6 +1146,7 @@ repositories:
       admin:
         - FIL-B
     visibility: public
+    web_commit_signoff_required: false
   fevm-hardhat-kit:
     advanced_security: false
     allow_update_branch: true
@@ -1133,6 +1169,7 @@ repositories:
       push:
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   fevm-uniswap-v3-core:
     advanced_security: false
     allow_update_branch: false
@@ -1149,6 +1186,7 @@ repositories:
         - FIL-B
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   ff-bounties:
     advanced_security: false
     allow_update_branch: false
@@ -1200,6 +1238,7 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
+    web_commit_signoff_required: false
   fil_pasta_curves:
     archived: true
   fil-b:
@@ -1223,6 +1262,7 @@ repositories:
       admin:
         - FIL-B
     visibility: public
+    web_commit_signoff_required: false
   fil-blst:
     archived: true
   fil-calculations:
@@ -1248,6 +1288,7 @@ repositories:
       push:
         - proofs-contributors
     visibility: public
+    web_commit_signoff_required: false
   fil-sppark:
     archived: true
   filcryo:
@@ -1267,6 +1308,7 @@ repositories:
         - Sentinel Admin
         - Sentinel
     visibility: public
+    web_commit_signoff_required: false
   fildevsummit:
     advanced_security: false
     allow_update_branch: false
@@ -1282,6 +1324,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   filecoin-aggregator:
     archived: true
   filecoin-chain-archiver:
@@ -1305,6 +1348,7 @@ repositories:
       push:
         - infra
     visibility: public
+    web_commit_signoff_required: false
   filecoin-client-tutorial:
     archived: true
   filecoin-contributors:
@@ -1354,6 +1398,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   filecoin-docs-stefnotes:
     advanced_security: false
     allow_update_branch: false
@@ -1366,6 +1411,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   filecoin-docs:
     advanced_security: false
     allow_update_branch: true
@@ -1403,6 +1449,7 @@ repositories:
         - Boost
         - docs-storage-provider
     visibility: public
+    web_commit_signoff_required: false
   filecoin-explorer-private:
     archived: true
   filecoin-explorer:
@@ -1424,6 +1471,7 @@ repositories:
       push:
         - dev-misc
     visibility: public
+    web_commit_signoff_required: false
   filecoin-ffi-private:
     advanced_security: false
     allow_update_branch: false
@@ -1457,6 +1505,7 @@ repositories:
         - lotus-maintainers
         - proofs-contributors
     visibility: public
+    web_commit_signoff_required: false
   filecoin-fvm-localnet:
     advanced_security: false
     allow_update_branch: false
@@ -1472,6 +1521,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   filecoin-http-api:
     archived: true
   filecoin-network-data:
@@ -1508,6 +1558,7 @@ repositories:
       admin:
         - proofs-crate-owners
     visibility: public
+    web_commit_signoff_required: false
   filecoin-pin-github-action-test:
     advanced_security: false
     allow_update_branch: false
@@ -1554,6 +1605,7 @@ repositories:
       maintain:
         - FilOz
     visibility: public
+    web_commit_signoff_required: false
   filecoin-pin:
     advanced_security: false
     allow_update_branch: false
@@ -1588,6 +1640,7 @@ repositories:
       push:
         - FilOz
     visibility: public
+    web_commit_signoff_required: false
   filecoin-plus-application-json-restructure:
     advanced_security: false
     allow_update_branch: false
@@ -1609,6 +1662,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   filecoin-plus-client-onboarding:
     archived: true
   filecoin-plus-falcon:
@@ -1635,6 +1689,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   filecoin-plus-large-datasets:
     archived: true
   filecoin-plus-leaderboard-data:
@@ -1664,6 +1719,7 @@ repositories:
     squash_merge_commit_message: PR_BODY
     squash_merge_commit_title: PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   filecoin-plus-leaderboard-deprecated:
     archived: true
   filecoin-plus-leaderboard:
@@ -1691,6 +1747,7 @@ repositories:
       maintain:
         - fil-plus-wg
     visibility: public
+    web_commit_signoff_required: false
   filecoin-retrieval-market-website:
     advanced_security: false
     allow_update_branch: false
@@ -1716,6 +1773,7 @@ repositories:
       pull:
         - website
     visibility: public
+    web_commit_signoff_required: false
   filecoin-solidity:
     advanced_security: false
     allow_update_branch: false
@@ -1746,6 +1804,7 @@ repositories:
       push:
         - fvm-team
     visibility: public
+    web_commit_signoff_required: false
   filecoin-storage-providers-market:
     advanced_security: false
     allow_update_branch: false
@@ -1761,6 +1820,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   filecoin.io:
     advanced_security: false
     allow_update_branch: true
@@ -1828,6 +1888,7 @@ repositories:
         - data
         - Sentinel
     visibility: public
+    web_commit_signoff_required: false
   filoz-infra:
     advanced_security: false
     allow_update_branch: false
@@ -1876,6 +1937,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   filplus-registry:
     advanced_security: false
     allow_update_branch: false
@@ -1900,6 +1962,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   filplus-ssa-bot:
     advanced_security: false
     allow_update_branch: false
@@ -1922,6 +1985,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   filplus-tooling-backend-test:
     advanced_security: false
     allow_update_branch: false
@@ -1947,6 +2011,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   filplus-utils:
     advanced_security: false
     allow_update_branch: false
@@ -1966,6 +2031,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   filsnap:
     advanced_security: false
     allow_update_branch: true
@@ -1988,6 +2054,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   FIPs-1:
     archived: true
   FIPs:
@@ -2017,6 +2084,7 @@ repositories:
         - research
         - Venus
     visibility: public
+    web_commit_signoff_required: false
   foundation-website:
     archived: true
   fungi:
@@ -2064,6 +2132,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   fvm-pm:
     advanced_security: false
     allow_update_branch: false
@@ -2120,6 +2189,7 @@ repositories:
       maintain:
         - FilOz
     visibility: public
+    web_commit_signoff_required: false
   fvm-spacewarp:
     advanced_security: false
     allow_update_branch: true
@@ -2164,6 +2234,7 @@ repositories:
         - fvm-team
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   fvm-test-vectors:
     advanced_security: false
     allow_update_branch: false
@@ -2186,6 +2257,7 @@ repositories:
         - lotus-maintainers
         - Venus
     visibility: public
+    web_commit_signoff_required: false
   fvm-wasm-instrument:
     advanced_security: false
     allow_update_branch: false
@@ -2225,6 +2297,7 @@ repositories:
       maintain:
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   fvm-website:
     advanced_security: false
     allow_update_branch: false
@@ -2271,6 +2344,7 @@ repositories:
         - actors-maintainers
         - fvm-crate-owners
     visibility: public
+    web_commit_signoff_required: false
   gb-filecoin-docs:
     advanced_security: false
     allow_update_branch: false
@@ -2286,6 +2360,7 @@ repositories:
       admin:
         - docs-admins
     visibility: public
+    web_commit_signoff_required: false
   geodns-server:
     archived: true
   gfm-priv:
@@ -2327,6 +2402,7 @@ repositories:
       admin:
         - infra
     visibility: public
+    web_commit_signoff_required: false
   github-mgmt:
     advanced_security: false
     allow_update_branch: false
@@ -2344,6 +2420,7 @@ repositories:
       triage:
         - github-mgmt approvers
     visibility: public
+    web_commit_signoff_required: false
   gitops-policy-library:
     archived: true
   gitops-profile-catalog:
@@ -2368,6 +2445,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   go-amt-ipld:
     advanced_security: false
     allow_update_branch: false
@@ -2386,6 +2464,7 @@ repositories:
       admin:
         - actors-maintainers
     visibility: public
+    web_commit_signoff_required: false
   go-bitfield:
     advanced_security: false
     allow_update_branch: false
@@ -2406,6 +2485,7 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
+    web_commit_signoff_required: false
   go-bls-sigs:
     archived: true
   go-bs-lmdb:
@@ -2428,6 +2508,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   go-cid-tools:
     archived: true
   go-clock:
@@ -2448,6 +2529,7 @@ repositories:
       maintain:
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   go-commp-utils:
     advanced_security: false
     allow_update_branch: false
@@ -2469,6 +2551,7 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
+    web_commit_signoff_required: false
   go-crypto:
     # KEEP: this is a lotus dependency
     advanced_security: false
@@ -2488,6 +2571,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   go-dagaggregator-unixfs:
     advanced_security: false
     allow_update_branch: false
@@ -2503,6 +2587,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   go-data-segment:
     advanced_security: false
     allow_update_branch: false
@@ -2523,6 +2608,7 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
+    web_commit_signoff_required: false
   go-data-transfer-bus:
     archived: true
   go-data-transfer:
@@ -2552,6 +2638,7 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
+    web_commit_signoff_required: false
   go-ds-versioning:
     # KEEP: this is a lotus dependency
     advanced_security: false
@@ -2570,6 +2657,7 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
+    web_commit_signoff_required: false
   go-f3:
     advanced_security: false
     allow_update_branch: true
@@ -2590,6 +2678,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   go-fil-commcid-priv:
     advanced_security: false
     allow_update_branch: false
@@ -2609,6 +2698,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: private
+    web_commit_signoff_required: false
   go-fil-commcid:
     advanced_security: false
     allow_update_branch: false
@@ -2629,6 +2719,7 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
+    web_commit_signoff_required: false
   go-fil-commp-hashhash:
     advanced_security: false
     allow_update_branch: false
@@ -2649,6 +2740,7 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
+    web_commit_signoff_required: false
   go-fil-filestore:
     archived: true
   go-fil-markets:
@@ -2681,6 +2773,7 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
+    web_commit_signoff_required: false
   go-filecoin-backup:
     archived: true
   go-filecoin-badges:
@@ -2705,6 +2798,7 @@ repositories:
       admin:
         - actors-maintainers
     visibility: public
+    web_commit_signoff_required: false
   go-http-api:
     archived: true
   go-ipld-cbor:
@@ -2727,6 +2821,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   go-leb128-backup:
     archived: true
   go-leb128:
@@ -2759,6 +2854,7 @@ repositories:
       maintain:
         - w3dt-stewards
     visibility: public
+    web_commit_signoff_required: false
   go-multistore:
     archived: true
   go-padreader:
@@ -2776,6 +2872,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   go-paramfetch:
     # KEEP: this is a lotus dependency
     advanced_security: false
@@ -2797,6 +2894,7 @@ repositories:
       push:
         - proofs-contributors
     visibility: public
+    web_commit_signoff_required: false
   go-proofs:
     archived: true
   go-retrieval-market-project:
@@ -2816,6 +2914,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   go-sectorbuilder-rpc:
     archived: true
   go-sectorbuilder:
@@ -2846,6 +2945,7 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
+    web_commit_signoff_required: false
   go-statemachine:
     advanced_security: false
     allow_update_branch: false
@@ -2864,6 +2964,7 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
+    web_commit_signoff_required: false
   go-statestore:
     # KEEP: this is a lotus dependency
     advanced_security: false
@@ -2880,6 +2981,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   go-storage-market:
     archived: true
   go-storage-miner:
@@ -2900,6 +3002,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   go-ulimit:
     archived: true
   gov_docs:
@@ -2985,6 +3088,7 @@ repositories:
       admin:
         - infra
     visibility: public
+    web_commit_signoff_required: false
   homebrew-exporter:
     advanced_security: false
     allow_update_branch: false
@@ -3006,6 +3110,7 @@ repositories:
       admin:
         - infra
     visibility: public
+    web_commit_signoff_required: false
   homebrew-lotus:
     advanced_security: false
     allow_update_branch: false
@@ -3024,6 +3129,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   hyperdrive-analysis:
     archived: true
   infra:
@@ -3069,6 +3175,7 @@ repositories:
       maintain:
         - bedrock-go
     visibility: public
+    web_commit_signoff_required: false
   launch:
     archived: true
   learn-math:
@@ -3113,6 +3220,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   lily-archiver:
     advanced_security: false
     allow_update_branch: false
@@ -3138,6 +3246,7 @@ repositories:
       maintain:
         - Sentinel Operators
     visibility: public
+    web_commit_signoff_required: false
   lily:
     advanced_security: false
     allow_update_branch: true
@@ -3161,6 +3270,7 @@ repositories:
       admin:
         - Sentinel Admin
     visibility: public
+    web_commit_signoff_required: false
   lotus-archived:
     # KEEP: this is a meta repo into which stale branches are migrated from lotus
     advanced_security: false
@@ -3177,6 +3287,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   lotus-badges:
     archived: true
   lotus-dcops:
@@ -3216,6 +3327,7 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
+    web_commit_signoff_required: false
   lotus-infra-archive:
     archived: true
   lotus-infra-dev:
@@ -3269,6 +3381,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   Lotus-Miner-V2:
     archived: true
   lotus-priv:
@@ -3316,6 +3429,7 @@ repositories:
       triage:
         - filoz-devguild-mentees
     visibility: public
+    web_commit_signoff_required: false
   lua-filecoin:
     archived: true
   main-backup:
@@ -3376,6 +3490,7 @@ repositories:
       push:
         - proofs-contributors
     visibility: public
+    web_commit_signoff_required: false
   meta-aggregator-frontend:
     advanced_security: false
     allow_update_branch: false
@@ -3388,6 +3503,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   metadocs:
     archived: true
   metamodel:
@@ -3422,6 +3538,7 @@ repositories:
       maintain:
         - bedrock-go
     visibility: public
+    web_commit_signoff_required: false
   motion-sp-test:
     advanced_security: false
     allow_update_branch: false
@@ -3441,6 +3558,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   motion:
     archived: true
   motivation:
@@ -3476,6 +3594,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   on-chain-voting:
     advanced_security: false
     allow_update_branch: true
@@ -3503,6 +3622,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   oni:
     archived: true
   openzeppelin-contracts:
@@ -3567,6 +3687,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   paired:
     archived: true
   paper-porep-drg:
@@ -3592,6 +3713,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   phase2:
     archived: true
   playground:
@@ -3616,6 +3738,7 @@ repositories:
       push:
         - proofs-contributors
     visibility: public
+    web_commit_signoff_required: false
   product-biz:
     archived: true
   product:
@@ -3640,6 +3763,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   raas-starter-kit:
     advanced_security: false
     allow_update_branch: false
@@ -3659,6 +3783,7 @@ repositories:
       admin:
         - FIL-B
     visibility: public
+    web_commit_signoff_required: false
   ref-fvm-fuzz-corpora:
     advanced_security: false
     allow_update_branch: false
@@ -3680,6 +3805,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   ref-fvm-priv:
     advanced_security: false
     allow_update_branch: false
@@ -3721,6 +3847,7 @@ repositories:
         - fvm-core-devs
         - lotus-contributors
     visibility: public
+    web_commit_signoff_required: false
   release-metrics-gitops:
     advanced_security: false
     allow_update_branch: false
@@ -3740,6 +3867,7 @@ repositories:
       admin:
         - infra
     visibility: public
+    web_commit_signoff_required: false
   replication-game-infra:
     archived: true
   replication-game-leaderboard:
@@ -3795,6 +3923,7 @@ repositories:
       maintain:
         - bedrock-go
     visibility: public
+    web_commit_signoff_required: false
   retrieval-market-spec:
     advanced_security: false
     allow_update_branch: false
@@ -3820,6 +3949,7 @@ repositories:
       pull:
         - Retrieval Market Builders
     visibility: public
+    web_commit_signoff_required: false
   retrieval-market:
     advanced_security: false
     allow_update_branch: false
@@ -3840,6 +3970,7 @@ repositories:
       pull:
         - Retrieval Market Builders
     visibility: public
+    web_commit_signoff_required: false
   rhea-load-testing:
     advanced_security: false
     allow_update_branch: false
@@ -3855,6 +3986,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   roadmap:
     advanced_security: false
     allow_update_branch: false
@@ -3870,6 +4002,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   rust-cad-cad:
     archived: true
   rust-fil-ffi-toolkit:
@@ -3891,6 +4024,7 @@ repositories:
       maintain:
         - proofs-contributors
     visibility: public
+    web_commit_signoff_required: false
   rust-fil-nse-gpu:
     archived: true
   rust-fil-proofs-ffi:
@@ -3914,6 +4048,7 @@ repositories:
       push:
         - proofs-contributors
     visibility: public
+    web_commit_signoff_required: false
   rust-fil-secp256k1:
     archived: true
   rust-fil-sector-builder:
@@ -3939,6 +4074,7 @@ repositories:
       maintain:
         - proofs-contributors
     visibility: public
+    web_commit_signoff_required: false
   rust-gpu-tools:
     advanced_security: false
     allow_update_branch: false
@@ -3956,6 +4092,7 @@ repositories:
       push:
         - proofs-contributors
     visibility: public
+    web_commit_signoff_required: false
   rust-proofs-backup:
     archived: true
   rust-proofs-infra:
@@ -4053,6 +4190,7 @@ repositories:
         - lotus-contributors
         - lotus-maintainers
     visibility: public
+    web_commit_signoff_required: false
   sentinel:
     advanced_security: false
     allow_update_branch: false
@@ -4080,6 +4218,7 @@ repositories:
         - oni
         - research
     visibility: public
+    web_commit_signoff_required: false
   serialization-vectors:
     archived: true
   service-classes:
@@ -4101,6 +4240,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   shared-shell-scripts:
     archived: true
   slackcident:
@@ -4153,6 +4293,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   snapcraft-exporter:
     advanced_security: false
     allow_update_branch: false
@@ -4174,6 +4315,7 @@ repositories:
       admin:
         - infra
     visibility: public
+    web_commit_signoff_required: false
   snark-circuits:
     archived: true
   solidity-data-segment:
@@ -4188,6 +4330,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   sp-automation:
     advanced_security: false
     allow_update_branch: false
@@ -4210,6 +4353,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   sp-infographic:
     archived: true
   sp-mentorship-grants:
@@ -4257,6 +4401,7 @@ repositories:
       triage:
         - research
     visibility: public
+    web_commit_signoff_required: false
   SPWG:
     archived: true
   starling:
@@ -4274,6 +4419,7 @@ repositories:
       admin:
         - starling-storage
     visibility: public
+    web_commit_signoff_required: false
   state-storage-starter-kit:
     advanced_security: false
     allow_update_branch: false
@@ -4292,6 +4438,7 @@ repositories:
       admin:
         - FIL-B
     visibility: public
+    web_commit_signoff_required: false
   statediff:
     archived: true
   storage-fsm:
@@ -4312,6 +4459,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   system-test-matrix:
     advanced_security: false
     allow_update_branch: false
@@ -4421,6 +4569,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   taupipp:
     # KEEP: this is trusted setup related and should stay available
     advanced_security: false
@@ -4439,6 +4588,7 @@ repositories:
       pull:
         - proofs-contributors
     visibility: public
+    web_commit_signoff_required: false
   terraform-google-lily-starter:
     archived: true
   test-vectors:
@@ -4459,6 +4609,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   testnet-hyperspace:
     archived: true
   testnet-wallaby:
@@ -4483,6 +4634,7 @@ repositories:
       maintain:
         - consensuslab
     visibility: public
+    web_commit_signoff_required: false
   TODOnotes:
     advanced_security: false
     allow_update_branch: false
@@ -4495,6 +4647,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   token-distribution-procedures:
     archived: true
   tornado-deploy:
@@ -4518,6 +4671,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   venus-common-types:
     archived: true
   venus-docs:
@@ -4547,6 +4701,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   venus-sealer:
     archived: true
   venus-wallet:
@@ -4575,6 +4730,7 @@ repositories:
       pull:
         - Venus
     visibility: public
+    web_commit_signoff_required: false
   venus:
     advanced_security: false
     allow_update_branch: false
@@ -4610,6 +4766,7 @@ repositories:
       push:
         - infra
     visibility: public
+    web_commit_signoff_required: false
   wasm-tools:
     advanced_security: false
     allow_update_branch: false
@@ -4628,6 +4785,7 @@ repositories:
       admin:
         - fvm-crate-owners
     visibility: public
+    web_commit_signoff_required: false
   wasmtime:
     archived: true
   website-archive.discuss.filecoin.io:
@@ -4659,6 +4817,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   website:
     archived: true
   wge-post-deployment-template-renderer:
@@ -4676,6 +4835,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   why-market-sim:
     archived: true
   zexe:
