@@ -1898,6 +1898,8 @@ repositories:
         - jennijuju
         - Kubuxu
         - rjan90
+      triage:
+        - SgtPooki
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1909,6 +1911,7 @@ repositories:
       push:
         - FilOz
     visibility: private
+    web_commit_signoff_required: false
   filplus-backend:
     advanced_security: false
     allow_update_branch: true
