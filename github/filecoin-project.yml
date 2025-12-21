@@ -1855,6 +1855,7 @@ repositories:
       triage:
         - research
     visibility: private
+    web_commit_signoff_required: false
   filecoin:
     archived: true
   filecoinverymagic:
@@ -1898,8 +1899,10 @@ repositories:
         - jennijuju
         - Kubuxu
         - rjan90
-      triage:
+      push:
         - SgtPooki
+      triage:
+        - hugomrdias
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4264,6 +4267,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
+    web_commit_signoff_required: false
   slate-react-system:
     archived: true
   slate-stats:
