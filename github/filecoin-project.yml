@@ -136,6 +136,7 @@ members:
     - LexLuthr
     - lksbrssr
     - longfeiWan9
+    - Lord-Bach
     - lucaniz
     - maciejwitowski
     - macro-ss
@@ -176,7 +177,6 @@ members:
     - rvagg
     - SeedingTrees
     - sergkaprovich
-    - simonkim0515
     - smooth-operator
     - snadrus
     - snissn
@@ -1676,8 +1676,8 @@ repositories:
         - jbesraa
         - justanothersynth
         - kokal33
+        - Lord-Bach
         - panges2
-        - simonkim0515
       push:
         - data-programs
         - orvn
@@ -1731,7 +1731,7 @@ repositories:
     collaborators:
       admin:
         - dkkapur
-        - simonkim0515
+        - Lord-Bach
       maintain:
         - kevzak
         - raghavrmadya
@@ -3588,8 +3588,8 @@ repositories:
         - raghavrmadya
       maintain:
         - kevzak
+        - Lord-Bach
         - panges2
-        - simonkim0515
       push:
         - xmcai2016
     has_discussions: true
@@ -5081,7 +5081,7 @@ teams:
     members:
       maintainer:
         - dkkapur
-        - simonkim0515
+        - Lord-Bach
       member:
         - kevzak
         - raghavrmadya
