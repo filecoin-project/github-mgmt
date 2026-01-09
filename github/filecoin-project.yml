@@ -177,6 +177,7 @@ members:
     - rvagg
     - SeedingTrees
     - sergkaprovich
+    - SgtPooki
     - smooth-operator
     - snadrus
     - snissn
@@ -187,6 +188,7 @@ members:
     - tediou5
     - Terryhung
     - TheDivic
+    - timfong888
     - TippyFlitsUK
     - TorfinnOlsen
     - trruckerfling
@@ -1563,9 +1565,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - SgtPooki
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1584,12 +1583,10 @@ repositories:
     collaborators:
       maintain:
         - CharlyMartin
-        - SgtPooki
       push:
         - barbaraperic
         - filipagr
         - gmoranxyz
-        - timfong888
         - trruckerfling
         - virajbhartiya
       triage:
@@ -1899,8 +1896,6 @@ repositories:
         - jennijuju
         - Kubuxu
         - rjan90
-      push:
-        - SgtPooki
       triage:
         - hugomrdias
     has_discussions: false
@@ -3316,9 +3311,6 @@ repositories:
         - laurentsenta
         - LexLuthr
         - Reiers
-        # 2025-09-30: temporary addition while working on a demonstration of https://github.com/filecoin-project/filecoin-pin/issues/49.
-        # Can be removed in a week or two.
-        - SgtPooki
         - snadrus
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -5105,6 +5097,8 @@ teams:
         - redpanda-f
         - rjan90
         - rvagg
+        - SgtPooki
+        - timfong888
         - wjmelements
         - ZenGround0
   fips-editors:
