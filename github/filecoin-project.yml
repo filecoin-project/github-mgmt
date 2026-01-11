@@ -173,7 +173,6 @@ members:
     - ribasushi
     - rjan90
     - rk-rishikesh
-    - robertagora
     - rvagg
     - SeedingTrees
     - sergkaprovich
@@ -1437,7 +1436,6 @@ repositories:
         - ivanka
         - jochasinga
         - mirhamasala
-        - robertagora
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1778,7 +1776,6 @@ repositories:
     collaborators:
       admin:
         - BlocksOnAChain
-        - robertagora
         - scotthconner
       push:
         - 4l8ee
@@ -2155,7 +2152,6 @@ repositories:
         - jsoares
         - LaurenSpiegel
         - rk-rishikesh
-        - robertagora
         - xBalbinus
         - XORS-eng
     has_discussions: false
@@ -3603,15 +3599,11 @@ repositories:
         - ianconsolata
         - joekingss
         - kaitlin-beegle
-        - liuzeming1
         - macro-ss
-        - willpan1102
       maintain:
         - QuietLiu01
       pull:
         - filipagr
-      push:
-        - ygy-1231
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4380,7 +4372,6 @@ repositories:
         - lanzafame
         - mirhamasala
         - nonsense
-        - robertagora
       push:
         - ognots
     has_discussions: false
