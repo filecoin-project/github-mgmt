@@ -176,7 +176,6 @@ members:
     - rvagg
     - SeedingTrees
     - sergkaprovich
-    - SgtPooki
     - smooth-operator
     - snadrus
     - snissn
@@ -187,7 +186,6 @@ members:
     - tediou5
     - Terryhung
     - TheDivic
-    - timfong888
     - TippyFlitsUK
     - TorfinnOlsen
     - trruckerfling
@@ -251,12 +249,13 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - galen-mcandrew
+        - JAG-UK
         - Kevin-FF-USA
         - martapiekarska
         - willscott
       maintain:
         - Amin-Foundation
+        - decentramike
       push:
         - filecoin-watchdog
     has_discussions: true
@@ -274,11 +273,13 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - galen-mcandrew
+        - JAG-UK
         - Kevin-FF-USA
+        - martapiekarska
         - willscott
       maintain:
-        - martapiekarska
+        - Amin-Foundation
+        - decentramike
       push:
         - CharlyMartin
         - Filip-L
@@ -5088,8 +5089,6 @@ teams:
         - redpanda-f
         - rjan90
         - rvagg
-        - SgtPooki
-        - timfong888
         - wjmelements
         - ZenGround0
   fips-editors:
