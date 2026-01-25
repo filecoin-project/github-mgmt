@@ -176,6 +176,7 @@ members:
     - rvagg
     - SeedingTrees
     - sergkaprovich
+    - SgtPooki
     - smooth-operator
     - snadrus
     - snissn
@@ -255,7 +256,6 @@ repositories:
         - willscott
       maintain:
         - Amin-Foundation
-        - decentramike
       push:
         - filecoin-watchdog
     has_discussions: true
@@ -1583,6 +1583,7 @@ repositories:
     collaborators:
       maintain:
         - CharlyMartin
+        - SgtPooki
       push:
         - barbaraperic
         - filipagr
@@ -5091,6 +5092,7 @@ teams:
         - redpanda-f
         - rjan90
         - rvagg
+        - SgtPooki
         - wjmelements
         - ZenGround0
   fips-editors:
