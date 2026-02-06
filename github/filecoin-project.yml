@@ -3178,8 +3178,7 @@ repositories:
         - hannahhoward
         - rvagg
       maintain:
-        - AmeanAsad
-        - davidd8
+        - parkan
       push:
         - web3-bot
     files:
