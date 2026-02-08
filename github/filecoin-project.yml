@@ -2208,6 +2208,7 @@ repositories:
       push:
         - FVM Web
     visibility: private
+    web_commit_signoff_required: false
   fvm-specs:
     archived: true
   fvm-starter-kit-deal-making:
