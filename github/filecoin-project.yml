@@ -682,15 +682,15 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - decentramike
         - jennijuju
         - momack2
         - rjan90
         - Tanisha-fil
-        - decentramike
       maintain:
         - dannyob
-        - thatguyllc
         - eshon
+        - thatguyllc
         - trruckerfling
       push:
         - arajasek
@@ -734,8 +734,8 @@ repositories:
         - relotnek
       maintain:
         - dannyob
-        - rjan90
         - decentramike
+        - rjan90
       push:
         - Tanisha-fil
         - thatguyllc
@@ -2068,8 +2068,8 @@ repositories:
     archived: false
     collaborators:
       push:
+        - decentramike
         - Tanisha-fil
-        - decentramike 
         - thatguyllc
       triage:
         - filecoin-governance
