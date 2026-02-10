@@ -686,8 +686,10 @@ repositories:
         - momack2
         - rjan90
         - Tanisha-fil
+        - decentramike
       maintain:
         - dannyob
+        - thatguyllc
         - eshon
         - trruckerfling
       push:
@@ -733,8 +735,10 @@ repositories:
       maintain:
         - dannyob
         - rjan90
+        - decentramike
       push:
         - Tanisha-fil
+        - thatguyllc
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2065,6 +2069,8 @@ repositories:
     collaborators:
       push:
         - Tanisha-fil
+        - decentramike 
+        - thatguyllc
       triage:
         - filecoin-governance
     has_discussions: true
