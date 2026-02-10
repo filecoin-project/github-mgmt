@@ -682,6 +682,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - decentramike
         - jennijuju
         - momack2
         - rjan90
@@ -689,6 +690,7 @@ repositories:
       maintain:
         - dannyob
         - eshon
+        - thatguyllc
         - trruckerfling
       push:
         - arajasek
@@ -732,9 +734,11 @@ repositories:
         - relotnek
       maintain:
         - dannyob
+        - decentramike
         - rjan90
       push:
         - Tanisha-fil
+        - thatguyllc
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2064,7 +2068,9 @@ repositories:
     archived: false
     collaborators:
       push:
+        - decentramike
         - Tanisha-fil
+        - thatguyllc
       triage:
         - filecoin-governance
     has_discussions: true
