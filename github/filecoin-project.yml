@@ -3162,12 +3162,12 @@ repositories:
   hyperdrive-analysis:
     archived: true
   hyperspace:
-    teams:
-      maintain:
-        - ff-eng
     collaborators:
       admin:
         - ianconsolata
+    teams:
+      maintain:
+        - ff-eng
   infra:
     archived: true
   iptb:
@@ -5090,11 +5090,11 @@ teams:
   ff-eng:
     members:
       maintainer:
-        - ianconsolata
         - filecoinfoundation-inf
+        - ianconsolata
       member:
-        - lanzafame
         - joemocode-business
+        - lanzafame
         - parkan
         - parthshah1
         - relotnek
