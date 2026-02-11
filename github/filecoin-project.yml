@@ -122,6 +122,7 @@ members:
     - jnthnvctr
     - joaosa
     - jochasinga
+    - joemocode-business
     - jsoares
     - juliangruber
     - kaitlin-beegle
@@ -3160,6 +3161,13 @@ repositories:
     web_commit_signoff_required: false
   hyperdrive-analysis:
     archived: true
+  hyperspace:
+    teams:
+      maintain:
+        - ff-eng
+    collaborators:
+      admin:
+        - ianconsolata
   infra:
     archived: true
   iptb:
@@ -5079,6 +5087,17 @@ teams:
     members:
       member:
         - ianconsolata
+  ff-eng:
+    members:
+      maintainer:
+        - ianconsolata
+        - filecoinfoundation-inf
+      member:
+        - lanzafame
+        - joemocode-business
+        - parkan
+        - parthshah1
+        - relotnek
   FIL-B:
     members:
       maintainer:
