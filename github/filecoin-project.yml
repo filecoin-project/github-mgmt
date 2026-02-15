@@ -159,6 +159,7 @@ members:
     - ns4plabs
     - olizilla
     - ortyomka
+    - parkan
     - parthpathakweb3
     - parthshah1
     - pk-controller
@@ -225,6 +226,7 @@ repositories:
       admin:
         - actors-maintainers
     visibility: private
+    web_commit_signoff_required: false
   actors-utils:
     advanced_security: false
     allow_update_branch: true
@@ -251,12 +253,12 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - Amin-Foundation
+        - decentramike
         - JAG-UK
         - Kevin-FF-USA
         - martapiekarska
         - willscott
-      maintain:
-        - Amin-Foundation
       push:
         - filecoin-watchdog
     has_discussions: true
@@ -548,6 +550,7 @@ repositories:
       pull:
         - lotus-maintainers
     visibility: private
+    web_commit_signoff_required: false
   builtin-actors-bundler:
     advanced_security: false
     allow_update_branch: false
@@ -630,6 +633,7 @@ repositories:
       admin:
         - Data Programs
     visibility: private
+    web_commit_signoff_required: false
   client-growth:
     archived: true
   client-success:
@@ -691,7 +695,7 @@ repositories:
       maintain:
         - dannyob
         - eshon
-        - thatguyllc
+        - ThatGuyLLC
         - trruckerfling
       push:
         - arajasek
@@ -739,7 +743,7 @@ repositories:
         - rjan90
       push:
         - Tanisha-fil
-        - thatguyllc
+        - ThatGuyLLC
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -886,6 +890,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
+    web_commit_signoff_required: false
   dealbot:
     advanced_security: false
     allow_update_branch: false
@@ -1222,6 +1227,7 @@ repositories:
         - lotus-contributors
         - lotus-maintainers
     visibility: private
+    web_commit_signoff_required: false
   fff:
     archived: true
   ffi-stub:
@@ -1384,6 +1390,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
+    web_commit_signoff_required: false
   filecoin-datasets:
     archived: true
   filecoin-discover-dealer:
@@ -1496,6 +1503,7 @@ repositories:
         - lotus-maintainers
         - proofs-contributors
     visibility: private
+    web_commit_signoff_required: false
   filecoin-ffi:
     advanced_security: false
     allow_update_branch: false
@@ -1543,6 +1551,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
+    web_commit_signoff_required: false
   filecoin-network-sim:
     archived: true
   filecoin-network-viz:
@@ -1581,6 +1590,7 @@ repositories:
       admin:
         - FilOz
     visibility: private
+    web_commit_signoff_required: false
   filecoin-pin-website:
     advanced_security: false
     allow_update_branch: false
@@ -1876,6 +1886,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
+    web_commit_signoff_required: false
   filet:
     advanced_security: false
     allow_update_branch: false
@@ -2071,7 +2082,7 @@ repositories:
       push:
         - decentramike
         - Tanisha-fil
-        - thatguyllc
+        - ThatGuyLLC
       triage:
         - filecoin-governance
     has_discussions: true
@@ -2120,6 +2131,7 @@ repositories:
       maintain:
         - fvm-core-devs
     visibility: private
+    web_commit_signoff_required: false
   fuzzing-lotus:
     archived: true
   fvm-bench:
@@ -2176,6 +2188,7 @@ repositories:
         - fvm-core-devs
         - lotus-maintainers
     visibility: private
+    web_commit_signoff_required: false
   fvm-runtime-experiment:
     archived: true
   fvm-solidity:
@@ -2333,6 +2346,7 @@ repositories:
         - collab-ff-seo-ux
         - FVM Web
     visibility: private
+    web_commit_signoff_required: false
   fvm-workbench:
     advanced_security: false
     allow_update_branch: true
@@ -2389,6 +2403,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: private
+    web_commit_signoff_required: false
   github-exporter:
     advanced_security: false
     allow_update_branch: false
@@ -3070,6 +3085,7 @@ repositories:
       admin:
         - website
     visibility: private
+    web_commit_signoff_required: false
   group:
     archived: true
   hackathons-forestry-legacy:
@@ -3092,6 +3108,7 @@ repositories:
       admin:
         - website
     visibility: private
+    web_commit_signoff_required: false
   hackathons-microgen-legacy:
     archived: true
   halo2:
@@ -3162,12 +3179,24 @@ repositories:
   hyperdrive-analysis:
     archived: true
   hyperspace:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - ianconsolata
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - ff-eng
+    visibility: private
+    web_commit_signoff_required: false
   infra:
     archived: true
   iptb:
@@ -3237,6 +3266,7 @@ repositories:
       maintain:
         - Boost
     visibility: private
+    web_commit_signoff_required: false
   lightning-planning:
     advanced_security: false
     allow_update_branch: false
@@ -3395,6 +3425,7 @@ repositories:
       push:
         - lotus-contributors
     visibility: private
+    web_commit_signoff_required: false
   lotus-infra:
     advanced_security: false
     allow_update_branch: false
@@ -3431,6 +3462,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: private
+    web_commit_signoff_required: false
   lotus-testground:
     archived: true
   lotus:
@@ -3485,6 +3517,7 @@ repositories:
       admin:
         - Sentinel Admin
     visibility: private
+    web_commit_signoff_required: false
   mercury-fil:
     advanced_security: false
     allow_update_branch: false
@@ -3503,6 +3536,7 @@ repositories:
       admin:
         - Sentinel Admin
     visibility: private
+    web_commit_signoff_required: false
   merkle_light-backup:
     archived: true
   merkletree:
@@ -3675,6 +3709,7 @@ repositories:
       admin:
         - website
     visibility: private
+    web_commit_signoff_required: false
   orient:
     archived: true
   painpoints-private:
@@ -3696,6 +3731,7 @@ repositories:
       admin:
         - cswg
     visibility: private
+    web_commit_signoff_required: false
   painpoints:
     advanced_security: false
     allow_update_branch: false
@@ -3853,6 +3889,7 @@ repositories:
       admin:
         - lotus-maintainers
     visibility: private
+    web_commit_signoff_required: false
   ref-fvm:
     advanced_security: false
     allow_update_branch: false
@@ -3925,6 +3962,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
+    web_commit_signoff_required: false
   research-retreats:
     archived: true
   research-simpleCalc:
@@ -4160,6 +4198,7 @@ repositories:
       maintain:
         - infra
     visibility: private
+    web_commit_signoff_required: false
   sentinel-drone:
     archived: true
   sentinel-infra:
@@ -4186,6 +4225,7 @@ repositories:
       maintain:
         - Weaveworks
     visibility: private
+    web_commit_signoff_required: false
   sentinel-locations:
     archived: true
   sentinel-private:
@@ -5088,6 +5128,7 @@ teams:
       member:
         - ianconsolata
   ff-eng:
+    create_default_maintainer: false
     members:
       maintainer:
         - filecoinfoundation-inf
