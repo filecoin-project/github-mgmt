@@ -90,7 +90,6 @@ members:
     - DrPeterVanNostrand
     - ec2
     - elijaharita
-    - elmattic
     - emilymvaughan
     - eshon
     - expede
@@ -5203,7 +5202,6 @@ teams:
       member:
         - akaladarshi
         - AlexeyKrasnoperov
-        - elmattic
         - hanabi1224
         - sudo-shashank
   foundation:
