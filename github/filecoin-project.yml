@@ -1905,6 +1905,26 @@ repositories:
         - Sentinel
     visibility: public
     web_commit_signoff_required: false
+  filhyperspace:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - filecoinfoundation-inf
+        - ianconsolata
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - ff-eng
+    visibility: private
+    web_commit_signoff_required: false
   filoz-infra:
     advanced_security: false
     allow_update_branch: false
@@ -3179,26 +3199,6 @@ repositories:
     web_commit_signoff_required: false
   hyperdrive-analysis:
     archived: true
-  filhyperspace:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - ianconsolata
-        - filecoinfoundation-inf
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      maintain:
-        - ff-eng
-    visibility: private
-    web_commit_signoff_required: false
   infra:
     archived: true
   iptb:
