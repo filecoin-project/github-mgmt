@@ -3179,13 +3179,14 @@ repositories:
     web_commit_signoff_required: false
   hyperdrive-analysis:
     archived: true
-  hyperspace:
+  filhyperspace:
     advanced_security: false
     allow_update_branch: false
     archived: false
     collaborators:
       admin:
         - ianconsolata
+        - filecoinfoundation-inf
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
