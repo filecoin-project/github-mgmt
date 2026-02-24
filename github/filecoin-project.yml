@@ -449,7 +449,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
-        - Boost
+        - boost-maintainers
     visibility: public
     web_commit_signoff_required: false
   boost-gfm:
@@ -459,9 +459,6 @@ repositories:
     collaborators:
       admin:
         - LexLuthr
-        - nonsense
-      push:
-        - hannahhoward
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -471,7 +468,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
-        - Boost
+        - boost-maintainers
     visibility: public
     web_commit_signoff_required: false
   boost-graphsync:
@@ -481,9 +478,6 @@ repositories:
     collaborators:
       admin:
         - LexLuthr
-        - nonsense
-      push:
-        - hannahhoward
         - rvagg
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -494,7 +488,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
-        - Boost
+        - boost-maintainers
     visibility: public
     web_commit_signoff_required: false
   boost:
@@ -503,21 +497,8 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - davidd8
-        - hannahhoward
-        - jennijuju
         - LexLuthr
-        - magik6k
-        - nonsense
-        - willscott
-      maintain:
-        - brendalee
-        - LaurenSpiegel
         - rvagg
-      push:
-        - aschmahmann
-        - gammazero
-        - ischasny
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -526,8 +507,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      push:
-        - Boost
+      maintain:
+        - boost-maintainers
     visibility: public
     web_commit_signoff_required: false
   bsci-collab:
@@ -1459,7 +1440,6 @@ repositories:
     teams:
       push:
         - advocates
-        - Boost
         - docs-storage-provider
     visibility: public
     web_commit_signoff_required: false
@@ -3253,7 +3233,6 @@ repositories:
       admin:
         - LexLuthr
         - magik6k
-        - nonsense
       push:
         - rjan90
     has_discussions: false
@@ -3263,9 +3242,6 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      maintain:
-        - Boost
     visibility: private
     web_commit_signoff_required: false
   lightning-planning:
@@ -5015,18 +4991,16 @@ teams:
         - LexLuthr
         - nonsense
         - rvagg
-  Boost:
+  boost-maintainers:
     members:
       maintainer:
-        - brendalee
-        - davidd8
-        - ischasny
         - LexLuthr
-        - magik6k
-        - nonsense
       member:
+        - magik6k
+        - marco-storswift
         - Reiers
         - snadrus
+        - snail8501
   CERT:
     members:
       maintainer:
