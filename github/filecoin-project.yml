@@ -1909,9 +1909,9 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - batjos
         - ianconsolata
         - lanzafame
-        - batjos
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5135,13 +5135,13 @@ teams:
         - filecoinfoundation-inf
         - ianconsolata
       member:
+        - bajtos
         - joemocode-business
         - lanzafame
         - parthshah1
         - pwrepo
-        - relotnek
         - pyropy
-        - bajtos
+        - relotnek
   FIL-B:
     members:
       maintainer:
