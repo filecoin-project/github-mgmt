@@ -1910,6 +1910,8 @@ repositories:
     collaborators:
       admin:
         - ianconsolata
+        - lanzafame
+        - batjos
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5138,6 +5140,8 @@ teams:
         - parthshah1
         - pwrepo
         - relotnek
+        - pyropy
+        - bajtos
   FIL-B:
     members:
       maintainer:
