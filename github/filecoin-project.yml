@@ -8,10 +8,6 @@ members:
   # "github-mgmt Stewards" team can still escalate into org owner permissions if/when needed.
   # This minimal owner set plus supporting rationale was documented and discussed in https://github.com/filecoin-project/github-mgmt/issues/47.
   admin:
-    # Why @anorth?
-    # 1. Long-time Filecoin developer and filecoin-project GitHub owner
-    # 2. Currently an independent contractor, not exclusively homed under one team.
-    - anorth
     # Why @BigLep?
     # He was originally given temporary org ownership to complete https://github.com/filecoin-project/github-mgmt/issues/47 via:
     # 1. Accessing the (audit log)[https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization]
@@ -21,7 +17,7 @@ members:
     # His ownership is being extended beyond https://github.com/filecoin-project/github-mgmt/issues/47 at least through 2024-12-31 because he:
     # 1. Has been leading the effort to improve the operational posture of the filecoin-project org
     # 2. Is experienced administering other similar orgs (e.g., ipfs)
-    # 3. Is an independent contractor (similar to @anorth)
+    # 3. Is an independent contractor
     - BigLep
     - dr-bizz
     # Why @filecoinfoundation-inf?
@@ -62,6 +58,7 @@ members:
     - AmeanAsad
     - androowoo
     - andyschwab
+    - anorth
     - arajasek
     - arden-sead
     - art-gor
@@ -2689,8 +2686,6 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - anorth
       push:
         - web3-bot
     has_discussions: false
@@ -2775,7 +2770,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - anorth
         - hannahhoward
         - magik6k
         - mishmosh
@@ -3929,7 +3923,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - anorth
         - nicola
       push:
         - irenegia
@@ -4898,7 +4891,6 @@ teams:
   actors-maintainers:
     members:
       maintainer:
-        - anorth
         - jennijuju
         - ZenGround0
       member:
@@ -5084,7 +5076,6 @@ teams:
   dev-misc:
     members:
       maintainer:
-        - anorth
         - magik6k
       member:
         - eshon
@@ -5142,7 +5133,6 @@ teams:
   FilOz:
     members:
       maintainer:
-        - anorth
         - jennijuju
         - TippyFlitsUK
       member:
@@ -5160,9 +5150,9 @@ teams:
   fips-editors:
     members:
       maintainer:
-        - anorth
         - jennijuju
       member:
+        - anorth
         - dannyob
         - jsoares
         - lanzafame
@@ -5199,8 +5189,6 @@ teams:
         - trruckerfling
   fvm-core-devs:
     members:
-      maintainer:
-        - anorth
       member:
         - Kubuxu
         - raulk
@@ -5407,8 +5395,6 @@ teams:
         - ribasushi
   proj-mgmt:
     members:
-      maintainer:
-        - anorth
       member:
         - davidd8
         - eshon
@@ -5503,8 +5489,6 @@ teams:
         - juliangruber
   specs:
     members:
-      maintainer:
-        - anorth
       member:
         - jbenet
         - mishmosh
