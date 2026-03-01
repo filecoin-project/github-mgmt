@@ -162,6 +162,8 @@ members:
     - pk13-PLF
     - protocol-labs
     - protocolin
+    - pwrepo
+    - pyropy
     - raghavrmadya
     - raulk
     - realChainLife
@@ -177,6 +179,7 @@ members:
     - SgtPooki
     - smooth-operator
     - snadrus
+    - snail8501
     - snissn
     - Stebalien
     - Stefaan-V
@@ -349,8 +352,8 @@ repositories:
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_message: BLANK
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - proofs-crate-owners
@@ -4512,7 +4515,6 @@ repositories:
         - LaneBloxico
         - TheDivic
       push:
-        - AbominableSnowman730
         - aleksaToljic
         - bokimilinkovic
         - MilosMarkoni
@@ -4777,15 +4779,13 @@ repositories:
       admin:
         - elvin-du
       maintain:
-        - "0x5459"
         - arajasek
-        - asamuj
         - LinZexiao
         - simlecode
-        - tediou5
       push:
         - ognots
         - StefanGajic
+        - y-ang2010
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4984,15 +4984,14 @@ teams:
         - nonsense
         - rvagg
   boost-maintainers:
+    create_default_maintainer: false
     members:
       maintainer:
         - LexLuthr
-      member:
         - magik6k
-        - marco-storswift
+      member:
         - Reiers
         - snadrus
-        - snail8501
   CERT:
     members:
       maintainer:
