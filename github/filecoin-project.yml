@@ -1902,6 +1902,9 @@ repositories:
     teams:
       admin:
         - ff-eng
+      push:
+        - ff-design
+        - pwrepo
     visibility: private
     web_commit_signoff_required: false
   filoz-infra:
@@ -5103,9 +5106,16 @@ teams:
         - joemocode-business
         - lanzafame
         - parthshah1
-        - pwrepo
         - pyropy
         - relotnek
+  ff-design:
+    members:
+      maintainer:
+        - filecoinfoundation-inf
+        - ianconsolata
+      member:
+        - filipagr
+        - gmoranxyz
   FIL-B:
     members:
       maintainer:
