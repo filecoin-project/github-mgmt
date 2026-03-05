@@ -5092,6 +5092,14 @@ teams:
     members:
       member:
         - ianconsolata
+  ff-design:
+    members:
+      maintainer:
+        - filecoinfoundation-inf
+        - ianconsolata
+      member:
+        - filipagr
+        - gmoranxyz
   ff-eng:
     create_default_maintainer: false
     members:
@@ -5103,7 +5111,6 @@ teams:
         - joemocode-business
         - lanzafame
         - parthshah1
-        - pwrepo
         - pyropy
         - relotnek
   FIL-B:
