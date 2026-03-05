@@ -1902,9 +1902,6 @@ repositories:
     teams:
       admin:
         - ff-eng
-      push:
-        - ff-design
-        - pwrepo
     visibility: private
     web_commit_signoff_required: false
   filoz-infra:
