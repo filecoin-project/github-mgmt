@@ -5423,6 +5423,7 @@ teams:
       member:
         - FilOzzy # Present so can use token in CI for releasing/publishing crates
         - Kubuxu
+        - LesnyRumcajs
         - rjan90
         - rvagg
         - ZenGround0
