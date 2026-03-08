@@ -96,6 +96,7 @@ members:
     - figureouter
     - filecoin-ci
     - filecoin-crate-owner
+    - filipagr
     - FilOzzy
     - fridrik01
     - frrist
@@ -103,6 +104,7 @@ members:
     - geomatrick
     - george-haddad
     - GlacierWalrus
+    - gmoranxyz
     - guanzo
     - guy-goren
     - hammertoe
@@ -162,7 +164,6 @@ members:
     - pk13-PLF
     - protocol-labs
     - protocolin
-    - pwrepo
     - pyropy
     - raghavrmadya
     - raulk
@@ -1779,9 +1780,9 @@ repositories:
         - 4l8ee
         - andrejrakic
         - arajasek
+        - dzmbs
         - milos1731
         - snissn
-        - vaniiiii
         - vesahc
         - vonum
         - wertikalk
@@ -1889,7 +1890,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - batjos
         - ianconsolata
         - lanzafame
     has_discussions: false
@@ -4909,7 +4909,6 @@ teams:
   alumni:
     members:
       maintainer:
-        - anorth
         - BigLep
         - jennijuju
         - magik6k
@@ -4918,6 +4917,7 @@ teams:
         - AmeanAsad
         - androowoo
         - andyschwab
+        - anorth
         - aschmahmann
         - ashwanth-eth
         - aysmed
@@ -5093,6 +5093,7 @@ teams:
       member:
         - ianconsolata
   ff-design:
+    create_default_maintainer: false
     members:
       maintainer:
         - filecoinfoundation-inf
