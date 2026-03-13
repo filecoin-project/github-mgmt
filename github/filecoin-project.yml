@@ -168,7 +168,6 @@ members:
     - raghavrmadya
     - raulk
     - realChainLife
-    - redpanda-f
     - Reiers
     - relotnek
     - ribasushi
@@ -783,7 +782,6 @@ repositories:
         # These FilOz team members have push access so they approve/push PRs to development/feature branches.
         # Repo branch protections rules or rulesets are used to ensure these individuals can't push to `main`.
         - Kubuxu
-        - redpanda-f
         - rjan90
         - rvagg
         - wjmelements
@@ -5149,7 +5147,6 @@ teams:
         - lucaniz
         - momack2
         - nicola
-        - redpanda-f
         - rjan90
         - rvagg
         - SgtPooki
@@ -5346,7 +5343,6 @@ teams:
         - magik6k
       member:
         - Kubuxu
-        - redpanda-f
         - rjan90
         - rvagg
         - TippyFlitsUK
