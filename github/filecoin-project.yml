@@ -104,7 +104,6 @@ members:
     - geomatrick
     - george-haddad
     - GlacierWalrus
-    - gmoranxyz
     - guanzo
     - guy-goren
     - hammertoe
@@ -168,7 +167,6 @@ members:
     - raghavrmadya
     - raulk
     - realChainLife
-    - redpanda-f
     - Reiers
     - relotnek
     - ribasushi
@@ -783,11 +781,12 @@ repositories:
         # These FilOz team members have push access so they approve/push PRs to development/feature branches.
         # Repo branch protections rules or rulesets are used to ensure these individuals can't push to `main`.
         - Kubuxu
-        - redpanda-f
         - rjan90
         - rvagg
         - wjmelements
         - ZenGround0
+      triage:
+        - FilOzzy
     has_discussions: true
     merge_commit_message: PR_BODY
     merge_commit_title: PR_TITLE
@@ -1266,6 +1265,28 @@ repositories:
     archived: true
   fil-ocl:
     archived: true
+  fil-one:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - ianconsolata
+        - lanzafame
+      push:
+        - filipagr
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ff-eng
+    visibility: private
+    web_commit_signoff_required: false
   fil-rustacuda:
     advanced_security: false
     allow_update_branch: false
@@ -1883,26 +1904,6 @@ repositories:
         - data
         - Sentinel
     visibility: public
-    web_commit_signoff_required: false
-  filhyperspace:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - ianconsolata
-        - lanzafame
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - ff-eng
-    visibility: private
     web_commit_signoff_required: false
   filoz-infra:
     advanced_security: false
@@ -5100,7 +5101,6 @@ teams:
         - ianconsolata
       member:
         - filipagr
-        - gmoranxyz
   ff-eng:
     create_default_maintainer: false
     members:
@@ -5149,7 +5149,6 @@ teams:
         - lucaniz
         - momack2
         - nicola
-        - redpanda-f
         - rjan90
         - rvagg
         - SgtPooki
@@ -5346,7 +5345,6 @@ teams:
         - magik6k
       member:
         - Kubuxu
-        - redpanda-f
         - rjan90
         - rvagg
         - TippyFlitsUK
