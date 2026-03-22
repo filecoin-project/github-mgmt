@@ -1635,6 +1635,7 @@ repositories:
         - aschmahmann
         - bajtos
         - davidgasquez
+        - FilOzzy
         - geomatrick
         - hugomrdias
         - juliangruber
@@ -1642,8 +1643,6 @@ repositories:
         - pyropy
         - ravish1729
         - virajbhartiya
-      triage:
-        - FilOzzy
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4779,14 +4778,15 @@ repositories:
     collaborators:
       admin:
         - elvin-du
+        - LinZexiao
       maintain:
         - arajasek
-        - LinZexiao
+        - y-ang2010
+      pull:
         - simlecode
       push:
         - ognots
         - StefanGajic
-        - y-ang2010
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
