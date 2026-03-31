@@ -54,7 +54,6 @@ members:
     - alanshaw
     - alexandrumatei36
     - Alexey-N-Chernyshov
-    - AlexeyKrasnoperov
     - AmeanAsad
     - androowoo
     - andyschwab
@@ -87,7 +86,6 @@ members:
     - DrPeterVanNostrand
     - ec2
     - elijaharita
-    - elmattic
     - emilymvaughan
     - eshon
     - expede
@@ -5066,8 +5064,6 @@ teams:
         - LesnyRumcajs
       member:
         - akaladarshi
-        - AlexeyKrasnoperov
-        - elmattic
         - hanabi1224
         - sudo-shashank
   foundation:
