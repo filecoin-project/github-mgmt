@@ -157,6 +157,7 @@ members:
     - ortyomka
     - parthpathakweb3
     - parthshah1
+    - Peeja
     - pk-controller
     - pk13-PLF
     - protocol-labs
@@ -1265,11 +1266,13 @@ repositories:
     archived: true
   fil-one:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
+        - bajtos
         - ianconsolata
+        - joemocode-business
         - lanzafame
       push:
         - filipagr
@@ -1281,7 +1284,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      admin:
+      maintain:
         - ff-eng
     visibility: private
     web_commit_signoff_required: false
@@ -4319,7 +4322,6 @@ repositories:
         - martinalong
       pull:
         - gndclouds
-        - tmytrn
         - uonai
       push:
         - johannes-jp
@@ -4999,7 +5001,10 @@ teams:
         - filecoinfoundation-inf
         - ianconsolata
       member:
+        - alanshaw
         - bajtos
+        - frrist
+        - hannahhoward
         - joemocode-business
         - lanzafame
         - parthshah1
