@@ -2960,6 +2960,7 @@ repositories:
       maintain:
         - lotus-maintainers
       push:
+        - Forest
         - lotus-contributors
     visibility: public
     web_commit_signoff_required: false
