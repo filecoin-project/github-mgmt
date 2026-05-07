@@ -1428,6 +1428,7 @@ repositories:
         - ivanka
         - jochasinga
         - mirhamasala
+        - TippyFlitsUK
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
