@@ -774,6 +774,7 @@ repositories:
     collaborators:
       admin:
         - jennijuju
+        - LexLuthr
         - magik6k
       push:
         # These FilOz team members have push access so they approve/push PRs to development/feature branches.
@@ -1060,28 +1061,7 @@ repositories:
   events-directory:
     archived: true
   f3-activation-contract:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - BigLep
-        - Kubuxu
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      maintain:
-        - lotus-maintainers
-      push:
-        - Forest
-        - Venus
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   fc-cap-sim:
     archived: true
   fcnr:
@@ -1620,6 +1600,8 @@ repositories:
         - pyropy
         - ravish1729
         - virajbhartiya
+      triage:
+        - beck-8
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
