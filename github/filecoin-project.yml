@@ -3406,6 +3406,9 @@ repositories:
     collaborators:
       maintain:
         - snadrus # Curio lead
+      push:
+        - marco-storswift # StorSwift team members, that are maintaining lotus-miner
+        - snail8501 # StorSwift team members, that are maintaining lotus-miner
       triage:
         - ribasushi # Independent contributor active on various Lotus issues.  Now can assign labels and leave reviews.
     has_discussions: true
