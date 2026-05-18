@@ -447,6 +447,8 @@ repositories:
     teams:
       maintain:
         - boost-maintainers
+      push:
+        - storswift-miner-maintainers # StorSwift team members, that are maintaining lotus-miner
     visibility: public
     web_commit_signoff_required: false
   boost-gfm:
@@ -3424,6 +3426,7 @@ repositories:
         - lotus-ci # Credentials for members of this team are used to automate GitHub Release creation 
         - lotus-contributors
         - lotus-miner-maintainers # Push access needed to repo so can make changes in the miner code
+        - storswift-miner-maintainers # StorSwift team members, that are maintaining lotus-miner
       triage:
         - filoz-devguild-mentees
     visibility: public
@@ -5207,9 +5210,6 @@ teams:
     members:
       maintainer:
         - tediou5
-      member:
-        - marco-storswift # StorSwift team members, that are maintaining lotus-miner
-        - snail8501 # StorSwift team members, that are maintaining lotus-miner
   moderators:
     # Assigning this team the Moderator role is configured through the GitHub UI, not in github-mgmt.
     # Sead team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
@@ -5368,6 +5368,11 @@ teams:
         - JadTermsani
         - mishmosh
         - smooth-operator
+  storswift-miner-maintainers:
+    members:
+      member:
+        - marco-storswift
+        - snail8501
   tooling:
     members:
       member:
