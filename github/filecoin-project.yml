@@ -5207,6 +5207,9 @@ teams:
     members:
       maintainer:
         - tediou5
+      member:
+        - marco-storswift # StorSwift team members, that are maintaining lotus-miner
+        - snail8501 # StorSwift team members, that are maintaining lotus-miner
   moderators:
     # Assigning this team the Moderator role is configured through the GitHub UI, not in github-mgmt.
     # Sead team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
