@@ -5369,6 +5369,7 @@ teams:
         - mishmosh
         - smooth-operator
   storswift-miner-maintainers:
+    create_default_maintainer: false
     members:
       member:
         - marco-storswift
