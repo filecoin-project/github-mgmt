@@ -4913,11 +4913,12 @@ teams:
   Curio:
     members:
       maintainer:
+        - LexLuthr
         - magik6k
         - snadrus
       member:
-        - LexLuthr
         - Reiers
+        - rvagg
   Data Programs:
     members:
       maintainer:
