@@ -1561,9 +1561,12 @@ repositories:
         - SgtPooki
       push:
         - barbaraperic
+        - beck-8
+        - BravoNatalie
         - filipagr
         - gmoranxyz
         - juliangruber
+        - silent-cipher
         - trruckerfling
         - virajbhartiya
       triage:
@@ -1593,6 +1596,8 @@ repositories:
       push:
         - aschmahmann
         - bajtos
+        - beck-8
+        - BravoNatalie
         - davidgasquez
         - FilOzzy
         - geomatrick
@@ -1603,8 +1608,6 @@ repositories:
         - ravish1729
         - silent-cipher
         - virajbhartiya
-      triage:
-        - beck-8
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
