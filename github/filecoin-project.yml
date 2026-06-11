@@ -1589,6 +1589,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - FilOzzy
         - juliangruber
         - rvagg
         - SgtPooki
@@ -1600,7 +1601,6 @@ repositories:
         - beck-8
         - BravoNatalie
         - davidgasquez
-        - FilOzzy
         - geomatrick
         - hugomrdias
         - juliangruber
