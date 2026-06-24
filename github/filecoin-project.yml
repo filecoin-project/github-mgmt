@@ -1422,6 +1422,8 @@ repositories:
       push:
         - advocates
         - docs-storage-provider
+      triage:
+        - Curio
     visibility: public
     web_commit_signoff_required: false
   filecoin-energy:
