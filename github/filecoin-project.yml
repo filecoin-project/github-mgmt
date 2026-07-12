@@ -779,8 +779,8 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
+    secret_scanning_push_protection: false
+    secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
@@ -795,6 +795,7 @@ repositories:
         - LexLuthr
         - magik6k
         - rvagg
+        - ZenGround0
       push:
         # These FilOz team members have push access so they approve/push PRs to development/feature branches.
         # Repo branch protections rules or rulesets are used to ensure these individuals can't push to `main`.
@@ -802,7 +803,6 @@ repositories:
         - Kubuxu
         - rjan90
         - wjmelements
-        - ZenGround0
       triage:
         - FilOzzy
     has_discussions: true
@@ -1204,6 +1204,22 @@ repositories:
         - lotus-contributors
         - lotus-maintainers
     visibility: private
+    web_commit_signoff_required: false
+  ff-sec-actions:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - relotnek
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
     web_commit_signoff_required: false
   fff:
     archived: true
@@ -2842,6 +2858,24 @@ repositories:
         - lotus-maintainers
     visibility: public
     web_commit_signoff_required: false
+  go-kamt-ipld:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - rvagg
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: PR_TITLE
+    visibility: public
+    web_commit_signoff_required: false
   go-keccak:
     advanced_security: false
     allow_update_branch: false
@@ -4372,6 +4406,27 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
     web_commit_signoff_required: false
+  solstice:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - irenegia
+        - rvagg
+        - wjmelements
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - FilOz
+    visibility: public
+    web_commit_signoff_required: false
   sp-automation:
     advanced_security: false
     allow_update_branch: false
@@ -4956,6 +5011,7 @@ teams:
       member:
         - Reiers
         - rvagg
+        - ZenGround0
   Data Programs:
     members:
       maintainer:
