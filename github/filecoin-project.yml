@@ -634,7 +634,9 @@ repositories:
         - protocolin
       pull:
         - arajasek
+        - maksmore
         - pk-controller
+        - YanLozovskyi
       push:
         - openworklabbot
     has_discussions: false
@@ -775,7 +777,10 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - LexLuthr
         - snadrus
+      push:
+        - FilOzzy
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -783,6 +788,11 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Curio
+      push:
+        - FilOz
     visibility: private
     web_commit_signoff_required: false
   curio:
@@ -4413,6 +4423,7 @@ repositories:
     collaborators:
       admin:
         - irenegia
+        - rjan90
         - rvagg
         - wjmelements
     has_discussions: false
