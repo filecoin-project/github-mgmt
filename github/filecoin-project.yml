@@ -3790,6 +3790,8 @@ repositories:
       maintain:
         - ccerv1
     license_template: mit
+    secret_scanning_push_protection: true
+    secret_scanning: true
     visibility: public
   phase2-attestations-internal-verification:
     archived: true
