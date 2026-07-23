@@ -3781,6 +3781,16 @@ repositories:
     archived: true
   PebblingAndDepthReductionAttacks:
     archived: true
+  pgf-monitor:
+    archived: false
+    auto_init: true
+    collaborators:
+      admin:
+        - dannyob
+      maintain:
+        - ccerv1
+    license_template: mit
+    visibility: public
   phase2-attestations-internal-verification:
     archived: true
   phase2-attestations:
