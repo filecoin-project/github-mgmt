@@ -422,7 +422,7 @@ repositories:
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - proofs-crate-owners
@@ -809,12 +809,14 @@ repositories:
       push:
         # These FilOz team members have push access so they approve/push PRs to development/feature branches.
         # Repo branch protections rules or rulesets are used to ensure these individuals can't push to `main`.
+        - beck-8
         - frrist
         - Kubuxu
         - rjan90
         - wjmelements
       triage:
         - FilOzzy
+        - TippyFlitsUK
     has_discussions: true
     merge_commit_message: PR_BODY
     merge_commit_title: PR_TITLE
@@ -3471,6 +3473,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      triage:
+        - parthshah1
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3782,17 +3787,23 @@ repositories:
   PebblingAndDepthReductionAttacks:
     archived: true
   pgf-monitor:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
-    auto_init: true
     collaborators:
       admin:
         - dannyob
       maintain:
         - ccerv1
-    license_template: mit
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
     secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
   phase2-attestations-internal-verification:
     archived: true
   phase2-attestations:
@@ -4439,6 +4450,8 @@ repositories:
         - rjan90
         - rvagg
         - wjmelements
+      push:
+        - ThatGuyLLC
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
