@@ -1446,6 +1446,7 @@ repositories:
         - bobdubois
         - eshon
         - lanzafame
+        - rjan90
         - trruckerfling
       push:
         - Angelo-gh3990
@@ -1532,6 +1533,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      maintain:
+        - LexLuthr
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1654,23 +1658,19 @@ repositories:
     collaborators:
       admin:
         - FilOzzy
-        - juliangruber
         - rvagg
         - SgtPooki
       maintain:
         - rjan90
       push:
         - aschmahmann
-        - bajtos
         - beck-8
         - BravoNatalie
         - davidgasquez
-        - geomatrick
         - hugomrdias
         - lidel
-        - pyropy
-        - ravish1729
         - silent-cipher
+        - snissn
         - virajbhartiya
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2728,6 +2728,28 @@ repositories:
         - lotus-maintainers
     visibility: public
     web_commit_signoff_required: false
+  go-fee:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - alanshaw
+        - hannahhoward
+        - Peeja
+      maintain:
+        - bajtos
+        - frrist
+        - pyropy
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+    web_commit_signoff_required: false
   go-fil-commcid-priv:
     advanced_security: false
     allow_update_branch: false
@@ -2949,6 +2971,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      maintain:
+        - LexLuthr
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4384,7 +4409,6 @@ repositories:
         - Aminejvm
       maintain:
         - achalvs
-        - akuokojnr
         - harisbutt
         - martinalong
       pull:
