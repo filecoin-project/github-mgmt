@@ -85,6 +85,7 @@ members:
     - dnkolegov
     - DrPeterVanNostrand
     - ec2
+    - EclesioMeloJunior
     - elijaharita
     - emilymvaughan
     - eshon
@@ -105,7 +106,6 @@ members:
     - guanzo
     - guy-goren
     - hammertoe
-    - hanabi1224
     - hannahhoward
     - hunjixin
     - ianconsolata
@@ -5186,7 +5186,7 @@ teams:
         - LesnyRumcajs
       member:
         - akaladarshi
-        - hanabi1224
+        - EclesioMeloJunior
         - sudo-shashank
   foundation:
     members:
