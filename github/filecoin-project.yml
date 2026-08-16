@@ -626,7 +626,6 @@ repositories:
       admin:
         - ArseniiPetrovich
         - dumikau
-        - dzmitrykliapkou
         - eshon
         - jbenet
         - jennijuju
@@ -4470,6 +4469,22 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+    web_commit_signoff_required: false
+  Solstice-Governance:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - Amin-Foundation
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
