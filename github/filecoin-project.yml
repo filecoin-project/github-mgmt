@@ -4516,6 +4516,7 @@ repositories:
     teams:
       push:
         - FilOz
+        - Venus
     visibility: public
     web_commit_signoff_required: false
   sp-automation:
@@ -4778,6 +4779,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - Venus
     visibility: public
     web_commit_signoff_required: false
   venus-sealer:
@@ -5574,6 +5578,7 @@ teams:
         - steven004
       member:
         - Fatman13
+        - LinZexiao
   w3dt-stewards:
     members:
       maintainer:
