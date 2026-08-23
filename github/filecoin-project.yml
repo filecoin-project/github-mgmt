@@ -131,6 +131,7 @@ members:
     - laurentsenta
     - LesnyRumcajs
     - LexLuthr
+    - LinZexiao
     - lksbrssr
     - longfeiWan9
     - Lord-Bach
@@ -4051,6 +4052,25 @@ repositories:
     archived: true
   research:
     archived: true
+  ReservedAddress:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - BigLep
+        - wjmelements
+      maintain:
+        - rvagg
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: PR_TITLE
+    visibility: public
+    web_commit_signoff_required: false
   retrieval-load-testing:
     advanced_security: false
     allow_update_branch: false
@@ -4506,6 +4526,7 @@ repositories:
         - wjmelements
       push:
         - ThatGuyLLC
+        - tmaciej-neti
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4769,9 +4790,8 @@ repositories:
       maintain:
         - "0x5459"
         - Joss-Hua
-        - simlecode
-      push:
         - LinZexiao
+        - simlecode
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
