@@ -66,6 +66,7 @@ members:
     - autonome
     - aysmed
     - bajtos
+    - beck-8
     - birdychang
     - BlocksOnAChain
     - bradholden
@@ -114,6 +115,7 @@ members:
     - irenegia
     - ischasny
     - JadTermsani
+    - JAG-UK
     - jbenet
     - jimpick
     - jnthnvctr
@@ -134,7 +136,6 @@ members:
     - LexLuthr
     - LinZexiao
     - lksbrssr
-    - longfeiWan9
     - Lord-Bach
     - lucaniz
     - maciejwitowski
@@ -1267,7 +1268,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - longfeiWan9
         - rk-rishikesh
         - snissn
         - trruckerfling
@@ -2210,7 +2210,6 @@ repositories:
       maintain:
         - arajasek
         - eshon
-        - longfeiWan9
         - snissn
       pull:
         - WhiteFlamingo
@@ -4526,8 +4525,10 @@ repositories:
         - rvagg
         - wjmelements
       push:
+        - JAG-UK
         - ThatGuyLLC
-        - tmaciej-neti
+      triage:
+        - FilOzzy
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4633,9 +4634,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - longfeiWan9
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4967,7 +4965,6 @@ teams:
       member:
         - hammertoe
         - lksbrssr
-        - longfeiWan9
         - mishmosh
         - trruckerfling
   alumni:
@@ -5188,7 +5185,6 @@ teams:
       maintainer:
         - trruckerfling
       member:
-        - longfeiWan9
         - nijoe1
         - rk-rishikesh
         - snissn
