@@ -511,6 +511,7 @@ repositories:
     teams:
       maintain:
         - boost-maintainers
+        - storswift-miner-maintainers
     visibility: public
     web_commit_signoff_required: false
   bsci-collab:
