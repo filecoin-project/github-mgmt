@@ -113,9 +113,8 @@ members:
     - ianconsolata
     - igor-egorov
     - irenegia
-    - ischasny
+    - iscxyz
     - JadTermsani
-    - JAG-UK
     - jbenet
     - jimpick
     - jnthnvctr
@@ -564,6 +563,8 @@ repositories:
     collaborators:
       push:
         - web3-bot
+      triage:
+        - irenegia
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4506,6 +4507,8 @@ repositories:
     collaborators:
       admin:
         - Amin-Foundation
+        - decentramike
+        - ThatGuyLLC
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4616,6 +4619,22 @@ repositories:
     web_commit_signoff_required: false
   SPWG:
     archived: true
+  stack-leads-toolkit:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - dannyob
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+    web_commit_signoff_required: false
   starling:
     advanced_security: false
     allow_update_branch: false
@@ -5003,7 +5022,7 @@ teams:
         - hammertoe
         - hanabi1224
         - hannahhoward
-        - ischasny
+        - iscxyz
         - jbenet
         - juliangruber
         - Kubuxu
