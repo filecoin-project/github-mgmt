@@ -5548,7 +5548,6 @@ teams:
     # Filecoin Foundation team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
     members:
       member:
-        - ianconsolata
         - parthshah1
         - relotnek
   Sentinel Admin:
