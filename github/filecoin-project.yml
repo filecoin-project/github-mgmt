@@ -1074,6 +1074,29 @@ repositories:
     archived: true
   engine:
     archived: true
+  engram:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      maintain:
+        - SgtPooki
+        - TippyFlitsUK
+      push:
+        - BravoNatalie
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - FIL-B
+        - FilOz
+    visibility: private
+    web_commit_signoff_required: false
   ent:
     # KEEP: this is a tool used by Lotus team during Filecoin network migrations which doesn't need much direct change unless the data schemas it works with change
     advanced_security: false
@@ -1539,6 +1562,7 @@ repositories:
     collaborators:
       maintain:
         - LexLuthr
+        - snadrus
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2128,7 +2152,6 @@ repositories:
     collaborators:
       push:
         - decentramike
-        - Tanisha-fil
         - ThatGuyLLC
       triage:
         - filecoin-governance
@@ -4508,7 +4531,6 @@ repositories:
       admin:
         - Amin-Foundation
         - decentramike
-        - ThatGuyLLC
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4531,6 +4553,7 @@ repositories:
       push:
         - JAG-UK
         - ThatGuyLLC
+        - tmaciej-neti
       triage:
         - FilOzzy
     has_discussions: false
@@ -4625,6 +4648,10 @@ repositories:
     collaborators:
       admin:
         - dannyob
+      push:
+        - ccerv1
+        - davidgasquez
+        - sejalrekhan97
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4632,6 +4659,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - stack-leads
     visibility: private
     web_commit_signoff_required: false
   starling:
@@ -5585,6 +5615,36 @@ teams:
         - nicola
         - whyrusleeping
         - yiannisbot
+        - zixuanzh
+  stack-leads:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - BigLep
+        - dannyob
+        - jennijuju
+        - magik6k
+      member:
+        - androowoo
+        - bajtos
+        - cbrocoum
+        - davidgasquez
+        - eshon
+        - figureouter
+        - hannahhoward
+        - irenegia
+        - jbenet
+        - jnthnvctr
+        - juliangruber
+        - kkarrancsu
+        - mishmosh
+        - momack2
+        - relotnek
+        - rjan90
+        - rvagg
+        - snadrus
+        - TippyFlitsUK
+        - trruckerfling
         - zixuanzh
   starling-storage:
     members:
