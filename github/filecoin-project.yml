@@ -475,6 +475,8 @@ repositories:
     teams:
       maintain:
         - boost-maintainers
+      push:
+        - storswift-miner-maintainers # StorSwift team members, that are maintaining lotus-miner
     visibility: public
     web_commit_signoff_required: false
   boost-graphsync:
@@ -495,6 +497,8 @@ repositories:
     teams:
       maintain:
         - boost-maintainers
+      push:
+        - storswift-miner-maintainers # StorSwift team members, that are maintaining lotus-miner
     visibility: public
     web_commit_signoff_required: false
   boost:
