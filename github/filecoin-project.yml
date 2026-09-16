@@ -1083,29 +1083,6 @@ repositories:
     archived: true
   engine:
     archived: true
-  engram:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      maintain:
-        - SgtPooki
-        - TippyFlitsUK
-      push:
-        - BravoNatalie
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      push:
-        - FIL-B
-        - FilOz
-    visibility: private
-    web_commit_signoff_required: false
   ent:
     # KEEP: this is a tool used by Lotus team during Filecoin network migrations which doesn't need much direct change unless the data schemas it works with change
     advanced_security: false
@@ -1868,6 +1845,30 @@ repositories:
       pull:
         - website
     visibility: public
+    web_commit_signoff_required: false
+  filecoin-skills:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      maintain:
+        - bobbyslife
+        - SgtPooki
+        - TippyFlitsUK
+      push:
+        - BravoNatalie
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - FIL-B
+        - FilOz
+    visibility: private
     web_commit_signoff_required: false
   filecoin-solidity:
     advanced_security: false
@@ -4660,7 +4661,6 @@ repositories:
       push:
         - ccerv1
         - davidgasquez
-        - sejalrekhan97
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
