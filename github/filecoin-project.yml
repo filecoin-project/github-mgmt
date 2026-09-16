@@ -3566,8 +3566,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      maintain:
-        - snadrus # Curio lead
       triage:
         - ribasushi # Independent contributor active on various Lotus issues.  Now can assign labels and leave reviews.
     has_discussions: true
@@ -5463,8 +5461,10 @@ teams:
         - magik6k
       member:
         - Kubuxu
+        - LexLuthr
         - rjan90
         - rvagg
+        - snadrus
         - TippyFlitsUK
         - wjmelements
         - ZenGround0
