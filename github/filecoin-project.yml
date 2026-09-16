@@ -46,6 +46,11 @@ members:
     # 3. This isn't mastrwayne's day-to-day GitHub account
     - mastrwayne-admin
     - mastrwayne
+    # Why @relotnek?
+    # 1. Represents the Security team as Head of Security for Filecoin Foundation, which is a significant stakeholder in the Filecoin ecosystem
+    # 2. relotnek is the primary contact for security operations, product security, application security, and access control for the Filecoin Foundation and manages similar systems for Filecoin Foundation
+    # 3. relotnek is charged with responsibility over security incident and event management and incident response
+    - relotnek
   member:
     - aakoshh
     - aarshkshah1992
