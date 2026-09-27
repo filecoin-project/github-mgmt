@@ -1581,6 +1581,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - filipagr
         - relotnek
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -1850,7 +1851,6 @@ repositories:
         - SgtPooki
         - TippyFlitsUK
       push:
-        - bobbyslife
         - BravoNatalie
         - gayatrigt
     has_discussions: false
@@ -4656,6 +4656,7 @@ repositories:
     collaborators:
       admin:
         - dannyob
+        - sejalrekhan97
       push:
         - ccerv1
         - davidgasquez
