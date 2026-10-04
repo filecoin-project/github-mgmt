@@ -19,7 +19,6 @@ members:
     # 2. Is experienced administering other similar orgs (e.g., ipfs)
     # 3. Is an independent contractor
     - BigLep
-    - dr-bizz
     # Why @filecoinfoundation-inf?
     # 1. Represents the IT Operations Management Lead Baldemar (Baldy) for Filecoin Foundation, which is a significant stakeholder in the Filecoin ecosystem
     # 2. Baldy is the primary contact for IT operations for the Filecoin Foundation and manages similar systems for Filecoin Foundation
@@ -1918,7 +1917,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - dr-bizz
         - filecoinfoundation-inf
         - ianconsolata
         - mirhamasala
@@ -2784,6 +2782,7 @@ repositories:
         - alanshaw
         - bajtos
         - hannahhoward
+        - Peeja
       maintain:
         - frrist
         - pyropy
@@ -2919,6 +2918,25 @@ repositories:
     archived: true
   go-ipld-cbor:
     archived: true
+  go-jsonrpc-priv:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - rvagg
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
+    visibility: private
+    web_commit_signoff_required: false
   go-jsonrpc:
     advanced_security: false
     allow_update_branch: false
@@ -3179,7 +3197,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - dr-bizz
         - justanothersynth
         - orvn
         - svvimming
@@ -3547,7 +3564,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      triage:
+      push:
         - parthshah1
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -3559,6 +3576,8 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
+      push:
+        - storswift-miner-maintainers
     visibility: private
     web_commit_signoff_required: false
   lotus-testground:
@@ -3791,7 +3810,6 @@ repositories:
     collaborators:
       admin:
         - andyschwab
-        - dr-bizz
         - suzannaaltman
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -5483,7 +5501,6 @@ teams:
     members:
       maintainer:
         # @masterway-admin is listed as a maintainer rather than member because GitHub will automatically make him a maintainer given he is an org.admin above.
-        - dr-bizz
         - mastrwayne-admin
       member:
         - arden-sead
