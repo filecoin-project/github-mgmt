@@ -1586,6 +1586,8 @@ repositories:
       admin:
         - filipagr
         - relotnek
+      maintain:
+        - bobbyslife
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2160,6 +2162,7 @@ repositories:
     collaborators:
       push:
         - decentramike
+        - hannahhoward
         - ThatGuyLLC
       triage:
         - filecoin-governance
@@ -5250,6 +5253,7 @@ teams:
       maintainer:
         - filecoinfoundation-inf
         - ianconsolata
+        - relotnek
       member:
         - alanshaw
         - bajtos
@@ -5259,7 +5263,6 @@ teams:
         - lanzafame
         - parthshah1
         - pyropy
-        - relotnek
   FIL-B:
     members:
       maintainer:
@@ -5608,9 +5611,10 @@ teams:
     # Note: members of this team have read access to all repos per https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
     # Filecoin Foundation team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
     members:
+      maintainer:
+        - relotnek
       member:
         - parthshah1
-        - relotnek
   Sentinel Admin:
     members:
       maintainer:
@@ -5655,6 +5659,7 @@ teams:
         - dannyob
         - jennijuju
         - magik6k
+        - relotnek
       member:
         - androowoo
         - bajtos
@@ -5670,7 +5675,6 @@ teams:
         - kkarrancsu
         - mishmosh
         - momack2
-        - relotnek
         - rjan90
         - rvagg
         - snadrus
