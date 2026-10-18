@@ -249,6 +249,25 @@ repositories:
         - fvm-crate-owners
     visibility: public
     web_commit_signoff_required: false
+  agents:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - hugomrdias
+        - rjan90
+      push:
+        - FilOzzy
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+    web_commit_signoff_required: true
   Allocator-Governance:
     advanced_security: false
     allow_update_branch: false
@@ -1585,9 +1604,15 @@ repositories:
     collaborators:
       admin:
         - filipagr
+        - gmoranxyz
+        - jennijuju
+        - momack2
         - relotnek
       maintain:
         - bobbyslife
+        - gayatrigt
+        - matthendrian
+        - TippyFlitsUK
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2161,12 +2186,16 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      pull:
+        - BravoNatalie
       push:
         - decentramike
         - hannahhoward
+        - SgtPooki
         - ThatGuyLLC
       triage:
         - filecoin-governance
+        - FilOzzy
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2799,8 +2828,8 @@ repositories:
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_message: PR_BODY
+    squash_merge_commit_title: PR_TITLE
     visibility: public
     web_commit_signoff_required: false
   go-fil-commcid-priv:
@@ -3572,6 +3601,9 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      pull:
+        - dennis-tra
+        - yiannisbot
       push:
         - parthshah1
     has_discussions: false
@@ -5240,6 +5272,7 @@ teams:
     members:
       member:
         - ianconsolata
+        - momack2
   ff-design:
     create_default_maintainer: false
     members:
@@ -5430,6 +5463,7 @@ teams:
         # Why @ianconsolata?
         # 1. Serves as technical projects representative for the Filecoin Foundation.
         - ianconsolata
+        - momack2
         # Why @rjain90?
         # 1. He is a project manager at FilOz.
         - rjan90
