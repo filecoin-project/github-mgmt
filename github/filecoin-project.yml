@@ -1482,6 +1482,7 @@ repositories:
         - barbaraperic
         - dannyob
         - hammertoe
+        - hugomrdias
         - ivanka
         - jochasinga
         - mirhamasala
@@ -2163,13 +2164,9 @@ repositories:
     collaborators:
       admin:
         - eshon
-        - expede
         - hugomrdias
         - ianconsolata
         - maciejwitowski
-      maintain:
-        - avivash
-        - meandavejustice
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
