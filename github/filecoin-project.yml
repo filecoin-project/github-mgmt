@@ -1680,8 +1680,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - FilOzzy
       maintain:
         - CharlyMartin
         - SgtPooki
@@ -1695,6 +1693,8 @@ repositories:
         - silent-cipher
         - trruckerfling
         - virajbhartiya
+      triage:
+        - FilOzzy
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1713,7 +1713,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - FilOzzy
         - rvagg
         - SgtPooki
       maintain:
@@ -1723,6 +1722,7 @@ repositories:
         - beck-8
         - BravoNatalie
         - davidgasquez
+        - FilOzzy
         - hugomrdias
         - lidel
         - silent-cipher
