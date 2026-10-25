@@ -1725,6 +1725,7 @@ repositories:
         - FilOzzy
         - hugomrdias
         - lidel
+        - OzzyHelper
         - silent-cipher
         - snissn
         - virajbhartiya
@@ -2183,8 +2184,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      pull:
-        - BravoNatalie
       push:
         - decentramike
         - hannahhoward
