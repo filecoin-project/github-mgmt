@@ -259,6 +259,7 @@ repositories:
         - rjan90
       push:
         - FilOzzy
+        - OzzyHelper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1101,22 +1102,7 @@ repositories:
   engine:
     archived: true
   ent:
-    # KEEP: this is a tool used by Lotus team during Filecoin network migrations which doesn't need much direct change unless the data schemas it works with change
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - actors-maintainers
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   eudico:
     archived: true
   events-directory:
@@ -1467,26 +1453,24 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - andyschwab
-        - ianconsolata
         - jennijuju
-        - raulk
       maintain:
-        - bobdubois
         - eshon
         - lanzafame
         - rjan90
+        - TippyFlitsUK
         - trruckerfling
       push:
+        - andyschwab
         - Angelo-gh3990
         - barbaraperic
+        - bobdubois
         - dannyob
+        - gayatrigt
         - hammertoe
         - hugomrdias
-        - ivanka
-        - jochasinga
-        - mirhamasala
-        - TippyFlitsUK
+        - ianconsolata
+        - laurenmxv
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1643,22 +1627,7 @@ repositories:
   filecoin-params:
     archived: true
   filecoin-phase2:
-    # KEEP: this is trusted setup related and should stay available
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - proofs-crate-owners
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   filecoin-pin-github-action-test:
     advanced_security: false
     allow_update_branch: false
@@ -2217,29 +2186,7 @@ repositories:
   fungi:
     archived: true
   Fuzzing-FVM:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - BlocksOnAChain
-        - Jacarte
-      maintain:
-        - arajasek
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - fvm-crate-owners
-      maintain:
-        - fvm-core-devs
-    visibility: private
-    web_commit_signoff_required: false
+    archived: true
   fuzzing-lotus:
     archived: true
   fvm-bench:
@@ -2455,25 +2402,7 @@ repositories:
     visibility: private
     web_commit_signoff_required: false
   fvm-workbench:
-    advanced_security: false
-    allow_update_branch: true
-    archived: false
-    collaborators:
-      push:
-        - alexytsu
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: PR_BODY
-    squash_merge_commit_title: PR_TITLE
-    teams:
-      admin:
-        - actors-maintainers
-        - fvm-crate-owners
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   gb-filecoin-docs:
     advanced_security: false
     allow_update_branch: false
@@ -2493,24 +2422,7 @@ repositories:
   geodns-server:
     archived: true
   gfm-priv:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - arajasek
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - lotus-maintainers
-    visibility: private
-    web_commit_signoff_required: false
+    archived: true
   github-exporter:
     advanced_security: false
     allow_update_branch: false
@@ -2742,52 +2654,9 @@ repositories:
   go-data-transfer-bus:
     archived: true
   go-data-transfer:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - gammazero
-        - hannahhoward
-        - rvagg
-      push:
-        - arajasek
-        - mishmosh
-      triage:
-        - dkkapur
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      maintain:
-        - lotus-maintainers
-      push:
-        - lotus-contributors
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-ds-versioning:
-    # KEEP: this is a lotus dependency
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - lotus-maintainers
-      push:
-        - lotus-contributors
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-f3:
     advanced_security: false
     allow_update_branch: true
@@ -3759,25 +3628,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   motion-sp-test:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - rvagg
-      push:
-        - elijaharita
-        - gammazero
-        - xinaxu
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   motion:
     archived: true
   motivation:
