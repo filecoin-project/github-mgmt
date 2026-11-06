@@ -1649,6 +1649,10 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        # Temporary for https://github.com/filecoin-project/filecoin-pin-website/pull/282
+        # Remove after the GitHub deployment setup is verified.
+        - rjan90
       maintain:
         - CharlyMartin
         - SgtPooki
