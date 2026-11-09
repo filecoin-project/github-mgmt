@@ -1650,6 +1650,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - beck-8
         # Temporary for https://github.com/filecoin-project/filecoin-pin-website/pull/282
         # Remove after the GitHub deployment setup is verified.
         - rjan90
@@ -1658,7 +1659,6 @@ repositories:
         - SgtPooki
       push:
         - barbaraperic
-        - beck-8
         - BravoNatalie
         - filipagr
         - gmoranxyz
