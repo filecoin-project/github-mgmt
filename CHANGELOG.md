@@ -23,7 +23,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - new args for repositories and branch protection rules
 
 ### Changed
-- access: invite OzzyHelper to the organization and ozzyhelper team; replace direct write grants on agents, filecoin-pin, and filecoin-pin-website with team access
 - workflows: added separate GitHub Actions environments for reading organization state, writing organization state, and pushing repository changes
 - workflows: pin third-party actions to latest release SHAs and replan from the merged commit before applying
 - docs: update template repository references from `github-mgmt-template` to `github-as-code`
