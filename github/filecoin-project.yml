@@ -161,6 +161,7 @@ members:
     - ns4plabs
     - olizilla
     - ortyomka
+    - OzzyHelper
     - parthpathakweb3
     - parthshah1
     - pk-controller
@@ -259,7 +260,6 @@ repositories:
         - rjan90
       push:
         - FilOzzy
-        - OzzyHelper
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -267,6 +267,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - ozzyhelper
     visibility: public
     web_commit_signoff_required: true
   Allocator-Governance:
@@ -1664,7 +1667,6 @@ repositories:
         - filipagr
         - gmoranxyz
         - juliangruber
-        - OzzyHelper
         - silent-cipher
         - trruckerfling
         - virajbhartiya
@@ -1680,6 +1682,8 @@ repositories:
     teams:
       maintain:
         - FilOz
+      push:
+        - ozzyhelper
     visibility: public
     web_commit_signoff_required: false
   filecoin-pin:
@@ -1701,7 +1705,6 @@ repositories:
         - hugomrdias
         - JAG-UK
         - lidel
-        - OzzyHelper
         - silent-cipher
         - snissn
         - virajbhartiya
@@ -1715,6 +1718,7 @@ repositories:
     teams:
       push:
         - FilOz
+        - ozzyhelper
     visibility: public
     web_commit_signoff_required: false
   filecoin-plus-application-json-restructure:
@@ -5418,6 +5422,11 @@ teams:
         - nonsense
         - whyrusleeping
         - willscott
+  ozzyhelper:
+    create_default_maintainer: false
+    members:
+      member:
+        - OzzyHelper
   product-biz:
     members:
       maintainer:
