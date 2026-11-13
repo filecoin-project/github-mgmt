@@ -1707,6 +1707,7 @@ repositories:
         - lidel
         - silent-cipher
         - snissn
+        - strahe
         - virajbhartiya
     has_discussions: false
     merge_commit_message: PR_TITLE
