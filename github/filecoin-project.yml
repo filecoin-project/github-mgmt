@@ -18,6 +18,7 @@ members:
     # 1. Has been leading the effort to improve the operational posture of the filecoin-project org
     # 2. Is experienced administering other similar orgs (e.g., ipfs)
     # 3. Is an independent contractor
+    - AvioxArcade
     - BigLep
     # Why @filecoinfoundation-inf?
     # 1. Represents the IT Operations Management Lead Baldemar (Baldy) for Filecoin Foundation, which is a significant stakeholder in the Filecoin ecosystem
@@ -1002,7 +1003,9 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - Amin-Foundation
         - BlocksOnAChain
+        - decentramike
         - FF-FOIT
         - realChainLife
       maintain:
@@ -1592,10 +1595,13 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - dcassagnol
         - filipagr
         - gmoranxyz
         - jennijuju
+        - mfbgsz
         - momack2
+        - mpal0208
         - relotnek
       maintain:
         - bobbyslife
@@ -1659,14 +1665,11 @@ repositories:
         # Remove after the GitHub deployment setup is verified.
         - rjan90
       maintain:
-        - CharlyMartin
         - SgtPooki
       push:
-        - barbaraperic
         - BravoNatalie
         - filipagr
         - gmoranxyz
-        - juliangruber
         - silent-cipher
         - trruckerfling
         - virajbhartiya
@@ -1704,11 +1707,9 @@ repositories:
         - FilOzzy
         - hugomrdias
         - JAG-UK
-        - lidel
         - silent-cipher
         - snissn
         - strahe
-        - virajbhartiya
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2016,6 +2017,22 @@ repositories:
       push:
         - FilOz
     visibility: private
+    web_commit_signoff_required: false
+  filpgf-agent-kit:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - davidgasquez
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
     web_commit_signoff_required: false
   filplus-backend:
     advanced_security: false
