@@ -128,7 +128,6 @@ members:
     - joemocode-business
     - jsoares
     - juliangruber
-    - kaitlin-beegle
     - kalambet
     - kevzak
     - kkarrancsu
@@ -151,7 +150,6 @@ members:
     - matejpavlovic
     - MF416
     - Mingela
-    - mirhamasala
     - mishmosh
     - momack2
     - monicaortel
@@ -1935,7 +1933,6 @@ repositories:
       admin:
         - filecoinfoundation-inf
         - ianconsolata
-        - mirhamasala
       maintain:
         - andyschwab
       pull:
@@ -2411,7 +2408,6 @@ repositories:
       push:
         - arajasek
         - eshon
-        - mirhamasala
         - momack2
     files:
       .github/dependabot.yml:
@@ -3663,6 +3659,30 @@ repositories:
     archived: true
   near-blake2:
     archived: true
+  network-evolution:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hannahhoward
+        - jennijuju
+        - momack2
+        - relotnek
+      maintain:
+        - jameskurz-filecoin
+      push:
+        - decentramike
+        - irenegia
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+    web_commit_signoff_required: false
   network-info:
     archived: true
   notary-governance:
@@ -3700,7 +3720,6 @@ repositories:
         - dannyob
         - ianconsolata
         - joekingss
-        - kaitlin-beegle
         - macro-ss
       maintain:
         - QuietLiu01
@@ -4136,6 +4155,25 @@ repositories:
     web_commit_signoff_required: false
   rust-cad-cad:
     archived: true
+  rust-commp-simd:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - eshon
+      maintain:
+        - ribasushi
+        - svilenkov
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+    web_commit_signoff_required: false
   rust-fil-ffi-toolkit:
     archived: true
   rust-fil-logger:
@@ -4559,7 +4597,6 @@ repositories:
       maintain:
         - barbaraperic
         - lanzafame
-        - mirhamasala
         - nonsense
       push:
         - ognots
@@ -5607,9 +5644,7 @@ teams:
         - frrist
         - jnthnvctr
   UXimprovement team:
-    members:
-      maintainer:
-        - mirhamasala
+    {}
   Venus:
     members:
       maintainer:
