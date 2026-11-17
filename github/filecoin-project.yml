@@ -4950,7 +4950,6 @@ teams:
       member:
         - Kubuxu
         - rjan90
-        - rvagg
         - TippyFlitsUK
   advocates:
     members:
@@ -5116,7 +5115,6 @@ teams:
         - snadrus
       member:
         - Reiers
-        - rvagg
         - ZenGround0
   Data Programs:
     members:
@@ -5343,15 +5341,6 @@ teams:
         # Why @rjain90?
         # 1. He is a project manager at FilOz.
         - rjan90
-        # Why @rvagg?
-        # 1. He is an active in-the-GitHub-trenches maintainer for FilOz, often touching the 10+ repos that FilOz owns/maintains.
-        #    FilOz wants to ensure changes to these repos is done under code review and transparently,
-        #    and @rvagg is one of the key people who will be reviewing these changes.
-        #    (FilOz is also guinea-pigging this process, but the hope/intent is to have other groups manage their repos in this way too if its successful.
-        #    We are also dependent on some tooling improvement to support a diverse set of stakeholders that have limited blast radius.
-        #    See https://github.com/ipdxco/github-as-code/issues/126 for more info.)
-        # 2. He has experience working with github-mgmt in other contexts (e.g., ipld)
-        - rvagg
   infra:
     members:
       member:
