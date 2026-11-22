@@ -837,7 +837,6 @@ repositories:
         - jennijuju
         - LexLuthr
         - magik6k
-        - rvagg
         - ZenGround0
       push:
         # These FilOz team members have push access so they approve/push PRs to development/feature branches.
@@ -846,6 +845,7 @@ repositories:
         - frrist
         - Kubuxu
         - rjan90
+        - rvagg
         - strahe
         - wjmelements
       triage:
@@ -1598,9 +1598,7 @@ repositories:
         - filipagr
         - gmoranxyz
         - jennijuju
-        - mfbgsz
         - momack2
-        - mpal0208
         - relotnek
       maintain:
         - bobbyslife
@@ -3084,7 +3082,7 @@ repositories:
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - lotus-maintainers
@@ -3492,11 +3490,12 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      pull:
-        - dennis-tra
-        - yiannisbot
       push:
         - parthshah1
+      triage:
+        - cortze
+        - dennis-tra
+        - yiannisbot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3666,6 +3665,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - decentramike
         - hannahhoward
         - jennijuju
         - momack2
@@ -3673,7 +3673,6 @@ repositories:
       maintain:
         - jameskurz-filecoin
       push:
-        - decentramike
         - irenegia
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -4187,7 +4186,7 @@ repositories:
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - proofs-crate-owners
@@ -4987,6 +4986,7 @@ teams:
         - ZenGround0
       member:
         - Kubuxu
+        - LexLuthr
         - rjan90
         - TippyFlitsUK
   advocates:
