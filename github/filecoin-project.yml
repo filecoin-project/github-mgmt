@@ -5437,9 +5437,11 @@ teams:
         - wjmelements
         - ZenGround0
   lotus-miner-maintainers:
+    # StorSwift team members, who hold the 2026 lotus-miner maintenance contract.
     members:
-      maintainer:
-        - tediou5
+      member:
+        - marco-storswift
+        - snail8501
   moderators:
     # Assigning this team the Moderator role is configured through the GitHub UI, not in github-mgmt.
     # Sead team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
