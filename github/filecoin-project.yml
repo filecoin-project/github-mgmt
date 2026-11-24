@@ -864,24 +864,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   dagstore:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      maintain:
-        - lotus-maintainers
-      push:
-        - bedrock-go
-        - lotus-contributors
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   data-prep-tools:
     advanced_security: false
     allow_update_branch: false
@@ -2786,35 +2769,7 @@ repositories:
   go-fil-filestore:
     archived: true
   go-fil-markets:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - hannahhoward
-        - magik6k
-        - mishmosh
-        - nonsense
-      maintain:
-        - rvagg
-      push:
-        - arajasek
-      triage:
-        - dkkapur
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      maintain:
-        - bedrock-go
-      push:
-        - lotus-contributors
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   go-filecoin-backup:
     archived: true
   go-filecoin-badges:
