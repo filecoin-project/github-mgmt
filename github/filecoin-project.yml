@@ -2456,6 +2456,12 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      admin:
+        # Why @beck-8? Temporary admin while moving github-mgmt's infrastructure from IPDX to FilOz (2026-11/12):
+        # editing this repo's environments and secrets, and testing workflow changes from branches.
+        # Reduce to day-to-day access once the new backend is verified in both orgs.
+        - beck-8
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
