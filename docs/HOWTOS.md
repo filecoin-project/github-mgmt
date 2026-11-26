@@ -91,11 +91,9 @@ I push my changes to a new branch and create a PR. An admin reviews the PR and m
 
 ### ...synchronize GitHub Management with GitHub?
 
-*NOTE*: Remember that the `Sync` operation modifes terraform state. Even if you run it from a branch, it modifies the global state that is shared with other branches. There is only one terraform state per organization.
+Run the `Sync` workflow from `master` using **Actions → Sync → Run workflow**.
 
-*NOTE*: `Sync` will force push changes directly to the branch you run it from.
-
-- Run `Sync` GitHub Action workflow from your desired `branch` - *this will import all the resources from the actual GitHub configuration state into GitHub Management*
+`Sync` imports the current GitHub configuration into the filecoin-project Terraform state in S3 and force-pushes the updated YAML to `master`.
 
 ### ...upgrade GitHub Management?
 
