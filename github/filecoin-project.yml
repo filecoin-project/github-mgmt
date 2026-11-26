@@ -377,7 +377,7 @@ repositories:
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
     secret_scanning: true
-    squash_merge_commit_message: BLANK
+    squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: PR_TITLE
     teams:
       admin:
@@ -430,7 +430,7 @@ repositories:
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - proofs-crate-owners
@@ -1048,7 +1048,7 @@ repositories:
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - proofs-crate-owners
@@ -1304,7 +1304,7 @@ repositories:
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - proofs-crate-owners
@@ -1546,7 +1546,7 @@ repositories:
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - lotus-maintainers
@@ -3558,7 +3558,7 @@ repositories:
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - proofs-crate-owners
@@ -3637,6 +3637,7 @@ repositories:
         - jameskurz-filecoin
       push:
         - irenegia
+        - jnthnvctr
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3929,7 +3930,7 @@ repositories:
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - fvm-crate-owners
@@ -4100,6 +4101,32 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
     web_commit_signoff_required: false
+  rhizome:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - BigLep
+        - jennijuju
+        - Kubuxu
+      maintain:
+        - LexLuthr
+        - rjan90
+        - snadrus
+        - ZenGround0
+      push:
+        - beck-8
+        - hugomrdias
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+    web_commit_signoff_required: false
   roadmap:
     advanced_security: false
     allow_update_branch: false
@@ -4167,7 +4194,7 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    has_discussions: true
+    has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
@@ -4199,7 +4226,7 @@ repositories:
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - proofs-crate-owners
@@ -4217,7 +4244,7 @@ repositories:
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - proofs-crate-owners
@@ -4934,6 +4961,7 @@ repositories:
     archived: true
 teams:
   actors-contributors:
+    create_default_maintainer: false
     members:
       member:
         - arajasek
@@ -4943,6 +4971,7 @@ teams:
         - marco-storswift
         - Stebalien
   actors-maintainers:
+    create_default_maintainer: false
     members:
       maintainer:
         - jennijuju
@@ -4953,6 +4982,7 @@ teams:
         - rjan90
         - TippyFlitsUK
   advocates:
+    create_default_maintainer: false
     members:
       member:
         - hammertoe
@@ -4960,6 +4990,7 @@ teams:
         - mishmosh
         - trruckerfling
   alumni:
+    create_default_maintainer: false
     members:
       maintainer:
         - BigLep
@@ -5025,6 +5056,7 @@ teams:
         - yiannisbot
         - ZenGround0
   bedrock-go:
+    create_default_maintainer: false
     members:
       maintainer:
         - willscott
@@ -5047,28 +5079,34 @@ teams:
         - Reiers
         - snadrus
   CERT:
+    create_default_maintainer: false
     members:
       maintainer:
         - mastrwayne-admin
       member:
         - monicaortel
   ci:
+    create_default_maintainer: false
     members:
       member:
         - filecoin-ci
   collab-ff-seo-ux:
+    create_default_maintainer: false
     members:
       member:
         - ianconsolata
   collab-ipfs-force:
+    create_default_maintainer: false
     members:
       member:
         - steven004
   community-mgmt:
+    create_default_maintainer: false
     members:
       maintainer:
         - jennijuju
   consensuslab:
+    create_default_maintainer: false
     members:
       maintainer:
         - adlrocha
@@ -5081,6 +5119,7 @@ teams:
         - guy-goren
         - matejpavlovic
   cpp-filecoin-team:
+    create_default_maintainer: false
     members:
       member:
         - Alexey-N-Chernyshov
@@ -5095,6 +5134,7 @@ teams:
         - turuslan
         - zuiris
   cryptoeconomics:
+    create_default_maintainer: false
     members:
       maintainer:
         - protocolin
@@ -5103,12 +5143,14 @@ teams:
         - jbenet
         - nicola
   cswg:
+    create_default_maintainer: false
     members:
       maintainer:
         - dannyob
       member:
         - ianconsolata
   Curio:
+    create_default_maintainer: false
     members:
       maintainer:
         - LexLuthr
@@ -5118,17 +5160,20 @@ teams:
         - Reiers
         - ZenGround0
   Data Programs:
+    create_default_maintainer: false
     members:
       maintainer:
         - dkkapur
       member:
         - ribasushi
   data:
+    create_default_maintainer: false
     members:
       member:
         - birdychang
         - Terryhung
   dev-misc:
+    create_default_maintainer: false
     members:
       maintainer:
         - magik6k
@@ -5142,8 +5187,9 @@ teams:
         - ZenGround0
         - zixuanzh
   docs-admins:
-    {}
+    create_default_maintainer: false
   docs-storage-provider:
+    create_default_maintainer: false
     members:
       member:
         - ianconsolata
@@ -5173,6 +5219,7 @@ teams:
         - parthshah1
         - pyropy
   FIL-B:
+    create_default_maintainer: false
     members:
       maintainer:
         - trruckerfling
@@ -5183,6 +5230,7 @@ teams:
         - xBalbinus
         - XORS-eng
   fil-plus-wg:
+    create_default_maintainer: false
     members:
       maintainer:
         - dkkapur
@@ -5191,11 +5239,13 @@ teams:
         - kevzak
         - raghavrmadya
   filoz-devguild-mentees:
+    create_default_maintainer: false
     members:
       member:
         - akaladarshi
         - virajbhartiya
   FilOz:
+    create_default_maintainer: false
     members:
       maintainer:
         - jennijuju
@@ -5212,6 +5262,7 @@ teams:
         - wjmelements
         - ZenGround0
   fips-editors:
+    create_default_maintainer: false
     members:
       maintainer:
         - jennijuju
@@ -5224,6 +5275,7 @@ teams:
         - rvagg
         - TippyFlitsUK
   Forest:
+    create_default_maintainer: false
     members:
       maintainer:
         - kalambet
@@ -5232,6 +5284,7 @@ teams:
         - akaladarshi
         - EclesioMeloJunior
   foundation:
+    create_default_maintainer: false
     members:
       maintainer:
         - ianconsolata
@@ -5240,6 +5293,7 @@ teams:
         - SeedingTrees
         - vnessasgrt
   FVM Web:
+    create_default_maintainer: false
     members:
       maintainer:
         - jennijuju
@@ -5249,6 +5303,7 @@ teams:
         - raulk
         - trruckerfling
   fvm-core-devs:
+    create_default_maintainer: false
     members:
       member:
         - Kubuxu
@@ -5256,6 +5311,7 @@ teams:
         - Stebalien
         - ZenGround0
   fvm-crate-owners:
+    create_default_maintainer: false
     members:
       maintainer:
         - jennijuju
@@ -5265,6 +5321,7 @@ teams:
         - rjan90
         - rvagg
   fvm-team:
+    create_default_maintainer: false
     members:
       maintainer:
         - jennijuju
@@ -5284,6 +5341,7 @@ teams:
     # 4. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
     # 5. Leaning on "github-mgmt approvers" for day-to-day admin over true org owners was done
     #    as part of the effort to reduce org owners in https://github.com/filecoin-project/github-mgmt/issues/47
+    create_default_maintainer: false
     members:
       # ATTN: members are expected to:
       #  - be familiar with github-mgmt / github-as-code
@@ -5307,6 +5365,7 @@ teams:
     # 2. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
     # 3. Leaning on "github-mgmt stewards" for day-to-day admin over true org owners was done
     #    as part of the effort to reduce org owners in https://github.com/filecoin-project/github-mgmt/issues/47
+    create_default_maintainer: false
     members:
       # WARN: membership here should be treated as cautiously as having an "org owner" role,
       # since one can escalate their privileges accordingly.
@@ -5342,6 +5401,7 @@ teams:
         # 1. He is a project manager at FilOz.
         - rjan90
   infra:
+    create_default_maintainer: false
     members:
       member:
         - birdychang
@@ -5349,19 +5409,21 @@ teams:
         - ns4plabs
         - Terryhung
   ipdx:
+    create_default_maintainer: false
     members:
       maintainer:
         - galargh
       member:
         - laurentsenta
   legal:
-    {}
+    create_default_maintainer: false
   lotus-ci:
     create_default_maintainer: false
     members:
       maintainer:
         - FilOzzy
   lotus-contributors:
+    create_default_maintainer: false
     members:
       maintainer:
         - BigLep
@@ -5384,6 +5446,7 @@ teams:
         - whyrusleeping
         - willscott
   lotus-maintainers:
+    create_default_maintainer: false
     members:
       maintainer:
         - BigLep
@@ -5400,6 +5463,7 @@ teams:
         - ZenGround0
   lotus-miner-maintainers:
     # StorSwift team members, who hold the 2026 lotus-miner maintenance contract.
+    create_default_maintainer: false
     members:
       member:
         - marco-storswift
@@ -5407,6 +5471,7 @@ teams:
   moderators:
     # Assigning this team the Moderator role is configured through the GitHub UI, not in github-mgmt.
     # Sead team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
+    create_default_maintainer: false
     members:
       maintainer:
         # @masterway-admin is listed as a maintainer rather than member because GitHub will automatically make him a maintainer given he is an org.admin above.
@@ -5414,6 +5479,7 @@ teams:
       member:
         - arden-sead
   Motion:
+    create_default_maintainer: false
     members:
       member:
         - davidd8
@@ -5421,6 +5487,7 @@ teams:
         - LaurenSpiegel
         - willscott
   oni:
+    create_default_maintainer: false
     members:
       maintainer:
         - raulk
@@ -5437,6 +5504,7 @@ teams:
       member:
         - OzzyHelper
   product-biz:
+    create_default_maintainer: false
     members:
       maintainer:
         - mishmosh
@@ -5447,6 +5515,7 @@ teams:
         - jnthnvctr
         - zixuanzh
   product:
+    create_default_maintainer: false
     members:
       member:
         - dchoi27
@@ -5454,6 +5523,7 @@ teams:
         - jnthnvctr
         - ribasushi
   proj-mgmt:
+    create_default_maintainer: false
     members:
       member:
         - davidd8
@@ -5466,6 +5536,7 @@ teams:
         - whyrusleeping
         - ZenGround0
   proofs-contributors:
+    create_default_maintainer: false
     members:
       maintainer:
         - Kubuxu
@@ -5488,6 +5559,7 @@ teams:
         - rvagg
         - ZenGround0
   research:
+    create_default_maintainer: false
     members:
       maintainer:
         - nicola
@@ -5499,6 +5571,7 @@ teams:
         - ninitrava
         - yiannisbot
   Retrieval Market Builders:
+    create_default_maintainer: false
     members:
       member:
         - bajtos
@@ -5506,6 +5579,7 @@ teams:
         - joaosa
         - juliangruber
   saturn:
+    create_default_maintainer: false
     members:
       maintainer:
         - geomatrick
@@ -5517,6 +5591,7 @@ teams:
   security-managers:
     # Note: members of this team have read access to all repos per https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
     # Filecoin Foundation team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
+    create_default_maintainer: false
     members:
       maintainer:
         - relotnek
@@ -5524,18 +5599,21 @@ teams:
         - FilOzzy # Gets private vulnerability report notifications for FOC repos (e.g., filecoin-pin) and routes them to infra@filoz.org. See https://github.com/FilOzone/tpm-utils/issues/16
         - parthshah1
   Sentinel Admin:
+    create_default_maintainer: false
     members:
       maintainer:
         - birdychang
       member:
         - Terryhung
   Sentinel Operators:
+    create_default_maintainer: false
     members:
       maintainer:
         - birdychang
       member:
         - Terryhung
   Sentinel:
+    create_default_maintainer: false
     members:
       maintainer:
         - birdychang
@@ -5543,6 +5621,7 @@ teams:
         - Terryhung
   space-meridian:
     # This team is used for @mentioning, particularly in the service-classes repo.
+    create_default_maintainer: false
     members:
       maintainer:
         - geomatrick
@@ -5550,6 +5629,7 @@ teams:
         - bajtos
         - juliangruber
   specs:
+    create_default_maintainer: false
     members:
       member:
         - jbenet
@@ -5590,6 +5670,7 @@ teams:
         - trruckerfling
         - zixuanzh
   starling-storage:
+    create_default_maintainer: false
     members:
       member:
         - alexandrumatei36
@@ -5604,13 +5685,15 @@ teams:
         - marco-storswift
         - snail8501
   tooling:
+    create_default_maintainer: false
     members:
       member:
         - frrist
         - jnthnvctr
   UXimprovement team:
-    {}
+    create_default_maintainer: false
   Venus:
+    create_default_maintainer: false
     members:
       maintainer:
         - steven004
@@ -5618,6 +5701,7 @@ teams:
         - Fatman13
         - LinZexiao
   w3dt-stewards:
+    create_default_maintainer: false
     members:
       maintainer:
         - BigLep
@@ -5627,8 +5711,9 @@ teams:
         - BlocksOnAChain
         - ZenGround0
   Weaveworks:
-    {}
+    create_default_maintainer: false
   website:
+    create_default_maintainer: false
     members:
       maintainer:
         - eshon
