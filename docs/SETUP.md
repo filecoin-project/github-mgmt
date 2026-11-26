@@ -11,81 +11,12 @@
 
 ## AWS
 
-*NOTE*: Setting up AWS can be automated with [terraform](../terraform/bootstrap/aws.tf). If you choose to create AWS with terraform, remember that you'll still need to retrieve `AWS_ACCESS_KEY_ID`s and `AWS_SECRET_ACCESS_KEY`s manually.
+filecoin-project uses a versioned S3 bucket for Terraform state and [S3 lock files](https://developer.hashicorp.com/terraform/language/backend/s3#enabling-s3-state-locking). GitHub Actions uses [OIDC](https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-aws) to assume one of two IAM roles.
 
-- [ ] [Create a S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html) - *this is where Terraform states for the organizations will be stored*
-- [ ] [Create a DynamoDB table](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/getting-started-step-1.html) using `LockID` of type `String` as the partition key - *this is where Terraform state locks will be stored*
-- [ ] [Create 2 IAM policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html) - *they are going to be attached to the users that GitHub Management is going to use to interact with AWS*
-    <details><summary>Read-only</summary>
-
-    ```
-    {
-      "Version": "2012-10-17",
-      "Statement": [
-        {
-          "Action": [
-            "s3:ListBucket"
-          ],
-          "Effect": "Allow",
-          "Resource": "arn:aws:s3:::$S3_BUCKET_NAME"
-        },
-        {
-          "Action": [
-            "s3:GetObject"
-          ],
-          "Effect": "Allow",
-          "Resource": "arn:aws:s3:::$S3_BUCKET_NAME/*"
-        },
-        {
-          "Action": [
-            "dynamodb:GetItem"
-          ],
-          "Effect": "Allow",
-          "Resource": "arn:aws:dynamodb:*:*:table/$DYNAMO_DB_TABLE_NAME"
-        }
-      ]
-    }
-    ```
-    </details>
-    <details><summary>Read & Write</summary>
-
-    ```
-    {
-      "Version": "2012-10-17",
-      "Statement": [
-        {
-          "Action": [
-            "s3:ListBucket"
-          ],
-          "Effect": "Allow",
-          "Resource": "arn:aws:s3:::$S3_BUCKET_NAME"
-        },
-        {
-          "Action": [
-            "s3:PutObject",
-            "s3:GetObject",
-            "s3:DeleteObject"
-          ],
-          "Effect": "Allow",
-          "Resource": "arn:aws:s3:::$S3_BUCKET_NAME/*"
-        },
-        {
-          "Action": [
-            "dynamodb:GetItem",
-            "dynamodb:PutItem",
-            "dynamodb:DeleteItem"
-          ],
-          "Effect": "Allow",
-          "Resource": "arn:aws:dynamodb:*:*:table/$DYNAMO_DB_TABLE_NAME"
-        }
-      ]
-    }
-    ```
-    </details>
-- [ ] [Create 2 IAM Users](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) and save their `AWS_ACCESS_KEY_ID`s and `AWS_SECRET_ACCESS_KEY`s - *they are going to be used by GitHub Management to interact with AWS*
-    - [ ] one with read-only policy attached
-    - [ ] one with read & write policy attached
-- [ ] Modify [terraform/terraform_override.tf](terraform/terraform_override.tf) to reflect your AWS setup
+- [ ] Use the [bootstrap Terraform configuration](../terraform/bootstrap/aws.tf) to manage the bucket and roles in the FilOz AWS account. The account already has the GitHub Actions OIDC provider.
+- [ ] Keep the bootstrap Terraform state in secure storage and use that state for subsequent changes to the bucket and roles.
+- [ ] If you change the backend, keep [terraform/terraform_override.tf](../terraform/terraform_override.tf), the IAM policies, and the workflow role ARNs in sync.
+- [ ] Restrict the GitHub Actions `write` and `push` environments to `master`. The read-only role trusts the `read` environment, and the read-write role trusts the `write` environment. Sync requests a four-hour read-write session so the initial organization import can run beyond the default hour.
 
 ## GitHub App
 
@@ -127,11 +58,6 @@
     - [ ] Go to `https://github.com/organizations/$GITHUB_ORGANIZATION_NAME/settings/apps/$GITHUB_APP_NAME`, click `Generate a private key` and copy the contents of the downloaded PEM file
        - [ ] `RO_GITHUB_APP_PEM_FILE`
        - [ ] `RW_GITHUB_APP_PEM_FILE`
-    - [ ] Use the values generated during [AWS](#aws) setup
-       - [ ] `RO_AWS_ACCESS_KEY_ID`
-       - [ ] `RW_AWS_ACCESS_KEY_ID`
-       - [ ] `RO_AWS_SECRET_ACCESS_KEY`
-       - [ ] `RW_AWS_SECRET_ACCESS_KEY`
 
 ## GitHub Management Repository Setup
 

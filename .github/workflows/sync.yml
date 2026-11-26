@@ -44,6 +44,7 @@ jobs:
     needs: [prepare]
     if: needs.prepare.outputs.workspaces != ''
     permissions:
+      id-token: write
       contents: write
     strategy:
       fail-fast: false
@@ -57,8 +58,6 @@ jobs:
       TF_INPUT: 0
       TF_LOCK: ${{ github.event.inputs.lock }}
       TF_WORKSPACE_OPT: ${{ matrix.workspace }}
-      AWS_ACCESS_KEY_ID: ${{ secrets.RW_AWS_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.RW_AWS_SECRET_ACCESS_KEY }}
       GITHUB_APP_ID: ${{ secrets.RW_GITHUB_APP_ID }}
       GITHUB_APP_INSTALLATION_ID: ${{ secrets[format('RW_GITHUB_APP_INSTALLATION_ID_{0}', matrix.workspace)] || secrets.RW_GITHUB_APP_INSTALLATION_ID }}
       GITHUB_APP_PEM_FILE: ${{ secrets.RW_GITHUB_APP_PEM_FILE }}
@@ -74,6 +73,13 @@ jobs:
         with:
           terraform_version: 1.12.0
           terraform_wrapper: false
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@45666896f5d8e0f10ae255413f3a4cdd03bdc8f5 # v6.3.1
+        with:
+          role-to-assume: arn:aws:iam::941641221830:role/filoz-github-mgmt-filecoin-project-rw
+          aws-region: us-east-1
+          allowed-account-ids: "941641221830"
+          role-duration-seconds: "14400"
       - name: Initialize terraform
         run: terraform init -upgrade
         working-directory: terraform

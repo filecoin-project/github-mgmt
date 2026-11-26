@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
     region               = "us-east-1"
-    bucket               = "github-as-code-v1-filoz"
+    bucket               = "filoz-github-mgmt-filecoin-project"
     key                  = "terraform.tfstate"
     workspace_key_prefix = "org"
-    dynamodb_table       = "github-as-code-v1-filoz"
+    use_lockfile         = true
   }
 }
