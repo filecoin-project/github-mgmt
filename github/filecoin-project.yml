@@ -2507,6 +2507,7 @@ repositories:
     archived: false
     collaborators:
       push:
+        - rvagg
         - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2789,6 +2790,7 @@ repositories:
     archived: false
     collaborators:
       push:
+        - rvagg
         - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
