@@ -1471,9 +1471,8 @@ repositories:
     teams:
       push:
         - advocates
-        - docs-storage-provider
-      triage:
         - Curio
+        - docs-storage-provider
     visibility: public
     web_commit_signoff_required: false
   filecoin-energy:
