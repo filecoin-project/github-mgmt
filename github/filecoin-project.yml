@@ -814,6 +814,7 @@ repositories:
         - LexLuthr
         - snadrus
       push:
+        - beck-8
         - FilOzzy
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -1518,6 +1519,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - beck-8
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3406,6 +3410,7 @@ repositories:
       pull:
         - turinglabsorg
       push:
+        - beck-8
         - irenegia
         - ribasushi
         - scotthconner
@@ -3453,6 +3458,7 @@ repositories:
     archived: false
     collaborators:
       push:
+        - beck-8
         - parthshah1
       triage:
         - cortze
