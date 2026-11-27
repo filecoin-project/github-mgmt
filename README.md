@@ -11,6 +11,7 @@ To learn more, check out:
 - [What is GitHub Management and how does it work?](docs/ABOUT.md)
 - [How to set up GitHub Management?](docs/SETUP.md)
 - [How to work with GitHub Management?](docs/HOWTOS.md)
+- [Operations and recovery runbook](docs/RUNBOOK.md)
 
 ## Tips / FYIs
 * [github/filecoin-project.yml](https://github.com/filecoin-project/github-mgmt/blob/master/github/filecoin-project.yml) is the key file where updates are made to adjust permissions.
@@ -18,7 +19,7 @@ To learn more, check out:
 * Yes, it's confusing to have a `.github` and `github` directory.  That is how `github-mgmt` was originally setup an we're living with it.  (At least of 2024-09-05, there is [no backlog item for cleaning this up](https://github.com/ipdxco/github-as-code/issues?page=1&q=is%3Aissue+is%3Aopen).)
 * Not all [organization-level roles](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization) are assignable through github-mgmt.  For example, organization moderators, billing managers, and ecurity managers need to set through the GitHub UI.
 * github-mgmt calls [GitHub organization owners](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#organization-owners) as "admins" in [filecoin-project.yml](https://github.com/filecoin-project/github-mgmt/blob/master/github/filecoin-project.yml).  These terms are used interchangeably in comments/docs.
-* At least as of 202409, AWS resources that terraform uses behind the scenes (e.g., S3 bucket, DDB table) are all stored in an ipdx.co-managed AWS account.
+* Terraform state and lock files are stored in a versioned S3 bucket in the FilOz AWS account. See the [runbook](docs/RUNBOOK.md#how-it-works) for backend details.
 * Repo creation is still performed through the GitHub UI.  The repo then gets "added" to github-mgmt mgmt as part of the [sync workflow](https://github.com/filecoin-project/github-mgmt/blob/master/.github/workflows/sync.yml), which runs weekly automatically and can be done on demand as well.
 
 ## Organization Owner SOPs
